@@ -1,3 +1,7 @@
+<?php
+ $servidor = Ruta::ctrlRutaServidor();
+?>
+
 <!--=====================================
 SLIDESHOW  
 ======================================-->
@@ -22,17 +26,14 @@ SLIDESHOW
 				$titulo1 = json_decode($value["titulo1"],true);
 				$titulo2 = json_decode($value["titulo2"],true);
 				$titulo3 = json_decode($value["titulo3"],true);
-			
 
-
-				
 			echo '<li>
 				
-				<img src="http://localhost:82/practicasMVC/backend/'.$value["imgFondo"].'">
+				<img src="'. $servidor .$value["imgFondo"].'">
 
 				<div class="slideOpciones '.$value["tipoSlide"].'">
 					
-					<img class="imgProducto" src="http://localhost:82/practicasMVC/backend/'.$value["imgProducto"].'" style="top:'.$estiloImgProducto["top"].'; right:'.$estiloImgProducto["right"].'; width:'.$estiloImgProducto["width"].'; left:'.$estiloImgProducto["left"].'   ">
+					<img class="imgProducto" src="' .$servidor .$value["imgProducto"].'" style="top:'.$estiloImgProducto["top"].'; right:'.$estiloImgProducto["right"].'; width:'.$estiloImgProducto["width"].'; left:'.$estiloImgProducto["left"].'   ">
 
 					<div class="textosSlide" style="top:'.$estiloTextoSlide["top"].'; left:'.$estiloTextoSlide["left"].'; width:'.$estiloTextoSlide["width"].'; right:'.$estiloTextoSlide["right"].'">
 						
@@ -57,10 +58,6 @@ SLIDESHOW
 				}
 
 		?>
-
-		
-
-	
 
 		</ul>
 

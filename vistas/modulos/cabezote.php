@@ -1,6 +1,46 @@
+<?php
+ $servidor = Ruta::ctrlRutaServidor();
+?>
+
 <!--=====================================
 TOP
 ======================================-->
+
+<section class="Bienvenidos">
+    <header class="encabezado" role="banner">
+    <a href="index.php">
+        <img src="<?php echo  $servidor.$social["logo"] ?>" alt="Logo del sitio">
+    </a>
+    
+     <button type="button" class="boton-buscar">Boton buscar</button>
+    <button type="button" class="boton-menu">Boton Menu</button>
+    <form action="#" id="bloque-buscar">
+    <div class="contenedor-bloque-buscar">
+        <input type="text" placeholder="Buscar...">
+        <input type="submit" value="buscar">
+    </div>
+        
+    </form>
+
+    <nav id="menu-principal">
+        <ul>
+            <li class="active"><a href="index.php">Inicio</a></li>
+            <li><a href="index.php">Nosotros</a></li>
+            <li><a href="index.php">Servicios</a></li>
+            <li><a href="index.php">Contacto</a></li>
+        </ul>
+    </nav>
+    
+        
+    </header>
+
+<div class="texto-encabezado">
+    <h1>Diseño de Apps </h1>
+    
+</div>
+
+</section>
+
 
 <div class="container-fluid barraSuperior" id="top">
 
@@ -91,7 +131,7 @@ HEADER
 
                 <a href="#">
 
-                    <img src="http://localhost:82/backend/<?php echo $social["logo"] ?>" class="img-responsive">
+                    <img src="<?php echo  $servidor.$social["logo"] ?>" class="img-responsive">
 
                 </a>
 
