@@ -1,6 +1,12 @@
 /*=============================================
 GLOBAL
 =============================================*/
+html {
+	font-size: 15px; }
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #111111; }
 
 *{
 	margin:0px;

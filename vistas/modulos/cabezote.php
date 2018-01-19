@@ -3,63 +3,71 @@ TOP
 ======================================-->
 
 <div class="container-fluid barraSuperior" id="top">
-	
-	<div class="container">
-		
-		<div class="row">
-	
-			<!--=====================================
-			SOCIAL
-			======================================-->
 
-			<div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 social">
-				
-				<ul>	
-				<?php
+    <div class="container">
 
-					$social = ControladorPlantilla::ctrlEstiloPlantilla();
-					$jsonRedesSociales = json_decode($social["redesSociales"], true);					
+        <div class="row">
 
-					foreach ($jsonRedesSociales as $key => $value) {
-						
-						
-						echo '	<li>
-						<a href="'.$value["url"].'" target="_blank">
-							<i class="fa '.$value["red"].' redSocial '.$value["estilo"].' " aria-hidden="true"></i>
+            <!--=====================================
+            SOCIAL
+            ======================================-->
+
+            <div class="col-lg-4 col-md-9 col-sm-8 col-xs-12 social">
+
+                <ul>
+                    <?php
+
+                    $social = ControladorPlantilla::ctrlEstiloPlantilla();
+                    $jsonRedesSociales = json_decode($social["redesSociales"], true);
+
+                    foreach ($jsonRedesSociales as $key => $value) {
+
+
+                        echo '	<li>
+						<a href="' . $value["url"] . '" target="_blank">
+							<i class="fa ' . $value["red"] . ' redSocial ' . $value["estilo"] . ' " aria-hidden="true"></i>
 						</a>
 					</li>';
 
 
-					}
+                    }
 
-				?>
-				
+                    ?>
 
-			
 
-				</ul>
+                </ul>
 
-			</div>
 
-			<!--=====================================
-			REGISTRO
-			======================================-->
+            </div>
 
-			<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 registro">
-				
-				<ul>
-					
-					<li><a href="#modalIngreso" data-toggle="modal">Ingresar</a></li>
-					<li>|</li>
-					<li><a href="#modalRegistro" data-toggle="modal">Crear una cuenta</a></li>
+            <!--=====================================
+            REGISTRO
+            ======================================-->
 
-				</ul>
+            <div class="col-lg-8 col-md-3 col-sm-4 col-xs-12 registro">
 
-			</div>	
+                <ul>
 
-		</div>	
+                    <li><a href="#modalIngreso" data-toggle="modal">Ingresar</a></li>
+                    <li>|</li>
+                    <li><a href="#modalRegistro" data-toggle="modal">Crear una cuenta</a></li>
 
-	</div>
+                </ul>
+                <nav id="menu-principal" class="collapse_OLD">
+                    <ul>
+                        <li class="active"><a href="inicio">Inicio</a></li>
+                        <li><a href="quienes-somos">Quienes Somos</a></li>
+                        <li><a href="servicios">Servicios </a></li>
+                        <li><a href="testimonios">Testimonios</a></li>
+                        <li><a href="contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </div>
 
@@ -69,57 +77,57 @@ HEADER
 ======================================-->
 
 <header class="container-fluid">
-	
-	<div class="container">
-		
-		<div class="row" id="cabezote">
 
-			<!--=====================================
-			LOGOTIPO
-			======================================-->
-			<h1>working</h1>
-			
-			<div class="col-lg-3 col-md-3 col-sm-2 col-xs-12" id="logotipo">
-				
-				<a href="#">
-						
-					<img src="http://localhost:82/backend/<?php echo $social["logo"]?>" class="img-responsive">
+    <div class="container">
 
-				</a>
-				
-			</div>
+        <div class="row" id="cabezote">
 
-			<!--=====================================
-			BLOQUE CATEGORÍAS Y BUSCADOR
-			======================================-->
+            <!--=====================================
+            LOGOTIPO
+            ======================================-->
 
-			<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
-					
-				<!--=====================================
-				BOTÓN CATEGORÍAS
-				======================================-->
 
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 backColor" id="btnCategorias">
-					
-					<p>CATEGORÍAS
-					
-						<span class="pull-right">
+            <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12" id="logotipo">
+
+                <a href="#">
+
+                    <img src="http://localhost:82/backend/<?php echo $social["logo"] ?>" class="img-responsive">
+
+                </a>
+
+            </div>
+
+            <!--=====================================
+            BLOQUE CATEGORÍAS Y BUSCADOR
+            ======================================-->
+
+            <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+
+                <!--=====================================
+                BOTÓN CATEGORÍAS
+                ======================================-->
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 backColor" id="btnCategorias">
+
+                    <p>CATEGORÍAS
+
+                        <span class="pull-right">
 							<i class="fa fa-bars" aria-hidden="true"></i>
 						</span>
-					
-					</p>
 
-				</div>
+                    </p>
 
-				<!--=====================================
-				BUSCADOR
-				======================================-->
-				
-				<div class="input-group col-lg-8 col-md-8 col-sm-8 col-xs-12" id="buscador">
-					
-					<input type="search" name="buscar" class="form-control" placeholder="Buscar...">	
+                </div>
 
-					<span class="input-group-btn">
+                <!--=====================================
+                BUSCADOR
+                ======================================-->
+
+                <div class="input-group col-lg-8 col-md-8 col-sm-8 col-xs-12" id="buscador">
+
+                    <input type="search" name="buscar" class="form-control" placeholder="Buscar...">
+
+                    <span class="input-group-btn">
 						
 						<a href="#">
 
@@ -133,122 +141,123 @@ HEADER
 
 					</span>
 
-				</div>
-			
-			</div>
+                </div>
 
-			<!--=====================================
-			CARRITO DE COMPRAS
-			======================================-->
+            </div>
 
-			<div class="col-lg-3 col-md-3 col-sm-2 col-xs-12" id="carrito">
-				
-				<a href="#">
+            <!--=====================================
+            CARRITO DE COMPRAS
+            ======================================-->
 
-					<button class="btn btn-default pull-left backColor"> 
-						
-						<i class="fa fa-shopping-cart" aria-hidden="true"></i>
-					
-					</button>
-				
-				</a>	
+            <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12" id="carrito">
 
-				<p>TU CESTA <span class="cantidadCesta">3</span> <br> USD $ <span class="sumaCesta">20</span></p>	
+                <a href="#">
 
-			</div>
+                    <button class="btn btn-default pull-left backColor">
 
-		</div>
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
 
-		<!--=====================================
-		CATEGORÍAS
-		======================================-->
+                    </button>
 
-		<div class="col-xs-12 backColor" id="categorias">
-			
-			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
-				
-				<h4>
-					<a href="#" class="pixelCategorias">Lorem Ipsum</a>
-				</h4>
-				
-				<hr>
+                </a>
 
-				<ul>
-					
-					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
-					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
-					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
-					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
-					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
-								
-				</ul>
+                <p>TU CESTA <span class="cantidadCesta">3</span> <br> USD $ <span class="sumaCesta">20</span></p>
 
-			</div>	
+            </div>
 
-			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
-				
-				<h4>
-					<a href="#" class="pixelCategorias">Lorem Ipsum</a>
-				</h4>
-				
-				<hr>
+        </div>
 
-				<ul>
-					
-					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
-					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
-					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
-					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
-					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
-								
-				</ul>
+        <!--=====================================
+        CATEGORÍAS
+        ======================================-->
 
-			</div>	
+        <div class="col-xs-12 backColor" id="categorias">
 
-			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
-				
-				<h4>
-					<a href="#" class="pixelCategorias">Lorem Ipsum</a>
-				</h4>
-				
-				<hr>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
 
-				<ul>
-					
-					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
-					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
-					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
-					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
-					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
-								
-				</ul>
+                <h4>
+                    <a href="#" class="pixelCategorias">Lorem Ipsum</a>
+                </h4>
 
-			</div>	
+                <hr>
 
-			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
-				
-				<h4>
-					<a href="#" class="pixelCategorias">Lorem Ipsum</a>
-				</h4>
-				
-				<hr>
+                <ul>
 
-				<ul>
-					
-					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
-					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
-					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
-					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
-					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
-								
-				</ul>
+                    <li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+                    <li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+                    <li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+                    <li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+                    <li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
 
-			</div>	
+                </ul>
 
-		</div>
+            </div>
 
-	</div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+
+                <h4>
+                    <a href="#" class="pixelCategorias">Lorem Ipsum</a>
+                </h4>
+
+                <hr>
+
+                <ul>
+
+                    <li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+                    <li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+                    <li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+                    <li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+                    <li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+
+                </ul>
+
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+
+                <h4>
+                    <a href="#" class="pixelCategorias">Lorem Ipsum</a>
+                </h4>
+
+                <hr>
+
+                <ul>
+
+                    <li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+                    <li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+                    <li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+                    <li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+                    <li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+
+                </ul>
+
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+
+                <h4>
+                    <a href="#" class="pixelCategorias">Lorem Ipsum</a>
+                </h4>
+
+                <hr>
+
+                <ul>
+
+                    <li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+                    <li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+                    <li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+                    <li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+                    <li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </header>
+
 
 
