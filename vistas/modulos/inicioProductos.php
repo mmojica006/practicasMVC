@@ -33,7 +33,7 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
             </ul>
 
             <div class="hidden-md-down col-lg-4">
-                <img class="beneficios" src="<?php echo $servidor; ?>/vistas/img/plantilla/beneficios.jpg" alt="Mundo movil">
+                <img class="beneficios" src="<?php echo $servidor; ?>/vistas/img/plantilla/dinero.jpg" alt="Mundo movil">
             </div>
 
             <ul class="col-xs-6 col-lg-4 text-xs-center text-lg-right">

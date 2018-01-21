@@ -188,9 +188,7 @@ SECCION TU MEJOR ELECCIÓN
 SECCION NOTICIAS
 --------------------------------*/
 .servicios {
-  background: url("../images/fondo-servicios.jpg") no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed !important;
+  background: #a6dae9;
   color: #111111; }
 
 .servicios article {
@@ -206,7 +204,8 @@ SECCION NOTICIAS
 .servicios h3 {
   margin: 0;
   font-size: 1.1rem;
-  flex: 1 1 auto; }
+  flex: 1 1 auto;
+  font-weight: bold; }
 
 .servicios h3 a {
   color: #009bd3;
@@ -427,7 +426,7 @@ EMPIEZAN LAS MEDIAS QUERIES
     text-align: center; }
 
   .servicios img {
-    flex: 0 0 160px;
+    flex: 0 0 200px;
     overflow: hidden;
     margin-right: 0;
     margin-bottom: 1rem;
@@ -505,7 +504,9 @@ EMPIEZAN LAS MEDIAS QUERIES
     width: 100%; }
 
   .servicios {
-    background: url("../images/fondo-servicios-grande.jpg") no-repeat center center;
-    background-size: cover; } }
+    background: #a6dae9; } }
+@media (max-width: 767px) {
+  .servicios img {
+    width: 50px; } }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -204,10 +204,9 @@ SECCION NOTICIAS
 --------------------------------*/
 
 .servicios {
-  background: url("../images/fondo-servicios.jpg") no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed !important;
+  background: #a6dae9;
   color: $texto;
+
 }
 .servicios article {
   display: flex;
@@ -223,6 +222,7 @@ SECCION NOTICIAS
   margin: 0;
   font-size: 1.1rem;
   flex: 1 1 auto;
+  font-weight: bold;
 }
 .servicios h3 a {
   color: $principal;
@@ -458,10 +458,12 @@ EMPIEZAN LAS MEDIAS QUERIES
     text-align: center
   }
   .servicios img {
-    flex: 0 0 160px;
+    flex: 0 0 200px;
+
     overflow: hidden;
     margin-right: 0;
     margin-bottom: 1rem;
+
     transition: all 1s ease
   }
   .servicios article:hover img {
@@ -538,7 +540,17 @@ EMPIEZAN LAS MEDIAS QUERIES
     width: 100%
   }
   .servicios {
-    background: url("../images/fondo-servicios-grande.jpg") no-repeat center center;
-    background-size: cover
+   background: #a6dae9;
   }
+
 }
+
+
+@media (max-width:767px){
+
+.servicios img{
+  width: 50px;
+}
+
+}
+
