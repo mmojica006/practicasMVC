@@ -282,30 +282,56 @@ SECCION ÚLTIMOS PROYECTOS
 /*----------------------------------------
 SECCION PIE DE PAGINA
 -----------------------------------------*/
-
-.piedepagina {
+.piewebsite {
   background: $texto;
   color: #fff;
   text-align: center;
   font-size: .9rem;
+  padding: 1.5rem;
+
 }
-.piedepagina .redes-sociales {
+
+.piewebsite img{
+
+width: 300px;
+  height: auto;
+  padding: 1rem;
+
+}
+.piewebsite h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 14px;
+  flex: 1 1 auto;
+
+}
+.piewebsite h3 a {
+
+  color: $texto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+
+
+}
+.piewebsite .redes-sociales {
   display: flex;
   justify-content: center;
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
 }
-.piedepagina .redes-sociales a {
+.piewebsite .redes-sociales a {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 0 .5rem;
   opacity: .7;
   transition: all .5s ease;
 }
-.piedepagina .redes-sociales a:hover {
-  opacity: 1;
-}
+
+
+
 .ir-arriba {
   position: fixed;
   bottom: 1rem;

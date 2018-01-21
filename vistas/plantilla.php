@@ -56,6 +56,10 @@
 
     <script src="<?php echo $url; ?>vistas/js/plugins/sweetalert.min.js"></script>
 
+    <script src="<?php echo $url; ?>vistas/js/plugins/wow.min.js"></script>
+
+    <script src="<?php echo $url; ?>vistas/js/plugins/smooth-scroll.min.js"></script>
+
 
 </head>
 <body>
