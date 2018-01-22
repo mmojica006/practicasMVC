@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b8e8b28-0ac6-4ebd-992e-55a52768d199" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/vistas/img/plantilla/confiamos.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/vistas/img/plantilla/dinero.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/vistas/img/plantilla/reclamo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/vistas/img/plantilla/requisitos.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/vistas/img/plantilla/tips.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/vistas/img/slide/slide1/bolsa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/vistas/img/slide/slide1/persona2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/vistas/img/slide/slide2/familia001.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/vistas/img/slide/slide3/mobil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/vistas/img/slide/slide4/slide3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/vistas/img/plantilla/icono.png" afterPath="$PROJECT_DIR$/backend/vistas/img/plantilla/icono.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vistas/modulos/inicioProductos.php" afterPath="$PROJECT_DIR$/vistas/modulos/inicioProductos.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vistas/modulos/inicioVarios.php" afterPath="$PROJECT_DIR$/vistas/modulos/inicioVarios.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vistas/modulos/slide.php" afterPath="$PROJECT_DIR$/vistas/modulos/slide.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vistas/scss/estilos.css" afterPath="$PROJECT_DIR$/vistas/scss/estilos.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vistas/scss/estilos.css.map" afterPath="$PROJECT_DIR$/vistas/scss/estilos.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vistas/scss/estilos.scss" afterPath="$PROJECT_DIR$/vistas/scss/estilos.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vistas/modulos/cabezote.php" afterPath="$PROJECT_DIR$/vistas/modulos/cabezote.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,76 +21,75 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7467726">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="estilos.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vistas/scss/estilos.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="201">
-                  <caret line="551" column="13" lean-forward="false" selection-start-line="551" selection-start-column="13" selection-end-line="551" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="slide.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/vistas/modulos/slide.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
-                  <folding>
-                    <marker date="1516575926904" expanded="true" signature="771:1655" ph="..." />
-                    <marker date="1516575926904" expanded="true" signature="884:1645" ph="..." />
-                    <marker date="1516575926904" expanded="true" signature="973:1124" ph="..." />
-                    <marker date="1516575926904" expanded="false" signature="1165:1279" ph="..." />
-                    <marker date="1516575926904" expanded="true" signature="1310:1632" ph="..." />
-                    <marker date="1516575926904" expanded="false" signature="1336:1342" ph="..." />
-                    <marker date="1516575926904" expanded="false" signature="1410:1416" ph="..." />
-                    <marker date="1516575926904" expanded="false" signature="1484:1490" ph="..." />
-                    <marker date="1516575926904" expanded="true" signature="1574:1619" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="piedepagina.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vistas/modulos/piedepagina.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="578">
-                  <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="inicioVarios.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vistas/modulos/inicioVarios.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-17">
-                  <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="26" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="estilos.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/vistas/scss/estilos.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="estilos.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vistas/scss/estilos.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9367">
+              <caret line="551" column="13" lean-forward="false" selection-start-line="551" selection-start-column="13" selection-end-line="551" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slide.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vistas/modulos/slide.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+              <folding>
+                <marker date="1516575926904" expanded="true" signature="771:1655" ph="..." />
+                <marker date="1516575926904" expanded="true" signature="884:1645" ph="..." />
+                <marker date="1516575926904" expanded="true" signature="973:1124" ph="..." />
+                <marker date="1516575926904" expanded="false" signature="1165:1279" ph="..." />
+                <marker date="1516575926904" expanded="true" signature="1310:1632" ph="..." />
+                <marker date="1516575926904" expanded="false" signature="1336:1342" ph="..." />
+                <marker date="1516575926904" expanded="false" signature="1410:1416" ph="..." />
+                <marker date="1516575926904" expanded="false" signature="1484:1490" ph="..." />
+                <marker date="1516575926904" expanded="true" signature="1574:1619" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cabezote.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vistas/modulos/cabezote.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fondo3.jpg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/vistas/img/slide/slide4/fondo3.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="piedepagina.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vistas/modulos/piedepagina.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inicioVarios.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vistas/modulos/inicioVarios.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -131,7 +122,6 @@
         <option value="$PROJECT_DIR$/vistas/css/plantilla.scss" />
         <option value="$PROJECT_DIR$/vistas/css/plantilla.css" />
         <option value="$PROJECT_DIR$/vistas/modulos/equipo.php" />
-        <option value="$PROJECT_DIR$/vistas/modulos/cabezote.php" />
         <option value="$PROJECT_DIR$/vistas/js/plantilla.js" />
         <option value="$PROJECT_DIR$/vistas/plantilla.php" />
         <option value="$PROJECT_DIR$/vistas/modulos/piedepagina.php" />
@@ -139,6 +129,7 @@
         <option value="$PROJECT_DIR$/vistas/modulos/inicioProductos.php" />
         <option value="$PROJECT_DIR$/vistas/scss/estilos.scss" />
         <option value="$PROJECT_DIR$/vistas/modulos/slide.php" />
+        <option value="$PROJECT_DIR$/vistas/modulos/cabezote.php" />
       </list>
     </option>
   </component>
@@ -171,6 +162,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -294,6 +286,10 @@
               <option name="myItemId" value="slide" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slide4" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -320,14 +316,35 @@
               <option name="myItemId" value="slide" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="slide1" />
+              <option name="myItemId" value="practicasMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practicasMVC" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vistas" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plantilla" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,9 +357,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp2\htdocs\practicasMVC\backend\vistas\img\slide\slide1" />
       <recent name="C:\xampp2\htdocs\practicasMVC\backend\vistas\img\plantilla" />
-      <recent name="C:\xampp2\htdocs\practicasMVC\vistas\js\plugins" />
+      <recent name="C:\xampp2\htdocs\practicasMVC\backend\vistas\img\slide\slide4" />
+      <recent name="C:\xampp2\htdocs\practicasMVC\backend\vistas\img\slide\slide3" />
+      <recent name="C:\xampp2\htdocs\practicasMVC\backend\vistas\img\slide\slide2" />
+      <recent name="C:\xampp2\htdocs\practicasMVC\backend\vistas\img\slide\slide1" />
     </key>
   </component>
   <component name="RunManager">
@@ -418,17 +437,18 @@
       <workItem from="1516446391824" duration="3987000" />
       <workItem from="1516499257293" duration="14052000" />
       <workItem from="1516551930144" duration="17688000" />
+      <workItem from="1516587344847" duration="2715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39954000" />
+    <option name="totallyTimeSpent" value="42669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2375189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24130106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -459,27 +479,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vistas/scss/estilos.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3502">
-          <caret line="206" column="75" lean-forward="true" selection-start-line="206" selection-start-column="75" selection-end-line="206" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vistas/modulos/cabezote.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vistas/plantilla.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -535,7 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
           <caret line="81" column="37" lean-forward="false" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -543,7 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -567,7 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -591,7 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -615,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -638,7 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -670,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,9 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding>
-            <marker date="1516332998852" expanded="true" signature="154:169" ph="select * fro... ${$tabla}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -714,7 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-663">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,7 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,7 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,9 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-203">
           <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -749,7 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -757,7 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="60" column="54" lean-forward="false" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -766,19 +751,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vistas/modulos/cabezote.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="67" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/vistas/img/plantilla/reclamoguia.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/vistas/img/plantilla/reclamoguia.png" />
     <entry file="file://$PROJECT_DIR$/vistas/modulos/piedepagina.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -797,7 +770,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vistas/modulos/inicioVarios.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
+        <state relative-caret-position="85">
           <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="26" />
           <folding />
         </state>
@@ -815,7 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="190" column="0" lean-forward="true" selection-start-line="190" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -827,9 +799,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backend/vistas/img/slide/slide2/curso.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vistas/scss/estilos.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
+        <state relative-caret-position="9367">
           <caret line="551" column="13" lean-forward="false" selection-start-line="551" selection-start-column="13" selection-end-line="551" selection-end-column="13" />
           <folding />
         </state>
@@ -837,8 +814,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vistas/modulos/slide.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        <state relative-caret-position="17">
+          <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
           <folding>
             <marker date="1516575926904" expanded="true" signature="771:1655" ph="..." />
             <marker date="1516575926904" expanded="true" signature="884:1645" ph="..." />
@@ -851,6 +828,19 @@
             <marker date="1516575926904" expanded="true" signature="1574:1619" ph="..." />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vistas/modulos/cabezote.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/vistas/img/slide/slide4/fondo3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
