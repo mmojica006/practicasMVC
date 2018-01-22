@@ -409,6 +409,22 @@ ESTILOS PAGINA SERVICIOS
   transform: rotateY(360deg);
   transform-style: preserve-3d;
 }
+
+/*---------------------------------------------
+QUIENES SOMOS
+--------------------------------------------*/
+
+.bienvenidos_quienes_somos {
+    background: url("../../backend/vistas/img/plantilla/fondo-encabezado.jpg") no-repeat center top;
+    color: #fff;
+    background-size: cover;
+    background-attachment: fixed !important;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
 /*---------------------------------------------
 EMPIEZAN LAS MEDIAS QUERIES
 --------------------------------------------*/

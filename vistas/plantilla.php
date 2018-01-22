@@ -97,9 +97,9 @@ if (isset($_GET['ruta'])) {
     include "modulos/equipo.php";
     include "modulos/inicioProductos.php";
     include "modulos/inicioVarios.php";
-    include "modulos/piedepagina.php";
+   
 }
-
+ include "modulos/piedepagina.php";
 
 ?>
 
