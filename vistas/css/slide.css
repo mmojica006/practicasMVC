@@ -313,8 +313,13 @@ MOVIL (XS revisamos en 320px)
 	#slide .slideOpciones button{
 		padding:5px;
 		font-size:10px;
-	}	
-	
+	}
+	#slide{
+		margin-top: 78px ;
+	}
+	.boton-buscar{
+		display: none;
+	}
 }
 
 

@@ -12,6 +12,22 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: $texto;
 }
+*{
+  margin:0px;
+  padding:0px;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Ubunt', sans-serif;
+}
+ul, ol{
+  padding:0px;
+}
+
+a:visited, a:link, a:focus, a:hover, a:active{
+  list-style: none;
+  text-decoration: none;
+}
+
 .bienvenidos {
   background: url("../images/fondo-encabezadoCE.jpg") no-repeat center top;
   color: #fff;
@@ -282,6 +298,7 @@ SECCION ÚLTIMOS PROYECTOS
 /*----------------------------------------
 SECCION PIE DE PAGINA
 -----------------------------------------*/
+
 .piewebsite {
   background: $texto;
   color: #fff;
@@ -430,6 +447,9 @@ EMPIEZAN LAS MEDIAS QUERIES
 --------------------------------------------*/
 
 @media (min-width: 768px) {
+  .col-xs-0{
+    display: none;
+  }
   #menu-principal {
     height: auto !important;
     display: block;
@@ -517,6 +537,9 @@ EMPIEZAN LAS MEDIAS QUERIES
   }
 }
 @media (min-width: 992px) {
+  .col-xs-0{
+    display: none;
+  }
   html {
     font-size: 16px
   }
@@ -563,6 +586,9 @@ EMPIEZAN LAS MEDIAS QUERIES
 
 
 @media (max-width:767px){
+  .col-xs-0{
+    display: none;
+  }
 
 .servicios img{
   width: 50px;

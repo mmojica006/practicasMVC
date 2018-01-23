@@ -27,7 +27,7 @@ SLIDESHOW
 				$titulo2 = json_decode($value["titulo2"],true);
 				$titulo3 = json_decode($value["titulo3"],true);
 
-				var_dump($estiloImgProducto);
+
 
 			echo '<li>
 				

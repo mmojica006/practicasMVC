@@ -32,7 +32,7 @@ TOP
 
             <nav id="menu-principal" class="collapse">
                 <ul>
-                    <li class="active"><a href="index.php">Inicio</a></li>
+                    <li class="active"><a href="#">Inicio</a></li>
                     <li><a href="quienes-somos">Sobre nosotros</a></li>
                     <li><a href="servicios">Canales de atención </a></li>
                     <li><a href="testimonios">Productos</a></li>

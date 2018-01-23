@@ -35,9 +35,9 @@
     HOJAS DE ESTILO PERSONALIZADAS
     ======================================-->
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/scss/estilos.css">
-    <link rel="stylesheet" href="<?php echo $url; ?>vistas/css/plantilla.css">
+<!--    <link rel="stylesheet" href="--><?php //echo $url; ?><!--vistas/css/plantilla.css">-->
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/css/slide.css">
-    <link rel="stylesheet" href="<?php echo $url; ?>vistas/css/cabezote.css">
+<!--    <link rel="stylesheet" href="--><?php //echo $url; ?><!--vistas/css/cabezote.css">-->
 
 
     <!--=====================================

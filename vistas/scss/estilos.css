@@ -6,6 +6,20 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #111111; }
 
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Ubunt', sans-serif; }
+
+ul, ol {
+  padding: 0px; }
+
+a:visited, a:link, a:focus, a:hover, a:active {
+  list-style: none;
+  text-decoration: none; }
+
 .bienvenidos {
   background: url("../images/fondo-encabezadoCE.jpg") no-repeat center top;
   color: #fff;
@@ -379,9 +393,24 @@ ESTILOS PAGINA SERVICIOS
   transform-style: preserve-3d; }
 
 /*---------------------------------------------
+QUIENES SOMOS
+--------------------------------------------*/
+.bienvenidos_quienes_somos {
+  background: url("../../backend/vistas/img/plantilla/fondo-encabezado.jpg") no-repeat center top;
+  color: #fff;
+  background-size: cover;
+  background-attachment: fixed !important;
+  height: 50vh;
+  display: flex;
+  flex-direction: column; }
+
+/*---------------------------------------------
 EMPIEZAN LAS MEDIAS QUERIES
 --------------------------------------------*/
 @media (min-width: 768px) {
+  .col-xs-0 {
+    display: none; }
+
   #menu-principal {
     height: auto !important;
     display: block;
@@ -465,6 +494,9 @@ EMPIEZAN LAS MEDIAS QUERIES
   .paginas-internas .lista-servicios .item-servicios .btn-primary {
     margin-top: auto; } }
 @media (min-width: 992px) {
+  .col-xs-0 {
+    display: none; }
+
   html {
     font-size: 16px; }
 
@@ -506,6 +538,9 @@ EMPIEZAN LAS MEDIAS QUERIES
   .servicios {
     background: #a6dae9; } }
 @media (max-width: 767px) {
+  .col-xs-0 {
+    display: none; }
+
   .servicios img {
     width: 50px; } }
 
