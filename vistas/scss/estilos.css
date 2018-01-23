@@ -26,7 +26,8 @@ a:visited, a:link, a:focus, a:hover, a:active {
   background-size: cover;
   background-attachment: fixed !important;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  padding: 40px; }
 
 .encabezado {
   background: #f4f4f4;
@@ -172,7 +173,7 @@ SECCION AGENCIA
   display: block; }
 
 /*----------------------------
-SECCION TU MEJOR ELECCIÓN
+SECCION TU MEJOR ELECCI├ôN
 ----------------------------*/
 .tu-mejor-eleccion h2 span {
   color: #009bd3; }
@@ -244,7 +245,7 @@ SECCION NOTICIAS
   color: #009bd3; }
 
 /*---------------------------------
-SECCION ÚLTIMOS PROYECTOS
+SECCION ├ÜLTIMOS PROYECTOS
 ------------------------------------*/
 .ultimos-proyectos a {
   text-decoration: none; }
@@ -542,6 +543,9 @@ EMPIEZAN LAS MEDIAS QUERIES
     display: none; }
 
   .servicios img {
-    width: 50px; } }
+    width: 50px; }
+
+  .bienvenidos {
+    padding: 0; } }
 
 /*# sourceMappingURL=estilos.css.map */

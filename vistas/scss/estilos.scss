@@ -32,10 +32,10 @@ a:visited, a:link, a:focus, a:hover, a:active{
   background: url("../images/fondo-encabezadoCE.jpg") no-repeat center top;
   color: #fff;
   background-size: cover;
-  background-attachment: fixed !important;
-
+  background-attachment: fixed !important; 
   display: flex;
   flex-direction: column;
+  padding: 40px;
 }
 .encabezado {
   background: #f4f4f4;
@@ -442,6 +442,8 @@ QUIENES SOMOS
 }
 
 
+
+
 /*---------------------------------------------
 EMPIEZAN LAS MEDIAS QUERIES
 --------------------------------------------*/
@@ -593,6 +595,11 @@ EMPIEZAN LAS MEDIAS QUERIES
 .servicios img{
   width: 50px;
 }
+
+.bienvenidos {
+  padding: 0;
+}
+
 
 }
 
