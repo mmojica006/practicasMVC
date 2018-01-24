@@ -1,5 +1,10 @@
-   <div class="paginas-internas">
-    <section class="bienvenidos">
+<?php
+$servidor = Ruta::ctrlRutaServidor();
+$social = ControladorPlantilla::ctrlEstiloPlantilla();
+
+?>
+<div class="paginas-internas">
+    <section class="bienvenidos" style="background: url('<?php echo $servidor; ?>vistas/img/plantilla/fondo-encabezado-grandeCE.jpg');no-repeat center top;background-size: cover">
 
 
 
