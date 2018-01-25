@@ -77,7 +77,7 @@ if (isset($_GET['ruta'])) {
     $rutas =  explode("/",$_GET['ruta']);
 
     if ($rutas[0]=="servicios"){
-        include "modulos/servicios.php";
+        include "modulos/canalesAtencion.php";
     }
     elseif ($rutas[0]=="inicio"){
         include "modulos/inicio.php";
@@ -106,6 +106,7 @@ if (isset($_GET['ruta'])) {
 <script src="<?php echo $url; ?>vistas/js/cabezote.js"></script>
 <script src="<?php echo $url; ?>vistas/js/plantilla.js"></script>
 <script src="<?php echo $url; ?>vistas/js/slide.js"></script>
+<script src="<?php echo $url; ?>vistas/js/canalesServicio.js"></script>
 
 
 </body>
