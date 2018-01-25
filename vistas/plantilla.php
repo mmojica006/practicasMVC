@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/scss/estilos.css">
 <!--    <link rel="stylesheet" href="--><?php //echo $url; ?><!--vistas/css/plantilla.css">-->
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/css/slide.css">
+       <link rel="stylesheet" href="<?php echo $url; ?>vistas/css/productos.css">
 <!--    <link rel="stylesheet" href="--><?php //echo $url; ?><!--vistas/css/cabezote.css">-->
 
 
@@ -76,7 +77,7 @@ if (isset($_GET['ruta'])) {
 
     $rutas =  explode("/",$_GET['ruta']);
 
-    if ($rutas[0]=="servicios"){
+    if ($rutas[0]=="canales"){
         include "modulos/canalesAtencion.php";
     }
     elseif ($rutas[0]=="inicio"){
@@ -87,6 +88,9 @@ if (isset($_GET['ruta'])) {
     }
     elseif ($rutas[0]=="contacto"){
         include "modulos/contacto.php";
+    }
+        elseif ($rutas[0]=="productos"){
+        include "modulos/productos.php";
     }
     else{
         include "modulos/error404.php";
@@ -107,6 +111,7 @@ if (isset($_GET['ruta'])) {
 <script src="<?php echo $url; ?>vistas/js/plantilla.js"></script>
 <script src="<?php echo $url; ?>vistas/js/slide.js"></script>
 <script src="<?php echo $url; ?>vistas/js/canalesServicio.js"></script>
+<script src="<?php echo $url; ?>vistas/js/productos.js"></script>
 
 
 </body>

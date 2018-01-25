@@ -173,7 +173,7 @@ SECCION AGENCIA
   display: block; }
 
 /*----------------------------
-SECCION TU MEJOR ELECCIÓN
+SECCION TU MEJOR ELECCI├ôN
 ----------------------------*/
 .tu-mejor-eleccion h2 span {
   color: #009bd3; }
@@ -203,7 +203,7 @@ SECCION TU MEJOR ELECCIÓN
 SECCION NOTICIAS
 --------------------------------*/
 .servicios {
-  background: #a6dae9;
+  background: #f4f4f4;
   color: #111111; }
 
 .servicios article {
@@ -245,7 +245,7 @@ SECCION NOTICIAS
   color: #009bd3; }
 
 /*---------------------------------
-SECCION ÚLTIMOS PROYECTOS
+SECCION ├ÜLTIMOS PROYECTOS
 ------------------------------------*/
 .ultimos-proyectos a {
   text-decoration: none; }
@@ -280,11 +280,45 @@ SECCION ÚLTIMOS PROYECTOS
 SECCION PIE DE PAGINA
 -----------------------------------------*/
 .piewebsite {
-  background: #111111;
+  background: #3a3f46;
   color: #fff;
   text-align: center;
   font-size: .9rem;
   padding: 1.5rem; }
+
+.piewebsite.row {
+  margin-bottom: 60px; }
+
+.piewebsite .info {
+  text-align: justify;
+  color: #afb0b1; }
+
+.piewebsite ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7; }
+
+.piewebsite h5 {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px; }
+
+.piewebsite a {
+  color: #d2d1d1;
+  text-decoration: none; }
+
+.piewebsite a:hover,
+.piewebsite a:focus {
+  text-decoration: none;
+  color: white; }
+
+.piewebsite .second-bar a {
+  font-size: 22px;
+  color: #9fa3a9;
+  padding: 10px;
+  transition: 0.2s;
+  line-height: 68px; }
 
 .piewebsite img {
   width: 300px;
@@ -534,10 +568,7 @@ EMPIEZAN LAS MEDIAS QUERIES
 
   .tu-mejor-eleccion ul li p {
     font-size: .85rem;
-    width: 100%; }
-
-  .servicios {
-    background: #a6dae9; } }
+    width: 100%; } }
 @media (max-width: 767px) {
   .col-xs-0 {
     display: none; }

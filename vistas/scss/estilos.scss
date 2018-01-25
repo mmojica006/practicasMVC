@@ -220,7 +220,7 @@ SECCION NOTICIAS
 --------------------------------*/
 
 .servicios {
-  background: #a6dae9;
+  background: #f4f4f4;
   color: $texto;
 
 }
@@ -300,12 +300,50 @@ SECCION PIE DE PAGINA
 -----------------------------------------*/
 
 .piewebsite {
-  background: $texto;
+  background: #3a3f46;;
   color: #fff;
   text-align: center;
   font-size: .9rem;
   padding: 1.5rem;
 
+}
+.piewebsite.row {
+    margin-bottom: 60px;
+}
+.piewebsite .info{
+    text-align: justify; 
+    color: #afb0b1;
+}
+
+.piewebsite ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+.piewebsite h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.piewebsite a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+.piewebsite a:hover,
+.piewebsite a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+.piewebsite .second-bar a {
+    font-size: 22px;
+    color: #9fa3a9;
+    padding: 10px;
+    transition: 0.2s;
+    line-height: 68px;
 }
 
 .piewebsite img{
@@ -580,9 +618,7 @@ EMPIEZAN LAS MEDIAS QUERIES
     font-size: .85rem;
     width: 100%
   }
-  .servicios {
-   background: #a6dae9;
-  }
+ 
 
 }
 
