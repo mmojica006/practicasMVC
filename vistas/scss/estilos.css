@@ -409,11 +409,37 @@ ESTILOS PAGINA PRODUCTOS Y SERVICIOS
 .paginas-internas .left-navigation ul li a h4 small {
   color: #777;
   text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 700; }
+  font-size: 15px;
+  font-weight: 300; }
 
 .paginas-internas .left-navigation ul li a h4 small {
   color: #777; }
+
+.paginas-internas .left-navigation ul li a:hover {
+  background: #009bd3; }
+
+.paginas-internas .productoInfo {
+  min-height: 425px;
+  height: auto !important;
+  height: 425px;
+  padding: 5px; }
+
+.paginas-internas .left-navigation ul {
+  list-style-type: none;
+  padding-left: 20px; }
+
+.paginas-internas .left-navigation li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px; }
+
+.paginas-internas .left-navigation li:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: FontAwesome;
+  content: "\f058";
+  color: green; }
 
 .paginas-internas .lista-servicios {
   background: #009500; }

@@ -37,7 +37,7 @@
                              <div class="left-navigation">
                                 <ul id="menu" class="listProductos">
 
-                                    <li>
+                                    <li >
                                     <a data-page="servicio1" href="#"><h4>
                                     <small>MICROCREDITOS</small>
                                     </h4>
@@ -60,7 +60,7 @@
 
 
                 </div>
-                <div class="col-lg-10">
+                <div class="col-lg-10 productoInfo">
                 
                   
                         <div id="pages">
@@ -68,141 +68,55 @@
                                 <div id="servicio1" class="page" data-page="servicio1">
 
 
-                                    <div class="col-sm-12">
+                                   
 
-                                        <div class="imgSlide clearfix">
+                                   <img src="" alt="">
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis pariatur rerum perspiciatis aliquid aspernatur praesentium, iusto nulla autem, quisquam, provident aut cumque. Asperiores ipsam eum quasi est velit reiciendis distinctio.
+                                   CrediTURBO
 
-                                            <div class="custom-textarea" id="custom-textarea">
-                                                %BRAND_SLIDE%
-                                                <span class="brandTitle" > %BRAND_TITLE%</span>
-                                                <br />
-                                                <p class="justify"> %BRAND_GLOSSARY%</p>
-                                            </div>
+                                Es una modalidad dirigida a pequeños comerciantes con el objetivo de otorgarles un capital de trabajo para hacer crecer su negocio .
+                                Microturbo
+                                Turbo
+                                Megaturbo
 
-                                        </div>
-                                    </div>
+                                Requisitos:
+                                - Ser mayor de edad
+                                - Fotografía de cédula de identidad.
+                                - Tener capacidad de pago.
+                                - Contar con un negocio propio con un mínimo de 6 meses.
+
+ 
+
+ 
+
+ 
+
+ 
+
                                 </div>
 
                                 <div id="servicio2" class="page hide" data-page="servicio2">
 
-                                    <div class="col-sm-12">
-                                        <div class="imgSlide">
-                                            %PRICE_IMAGE%
-                                        </div>
-                                    </div>
-                                    <div class="clearfix">
-
-                                    </div>
-                                    <div class="col-sm-12">
-                                        <div class="imgSlide">
-                                            %PRICE_IMAGE_OPT%
-                                        </div>
-
-                                    </div>
+                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dicta, debitis tenetur reiciendis aliquam, quam magni ullam, incidunt perferendis libero minus eveniet. Ipsa esse doloribus id sit laudantium, recusandae iure.
 
                                 </div>
 
                                 <div id="servicio3" class="page hide" data-page="servicio3">
 
-                                    <div class="col-md-12">
-                                        <div class="imgSlide">
-                                            %BUY_IMAGE%
-                                        </div>
-                                    </div>
-                                    <div class="clearfix">
-
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="imgSlide">
-                                            %BUY_IMAGE_OPT%
-                                        </div>
-
-                                    </div>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos ipsa, nobis. Porro sapiente sunt error recusandae voluptate ab, incidunt eaque veniam, quae quidem veritatis quod. Ea facere, obcaecati. Ipsum, voluptas.
 
                                 </div>
 
                                 <div id="servicio4" class="page hide" data-page="servicio4">
-
-                                    <div class="col-lg-4 col-md-6 col-sm-8">
-                                        <!--Main content code to be written here -->
-                                        <div class="wikiContent">
-                                            <table class="table table-borderless col-md-10">
-
-                                                <tbody>
-                                                <tr>
-                                                    <td colspan="2">%WIKI_IMAGE%</td>
-                                                </tr>
-
-                                                <tr>
-                                                    <th>Type</th>
-                                                    <td class="col-md-2">%WIKI_TYPE%</td>
-
-                                                </tr>
-                                                <tr>
-                                                    <th>Industry</th>
-                                                    <td class="col-md-10">%WIKI_INDUSTRY%</td>
-
-                                                </tr>
-                                                <tr>
-                                                    <th>Founded</th>
-                                                    <td class="col-md-10">%WIKI_FOUNDED%</td>
-
-                                                </tr>
-                                                <tr>
-                                                    <th>Founder</th>
-                                                    <td class="col-md-10">%WIKI_FOUNDER%</td>
-
-                                                </tr>
-                                                <tr>
-                                                    <th>Headquarters</th>
-                                                    <td class="col-md-10">%WIKI_HEAD%</td>
-
-                                                </tr>
-                                                <tr>
-                                                    <th>Number of locations</th>
-                                                    <td class="col-md-10">%WIKI_NUMBER%</td>
-
-                                                </tr>
-                                                <tr>
-                                                    <th>Products</th>
-                                                    <td class="col-md-10">%WIKI_PRODUCTS%</td>
-
-                                                </tr>
-                                                <tr>
-                                                    <th>Owner</th>
-                                                    <td class="col-md-10">%WIKI_OWNER%</td>
-
-                                                </tr>
-                                                <tr>
-                                                    <th>WebSite</th>
-                                                    <td class="col-md-10">%WIKI_WEBSITE%</td>
-
-                                                </tr>
-                                                <tr>
-                                                    <th>%WIKI_REF%</th>
-                                                    <td></td>
-
-                                                </tr>
-                                                </tbody>
-                                            </table>
-
-                                        </div>
-
-                                    </div>
+        
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam placeat quas quasi magnam dolores, voluptate quis molestiae. Eius itaque cum quo est sint a fuga, rem dolorum nisi soluta nam.
 
                                 </div>
 
                                 <div id="servicio5" class="page hide" data-page="servicio5">
 
 
-                                    <div class="col-md-12">
-                                        <!--Main content code to be written here -->
-                                        <div class="brandBonus">
-                                            %BONUS_IMAGE%
-                                            <p class="justify">%BONUS_CONTENT%</p>
-
-                                        </div>
-                                    </div>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi illo, deleniti, earum saepe impedit quos quo voluptatibus dolores inventore delectus in cupiditate! Vel excepturi magni, quisquam consequuntur aut eligendi debitis.
 
                                 </div>
 
