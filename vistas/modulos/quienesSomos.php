@@ -35,7 +35,7 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
         <div class="container">
             <div class="row">
                 <article class="col-md-8">
-                    <h2>Trabajamos para tu éxito</h2>
+                    <h2 class="text-muted">Trabajamos para tu éxito</h2>
                     <p>
                         Somos una empresa Micro-financiera dispuesta a promover el desarrollo socioeconómico en Nicaragua, facilitando créditos a los pequeños y medianos empresarios, permitiéndoles mejorar su nivel de vida y aumentar su capital.
                     </p>
@@ -109,7 +109,7 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
 
                 </article>
                 <aside class="col-md-4">
-                    <img src="images/nosotros.svg" alt="Nosotros">
+                    <img src="<?php echo $servidor; ?>vistas/img/plantilla/equipo.png" alt="Nosotros">
 
 
                 </aside>

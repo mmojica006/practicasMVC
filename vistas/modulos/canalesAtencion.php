@@ -53,7 +53,7 @@ $market = ControladorCanales::ctrGetMarcadores();
         <div class="container">
             <div class="row">
                 <article class="col-md-12">
-                    <h2>Sucursales en todo el país</h2>
+                    <h2 class="text-muted">Sucursales en todo el país</h2>
                     <p>
                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut cumque delectus, deserunt dolorem eos eum illo in magni maiores maxime modi mollitia nesciunt non numquam odio sint unde, velit?
                     </p>

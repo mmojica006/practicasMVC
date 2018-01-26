@@ -33,7 +33,7 @@
             <div class="row">
 
                 <div class="col-md-8">
-                    <h2 class="m-b-2">Formulario de contacto</h2>
+                    <h2 class="m-b-2 text-muted">Formulario de contacto</h2>
 
 
                     <form action="#">
@@ -79,7 +79,7 @@
 
                 </div>
                 <div class="col-md-4">
-                    <h3>Detalles de contacto</h3>
+                    <h3 class="text-muted">Detalles de contacto</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque laborum commodi suscipit vitae eius perferendis consequuntur? Modi nihil aliquam, quas deserunt vitae atque suscipit ratione rerum eveniet. Qui, adipisci ad.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque laborum commodi suscipit vitae eius perferendis consequuntur? Modi nihil aliquam, quas deserunt vitae atque suscipit ratione rerum eveniet. Qui, adipisci ad.</p>
 
