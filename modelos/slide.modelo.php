@@ -1,7 +1,5 @@
 <?php
-
 require_once "conexion.php";
-
 class ModeloSlide{
 static public function mdlMostrarSlide($tabla){
 	

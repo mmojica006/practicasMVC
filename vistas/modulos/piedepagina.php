@@ -1,9 +1,6 @@
 <?php
 $servidor = Ruta::ctrlRutaServidor();
-
-
 ?>
-
 <footer class="piewebsite">
     <div class="container">
 

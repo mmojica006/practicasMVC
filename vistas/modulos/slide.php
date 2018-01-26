@@ -1,11 +1,6 @@
 <?php
  $servidor = Ruta::ctrlRutaServidor();
 ?>
-
-<!--=====================================
-SLIDESHOW  
-======================================-->
-
 <div class="container-fluid" id="slide">
 	
 	<div class="row">
@@ -17,18 +12,13 @@ SLIDESHOW
 		<ul>
 
 		<?php
-			$slide = Controladorslide::ctrMostrarSlide();
-			
+			$slide = Controladorslide::ctrMostrarSlide();			
 			foreach ($slide as $key => $value) {
-
 				$estiloImgProducto = json_decode($value["estiloImgProducto"],true);
 				$estiloTextoSlide = json_decode($value["estiloTextoSlide"],true);
 				$titulo1 = json_decode($value["titulo1"],true);
 				$titulo2 = json_decode($value["titulo2"],true);
 				$titulo3 = json_decode($value["titulo3"],true);
-
-
-
 			echo '<li>
 				
 				<img src="'. $servidor .$value["imgFondo"].'">
@@ -58,7 +48,6 @@ SLIDESHOW
 			</li>	';
 
 				}
-
 		?>
 
 		</ul>
@@ -73,7 +62,6 @@ SLIDESHOW
 			for ($i=1; $i<=count($slide); $i++){
 				echo '<li item="'.$i.'"><span class="fa fa-circle"></span></li>';
 			}
-
 		?>
 		</ol>	
 

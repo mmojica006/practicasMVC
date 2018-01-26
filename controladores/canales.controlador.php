@@ -1,8 +1,5 @@
 <?php
-
-
 class ControladorCanales {
-
 
     public function ctrGetMarcadores(){
         $tabla = "markers";

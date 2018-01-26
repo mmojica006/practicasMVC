@@ -1,11 +1,7 @@
 <?php
 $servidor = Ruta::ctrlRutaServidor();
 $social = ControladorPlantilla::ctrlEstiloPlantilla();
-
 $market = ControladorCanales::ctrGetMarcadores();
-
-
-
 ?>
 
 <style>

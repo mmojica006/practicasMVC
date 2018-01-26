@@ -1,7 +1,5 @@
 <?php
-
 $rutaServidor = Ruta::ctrlRutaServidor();
-
 ?>
 
 <section class="agencia py-1" id="agencia">

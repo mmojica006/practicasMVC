@@ -1,10 +1,8 @@
 <?php
 require_once "conexion.php";
-
 class ModeloCanales{
 
  static public function mdlGetDataMarket($tabla){
-
      try{
      $stmt = Conexion::conectar()->prepare("select * from $tabla");
      $stmt ->execute();
@@ -17,7 +15,5 @@ class ModeloCanales{
      }
 
  }
-
-
 
 }

@@ -1,7 +1,5 @@
 <?php
-
 class Ruta{
-
 	/* Ruta del lado del Cliente */
 
 	public function ctrlRuta(){

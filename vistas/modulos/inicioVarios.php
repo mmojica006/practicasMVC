@@ -1,7 +1,6 @@
 <?php
 $servidor = Ruta::ctrlRutaServidor();
 $social = ControladorPlantilla::ctrlEstiloPlantilla();
-
 ?>
     <main class="servicios py-1">
         <div class="container">

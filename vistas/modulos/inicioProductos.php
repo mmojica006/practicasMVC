@@ -1,7 +1,6 @@
 <?php
 $servidor = Ruta::ctrlRutaServidor();
 $social = ControladorPlantilla::ctrlEstiloPlantilla();
-
 ?>
 
 <section class="tu-mejor-eleccion py-1">

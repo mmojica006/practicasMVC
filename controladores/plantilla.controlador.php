@@ -1,10 +1,8 @@
 <?php
 class ControladorPlantilla{
-
 /* Llamamos a la plantilla */
 
 	public function plantilla(){
-
 		include "vistas/plantilla.php";
 	}
 
@@ -15,17 +13,5 @@ public function ctrlEstiloPlantilla(){
 	$tabla = "plantilla";
 	$respuesta = ModeloPlantilla::mdlEstiloPlantilla($tabla);
 	return $respuesta;
-
-
 }
-
-	
-	
-	
-
-	
-
-
-
-
 }
