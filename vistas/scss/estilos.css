@@ -1,10 +1,10 @@
 @charset "UTF-8";
 html {
-  font-size: 15px; }
+  font-size: 14px; }
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #111111; }
+  color: #55595c; }
 
 * {
   margin: 0px;
@@ -115,7 +115,7 @@ a:visited, a:link, a:focus, a:hover, a:active {
   display: block;
   padding: .8rem 0;
   text-align: center;
-  color: #111111;
+  color: #55595c;
   text-transform: uppercase;
   border-top: 1px solid #8c8888;
   text-decoration: none; }
@@ -204,7 +204,7 @@ SECCION NOTICIAS
 --------------------------------*/
 .servicios {
   background: #f4f4f4;
-  color: #111111; }
+  color: #55595c; }
 
 .servicios article {
   display: flex;
@@ -254,7 +254,7 @@ SECCION ├ÜLTIMOS PROYECTOS
   font-size: 1rem;
   font-weight: bold;
   text-align: center;
-  color: #111111; }
+  color: #55595c; }
 
 .ultimos-proyectos .container {
   padding-left: 0;
@@ -332,7 +332,7 @@ SECCION PIE DE PAGINA
   flex: 1 1 auto; }
 
 .piewebsite h3 a {
-  color: #111111;
+  color: #55595c;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -404,8 +404,17 @@ ESTILOS PAGINA NOSOTROS
   color: #fff; }
 
 /*-------------------------------------------
-ESTILOS PAGINA SERVICIOS
+ESTILOS PAGINA PRODUCTOS Y SERVICIOS
 --------------------------------------------*/
+.paginas-internas .left-navigation ul li a h4 small {
+  color: #777;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700; }
+
+.paginas-internas .left-navigation ul li a h4 small {
+  color: #777; }
+
 .paginas-internas .lista-servicios {
   background: #009500; }
 

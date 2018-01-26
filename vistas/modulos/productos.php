@@ -32,16 +32,23 @@
         <div class="container">
             <div class="row">
 
-                <div >
+                <div class="col-lg-2 menuProducto">
                    
                              <div class="left-navigation">
-                                <ul id="menu" class="list">
+                                <ul id="menu" class="listProductos">
 
-                                    <li><a data-page="history" href="#"><h4>MICROCREDITOS</h4></a></li>
-                                    <li><a data-page="price" href="#"><h4>CREDINEGOCIO</h4></a></li>
-                                    <li><a data-page="buying" href="#"><h4>Activo Productivo</h4></a></li>
-                                    <li><a data-page="wiki" href="#"><h4>WIKI</h4></a></li>
-                                    <li><a data-page="bonus" href="#"><h4>BONUS</h4></a></li>
+                                    <li>
+                                    <a data-page="servicio1" href="#"><h4>
+                                    <small>MICROCREDITOS</small>
+                                    </h4>
+                                    </a>
+                                    </li>
+                                    <li>
+                                    <a data-page="servicio2" href="#"><h4 ><small>CREDINEGOCIO</small></h4>
+                                    </a></li>
+                                    <li><a data-page="servicio3" href="#"><h4> <small>ACTIVO PRODUCTIVO</small></h4></a></li>
+                                    <li><a data-page="servicio4" href="#"><h4><small>CREDITURBO</small></h4></a></li>
+                                    <li><a data-page="servicio5" href="#"><h4><small>MEGATURBO</small></h4></a></li>
 
                                 </ul>
                                 <br>
@@ -53,12 +60,12 @@
 
 
                 </div>
-                <div class="col-md-10">
+                <div class="col-lg-10">
                 
-                    <h3>Detalles de contacto</h3>
+                  
                         <div id="pages">
 
-                                <div id="history" class="page" data-page="history">
+                                <div id="servicio1" class="page" data-page="servicio1">
 
 
                                     <div class="col-sm-12">
@@ -76,7 +83,7 @@
                                     </div>
                                 </div>
 
-                                <div id="price" class="page hide" data-page="price">
+                                <div id="servicio2" class="page hide" data-page="servicio2">
 
                                     <div class="col-sm-12">
                                         <div class="imgSlide">
@@ -95,7 +102,7 @@
 
                                 </div>
 
-                                <div id="buying" class="page hide" data-page="buying">
+                                <div id="servicio3" class="page hide" data-page="servicio3">
 
                                     <div class="col-md-12">
                                         <div class="imgSlide">
@@ -114,7 +121,7 @@
 
                                 </div>
 
-                                <div id="wiki" class="page hide" data-page="wiki">
+                                <div id="servicio4" class="page hide" data-page="servicio4">
 
                                     <div class="col-lg-4 col-md-6 col-sm-8">
                                         <!--Main content code to be written here -->
@@ -185,7 +192,7 @@
 
                                 </div>
 
-                                <div id="bonus" class="page hide" data-page="bonus">
+                                <div id="servicio5" class="page hide" data-page="servicio5">
 
 
                                     <div class="col-md-12">

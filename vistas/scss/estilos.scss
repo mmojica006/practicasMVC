@@ -1,12 +1,12 @@
 //-----------------------
 // PATRON DE COLORES
 //-----------------------
-$texto:#111111;
+$texto:#55595c;
 $textoSecundario:#757777;
 $principal:#009bd3;
 $secundario:#009500;
 html {
-  font-size: 15px;
+  font-size: 14px;
 }
 body {
   font-family: 'Open Sans', sans-serif;
@@ -440,8 +440,20 @@ ESTILOS PAGINA NOSOTROS
   color: #fff;
 }
 /*-------------------------------------------
-ESTILOS PAGINA SERVICIOS
+ESTILOS PAGINA PRODUCTOS Y SERVICIOS
 --------------------------------------------*/
+
+.paginas-internas .left-navigation ul li a h4 small {
+    color: #777;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.paginas-internas .left-navigation ul li a h4 small {
+  color: #777;
+}
+
 
 .paginas-internas .lista-servicios {
   background: $secundario;
