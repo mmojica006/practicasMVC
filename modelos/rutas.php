@@ -10,7 +10,7 @@ class Ruta{
 
 	
 	public function ctrlRutaServidor(){
-		return "http://localhost:82/practicasMVC/backend/";
+		return "http://localhost:82/backendMVC/";
 	}
 	
 }
