@@ -70,7 +70,7 @@
 
                                    
 
-                                   <img src="" alt="">
+                                   <img src="https://blog.rocket.la/wp-content/uploads/2016/06/Administraci%C3%B3n-del-cr%C3%A9dito.png" alt="">
                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis pariatur rerum perspiciatis aliquid aspernatur praesentium, iusto nulla autem, quisquam, provident aut cumque. Asperiores ipsam eum quasi est velit reiciendis distinctio.
                                    CrediTURBO
 
