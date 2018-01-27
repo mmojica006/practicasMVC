@@ -17,7 +17,7 @@ $market = ControladorCanales::ctrGetMarcadores();
 
 
 <div class="paginas-internas" >
-    <section class="bienvenidos" style="background: url('<?php echo $servidor; ?>vistas/img/plantilla/fondo-encabezado-grandeCE.jpg');no-repeat center top;background-size: cover">
+    <section class="bienvenidos" style="background: url('<?php echo $servidor; ?>vistas/img/plantilla/paginaExternaCanales.png');no-repeat center top;background-size: cover">
 
 
 

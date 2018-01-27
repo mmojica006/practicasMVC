@@ -32,21 +32,21 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
             </ul>
 
             <div class="hidden-md-down col-lg-4">
-                <img class="beneficios" src="<?php echo $servidor; ?>/vistas/img/plantilla/dinero.jpg" alt="Mundo movil">
+                <img class="beneficios" src="<?php echo $servidor; ?>/vistas/img/plantilla/Beneficios.png" alt="Mundo movil">
             </div>
 
             <ul class="col-xs-6 col-lg-4 text-xs-center text-lg-right">
                 <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".5s">
                     <i class="fa  fa-calendar" aria-hidden="true"></i>
                     <div class="contenedor-eleccion">
-                        <h4>Activo Productivo</h4>
+                        <h4>ACTIVO PRODUCTO</h4>
                         <p class="hidden-md-down">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </p>
                     </div>
                 </li>
                 <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".9s">
                     <i class="fa  fa-check-square-o" aria-hidden="true"></i>
                     <div class="contenedor-eleccion">
-                        <h4>Productos</h4>
+                        <h4>DESARROLLO EMPRESARIAL</h4>
                         <p class="hidden-md-down">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </p>
                     </div>
                 </li>

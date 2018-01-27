@@ -1,7 +1,7 @@
  
 <div class="paginas-internas">
 
-    <section class="bienvenidos" style="background: url('<?php echo $servidor; ?>vistas/img/plantilla/fondo-encabezado-grandeCE.jpg');no-repeat center top;background-size: cover">
+    <section class="bienvenidos" style="background: url('<?php echo $servidor; ?>vistas/img/plantilla/fondo-paginas-externas_contacto.png');no-repeat center top;background-size: cover">
 
 
 
@@ -42,7 +42,48 @@
                             <label for="nombre" class="col-md-4 col-form-label">Nombre</label>
 
                             <div class="col-md-8">
-                                <input class="form-control" type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" data-toggle="tooltip" data-placement="top" title="Ingrese su nombre completo">
+                                <input class="form-control" type="text" id="nombreS" name="nombreS" placeholder="Ingrese su nombre" data-toggle="tooltip" data-placement="top" title="Ingrese su nombre completo">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="nombre" class="col-md-4 col-form-label">Apellidos</label>
+
+                            <div class="col-md-8">
+                                <input class="form-control" type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" data-toggle="tooltip" data-placement="top" title="Ingrese su nombre completo">
+                            </div>
+                        </div>
+
+
+                        <div class="form-group row">
+                            <label for="nombre" class="col-md-4 col-form-label">No. Cédula</label>
+
+                            <div class="col-md-8">
+                                <input class="form-control" type="text" id="cedula" name="cedula" placeholder="Ingrese su cédula" data-toggle="tooltip" data-placement="top" title="Ingrese su cédula">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="nombre" class="col-md-4 col-form-label">Número de teléfono de contacto</label>
+
+                            <div class="col-md-8">
+                                <input class="form-control" type="text" id="telefono" name="telefono" placeholder="Ingrese el teléfono de contacto" data-toggle="tooltip" data-placement="top" title="Ingrese el teléfono de contacto">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="nombre" class="col-md-4 col-form-label">Ciudad donde vive</label>
+
+                            <div class="col-md-8">
+                                <input class="form-control" type="text" id="ciudad" name="ciudad" placeholder="Ingrese la Ciudad" data-toggle="tooltip" data-placement="top" title="Ingrese el teléfono de contacto">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="nombre" class="col-md-4 col-form-label">Monto que necesita</label>
+
+                            <div class="col-md-8">
+                                <input class="form-control" type="text" id="monto" name="monto" placeholder="Ingrese el monto" data-toggle="tooltip" data-placement="top" title="Ingrese el teléfono de contacto">
                             </div>
                         </div>
 

@@ -11,7 +11,7 @@ $rutaServidor = Ruta::ctrlRutaServidor();
 
             <div class="col-md-8 col-xl-9 wow bounceIn" data-wow-delay=".3s">
                 <h2 class="h3 text-xs-center text-md-left font-weight-bold">Únete al Equipo!</h2>
-                <p>Si eres un profesional líder y estás comprometido con la excelencia, envíanos tu currículo actualizado a info@crediexpress.com.ni y postula para un puesto de trabajo en Crediexpress.</p>
+                <p>Si eres un profesional líder y estás comprometido con la excelencia, envíanos tu currículo actualizado a reclutamiento@crediexpress.com.ni y postula para un puesto de trabajo en Crediexpress.</p>
 
             </div>
             <div class="col-md-4 col-xl-3 wow bounceIn" data-wow-delay=".6s">
