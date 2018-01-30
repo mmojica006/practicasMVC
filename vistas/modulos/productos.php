@@ -39,16 +39,16 @@
 
                                     <li >
                                     <a data-page="servicio1" href="#"><h4>
-                                    <small>MICROCREDITOS</small>
+                                    <small>Microcréditos</small>
                                     </h4>
                                     </a>
                                     </li>
                                     <li>
-                                    <a data-page="servicio2" href="#"><h4 ><small>CREDINEGOCIO</small></h4>
+                                    <a data-page="servicio2" href="#"><h4 ><small>Microturbo</small></h4>
                                     </a></li>
-                                    <li><a data-page="servicio3" href="#"><h4> <small>ACTIVO PRODUCTIVO</small></h4></a></li>
-                                    <li><a data-page="servicio4" href="#"><h4><small>CREDITURBO</small></h4></a></li>
-                                    <li><a data-page="servicio5" href="#"><h4><small>MEGATURBO</small></h4></a></li>
+                                    <li><a data-page="servicio3" href="#"><h4> <small>Turbo</small></h4></a></li>
+                                    <li><a data-page="servicio4" href="#"><h4><small>Desarrollo empresarial</small></h4></a></li>
+                                    <li><a data-page="servicio5" href="#"><h4><small>Activo Productivo</small></h4></a></li>
 
                                 </ul>
                                 <br>
