@@ -31,9 +31,9 @@
 						
 						<h1 style="color:'.$titulo1["color"].'">'.$titulo1["texto"].'</h1>
 
-						<h2 style="color:'.$titulo2["color"].'">'.$titulo2["texto"].'</h2>
+						<h3 style="color:'.$titulo2["color"].'">'.$titulo2["texto"].'</h3>
 
-						<h3 style="color:'.$titulo2["color"].'">'.$titulo3["texto"].'</h3>
+						<h5 style="color:'.$titulo2["color"].'">'.$titulo3["texto"].'</h5>
 
 						<a href="'.$value["url"].'">
 							
