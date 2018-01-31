@@ -183,9 +183,13 @@ SECCION AGENCIA
   color: #fff;
 }
 .agencia img {
-  width: 80%;
+  width: 120px;
   margin: 0 auto;
   display: block;
+}
+.py-1 {
+    padding-top: .5rem !important;
+    padding-bottom: 0 !important;
 }
 /*----------------------------
 SECCION TU MEJOR ELECCIÓN
@@ -685,6 +689,11 @@ EMPIEZAN LAS MEDIAS QUERIES
 
 .bienvenidos {
   padding: 0;
+}
+
+.agencia img {
+  width: 220px;
+
 }
 
 

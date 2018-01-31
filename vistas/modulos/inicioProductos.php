@@ -6,9 +6,10 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
 <section class="tu-mejor-eleccion py-1">
     <div class="container">
 
-        <h2 class="h3 text-xs-center font-weight-bold">Productos <span>y Servicios</span></h2>
+        <h2 class="h3 text-xs-center font-weight-bold">Productos </h2>
         <p class="text-xs-center">
-            Realizamos préstamos a micro, pequeños y medianos empresarios, dirigidos para aquellas personas que se dedican a la venta comercial u oferta de servicios.
+            Nuestro modelo contempla un enfoque integrado y orientado a la inclusión financiera, dirigido a
+aquellas personas que se dedican a la venta comercial u oferta de servicios.
         </p>
 
         <div class="row">
