@@ -28,7 +28,7 @@ INSERT INTO `crediweb`.`slide`(`id`,`imgFondo`,`tipoSlide`,`imgProducto`,`estilo
               Solicitar<span class="fa fa-chevron-right"></span>
 
               </button>','','2018-01-30 17:08:25');
-INSERT INTO `crediweb`.`slide`(`id`,`imgFondo`,`tipoSlide`,`imgProducto`,`estiloImgProducto`,`estiloTextoSlide`,`titulo1`,`titulo2`,`titulo3`,`boton`,`url`,`fecha`) VALUES (3,'vistas/img/slide/default/back_default.jpg','slideOpcion1','vistas/img/slide/slide1/Beneficios.png','{"top": "10%" ,"right": "10%" ,"width": "30%", "left":""}','{"top": "20%" ,"right": "" ,"width": "40%", "left":"10%"}','{"texto": "Tenemos los mejores beneficios" ,"color": "#333"}','{"texto": "APROBACION Y RENOVACION INMEDIATA" ,"color": "#777"}','{"texto": "<br><p>Sin fiador</p> <p> Seguros gratis </p> <p>Acumulas puntos canjeables por premios</p>" ,"color": "#888"}','<button class="btn btn-default backColor text-uppercase">
+INSERT INTO `crediweb`.`slide`(`id`,`imgFondo`,`tipoSlide`,`imgProducto`,`estiloImgProducto`,`estiloTextoSlide`,`titulo1`,`titulo2`,`titulo3`,`boton`,`url`,`fecha`) VALUES (3,'vistas/img/slide/default/back_default.jpg','slideOpcion1','vistas/img/slide/slide1/Beneficios.png','{"top": "10%" ,"right": "10%" ,"width": "30%", "left":""}','{"top": "20%" ,"right": "" ,"width": "40%", "left":"10%"}','{"texto": "Tenemos los mejores beneficios" ,"color": "#333"}','{"texto": "APROBACION Y RENOVACION INMEDIATA" ,"color": "#777"}','{"texto": "<br>Sin fiador <br> Seguros gratis  <br>Acumulas puntos canjeables por premios" ,"color": "#888"}','<button class="btn btn-default backColor text-uppercase">
 
               VER MAS<span class="fa fa-chevron-right"></span>
 
