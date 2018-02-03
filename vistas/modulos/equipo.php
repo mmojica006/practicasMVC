@@ -15,7 +15,7 @@ $rutaServidor = Ruta::ctrlRutaServidor();
 
             </div>
             <div class="col-md-4 col-xl-3 wow bounceIn" data-wow-delay=".6s">
-                <img src="<?php echo $rutaServidor; ?>vistas/img/equipo/familia.png" alt="logo familia">
+                <img src="<?php echo $rutaServidor; ?>vistas/img/equipo/moto.png" alt="logo familia">
             </div>
         </div>
     </div>
