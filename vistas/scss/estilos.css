@@ -29,6 +29,13 @@ a:visited, a:link, a:focus, a:hover, a:active {
   flex-direction: column;
   padding: 45px; }
 
+.barraSuperior {
+  background: black; }
+
+.backColor, .backColor a {
+  background: #47bac1;
+  color: white; }
+
 .encabezado {
   background: #f4f4f4;
   color: #fff;
@@ -177,7 +184,7 @@ SECCION AGENCIA
   padding-bottom: 0 !important; }
 
 /*----------------------------
-SECCION TU MEJOR ELECCI├ôN
+SECCION TU MEJOR ELECCIÓN
 ----------------------------*/
 .tu-mejor-eleccion h2 span {
   color: #009bd3; }
@@ -249,7 +256,7 @@ SECCION NOTICIAS
   color: #009bd3; }
 
 /*---------------------------------
-SECCION ├ÜLTIMOS PROYECTOS
+SECCION ÚLTIMOS PROYECTOS
 ------------------------------------*/
 .ultimos-proyectos a {
   text-decoration: none; }
@@ -373,6 +380,65 @@ SECCION PIE DE PAGINA
   outline: 0;
   text-decoration: none;
   color: #fff; }
+
+/*----------------------------------------
+SECCION REDES SOCIALES
+-----------------------------------------*/
+.redSocial {
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px; }
+
+.facebookBlanco {
+  color: white; }
+
+.facebookNegro {
+  color: black; }
+
+.facebookColor {
+  color: white;
+  background: #46639f; }
+
+.youtubeColor {
+  color: white;
+  background: #d6513e; }
+
+.youtubeBlanco {
+  color: white; }
+
+.youtubeNegro {
+  color: black; }
+
+.twitterColor {
+  color: white;
+  background: #0ab2e6; }
+
+.twitterBlanco {
+  color: white; }
+
+.twitterNegro {
+  color: black; }
+
+.google-plusColor {
+  color: white;
+  background: #d71617; }
+
+.google-plusBlanco {
+  color: white; }
+
+.google-plusNegro {
+  color: black; }
+
+.instagramColor {
+  color: white;
+  background: linear-gradient(45deg, #fca925, #ee1d5f, #6350a2); }
+
+.instagramBlanco {
+  color: white; }
+
+.instagramNegro {
+  color: black; }
 
 /*-------------------------------------------
 ESTILOS PAGINA NOSOTROS

@@ -1,56 +1,71 @@
 <?php
 $servidor = Ruta::ctrlRutaServidor();
+
 ?>
 <footer class="piewebsite">
     <div class="container">
 
         <div class="row">
-    <div class="col-sm-2">
-                    
-                          <ul class="redes-sociales text-xs-center">
-                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"> </i> </a></li>
-                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
-                    <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i> </a></li>
-                    </ul>
-                     <button type="button" class="btn btn-default">Contáctenos</button>
-                </div>
+            <div class="col-sm-2">
+
+                <ul class="redes-sociales text-xs-center">
+                    <?php
+
+                    $social = ControladorPlantilla::ctrlEstiloPlantilla();
+                    $jsonRedesSociales = json_decode($social["redesSociales"], true);
+
+
+                    foreach ($jsonRedesSociales as $key => $value) {
+                        if ($value["activo"] != 0) {
+                            echo ' <li><a href="' . $value["url"] . '" target="_blank">
+                            <i class="fa ' . $value["red"] . ' ' . $value["estilo"] . ' redSocial" aria-hidden="true"> </i> </a></li>';
+                        }
+
+                    }
+                    ?>
+
+                    <!--                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"> </i> </a></li>-->
+                    <!--                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>-->
+                    <!--                    <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i> </a></li>-->
+
+                </ul>
+                <button type="button" class="btn btn-default">Contáctenos</button>
+            </div>
 
             <article class="col-md-2 wow bounceInLeft" data-wow-delay=".3s">
-                 <h5>Menu</h5>
-                    <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Sucursales</a></li>
-                        <li><a href="#">Sobre Nosotros</a></li>
-                    </ul>
+                <h5>Menu</h5>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Sucursales</a></li>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                </ul>
 
 
             </article>
-
 
 
             <article class="col-md-2 wow bounceInUp" data-wow-delay=".6s">
 
-                 <h5>Productos</h5>
-                    <ul>
-                        <li><a href="#">Microcréditos</a></li>
-                        <li><a href="#">Microturbo</a></li>
-                        <li><a href="#">Turbo</a></li>
-                        <li><a href="#">Desarrollo empresarial</a></li>
-                        <li><a href="#">Activo Productivo</a></li>
-                    </ul>
-          
+                <h5>Productos</h5>
+                <ul>
+                    <li><a href="#">Microcréditos</a></li>
+                    <li><a href="#">Microturbo</a></li>
+                    <li><a href="#">Turbo</a></li>
+                    <li><a href="#">Desarrollo empresarial</a></li>
+                    <li><a href="#">Activo Productivo</a></li>
+                </ul>
 
 
             </article>
 
-                  <article class="col-md-2 wow bounceInUp" data-wow-delay=".6s">
+            <article class="col-md-2 wow bounceInUp" data-wow-delay=".6s">
 
-                    <h5>Información</h5>
-                            <ul>
-                                <li><a href="#">Contrato</a></li>
-                                <li><a href="#">Tarifario</a></li>
-                                <li><a href="#">Preguntas Frecuentes</a></li>
-                            </ul>
+                <h5>Información</h5>
+                <ul>
+                    <li><a href="#">Contrato</a></li>
+                    <li><a href="#">Tarifario</a></li>
+                    <li><a href="#">Preguntas Frecuentes</a></li>
+                </ul>
 
 
             </article>
@@ -69,9 +84,9 @@ $servidor = Ruta::ctrlRutaServidor();
 
     </div>
 
-       <div class="footer-copyright">
-            <p>© 2018 © CREDIEXPRESS Todos los derechos reservados </p>
-        </div>
+    <div class="footer-copyright">
+        <p>© 2018 © CREDIEXPRESS Todos los derechos reservados </p>
+    </div>
 
 
 </footer>

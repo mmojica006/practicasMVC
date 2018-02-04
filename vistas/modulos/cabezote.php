@@ -6,8 +6,8 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
 <!--=====================================
 TOP
 ======================================-->
-<section class="bienvenidos">
-    <header class="encabezado navbar-fixed-top" role="banner" id="encabezado">
+<section class="bienvenidos ">
+    <header class="encabezado navbar-fixed-top " role="banner" id="encabezado">
         <div class="container">
             <a href="index.html" class="logo">
                 <img src="<?php echo $servidor . $social["logo"] ?>" alt="Logo del sitio">
