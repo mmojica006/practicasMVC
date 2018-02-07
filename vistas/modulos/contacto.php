@@ -1,7 +1,19 @@
+<?php
+$dataContacto  = ControladorContacto::ctrMostrarContracto();
+
+if($dataContacto['imgFondo'] != ''){
+    $fondoUrl = $servidor.$dataContacto['imgFondo'];
+}else{
+     $fondoUrl = $servidor.'vistas/img/plantilla/default/back_default_blue.jpg';
+}
+
+
+?>
+
  
 <div class="paginas-internas">
 
-    <section class="bienvenidos" style="background: url('<?php echo $servidor; ?>vistas/img/plantilla/fondo-paginas-externas_contacto.png');no-repeat center top;background-size: cover">
+    <section class="bienvenidos" style="background: url('<?php echo $fondoUrl;  ?>');no-repeat center top;background-size: cover">
 
 
 
@@ -115,14 +127,10 @@
                         </div>
                     </form>
 
-
-
-
                 </div>
                 <div class="col-md-4">
-                    <h3 class="text-muted">Detalles de contacto</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque laborum commodi suscipit vitae eius perferendis consequuntur? Modi nihil aliquam, quas deserunt vitae atque suscipit ratione rerum eveniet. Qui, adipisci ad.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque laborum commodi suscipit vitae eius perferendis consequuntur? Modi nihil aliquam, quas deserunt vitae atque suscipit ratione rerum eveniet. Qui, adipisci ad.</p>
+                    <h5 class="text-muted"><?php echo $dataContacto['titulo']; ?> </h5>
+                    <?php echo $dataContacto['descripcion']; ?>              
 
                 </div>
 

@@ -22,6 +22,19 @@ SET time_zone = "+00:00";
 -- Base de datos: `crediweb`
 --
 
+--
+-- Table structure for table `contacto`
+--
+
+CREATE TABLE `contacto` (
+  `id` int(11) PRIMARY KEY NOT NULL  AUTO_INCREMENT,
+  `titulo` text COLLATE utf8_spanish_ci NOT NULL,
+  `descripcion` text COLLATE utf8_spanish_ci NOT NULL,
+  `email` text COLLATE utf8_spanish_ci NOT NULL,
+  `imgFondo` text COLLATE utf8_spanish_ci NOT NULL,  
+  `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
 -- --------------------------------------------------------
 -- --------------------------------------------------------
 
@@ -828,7 +841,7 @@ INSERT INTO `productos` (`id`, `id_categoria`, `id_subcategoria`, `tipo`, `ruta`
 --
 
 CREATE TABLE `slide` (
-  `id` int(11) NOT NULL,
+  `id` int(11)  PRIMARY KEY NOT NULL AUTO_INCREMENT,
   `nombre` text COLLATE utf8_spanish_ci NOT NULL,
   `imgFondo` text COLLATE utf8_spanish_ci NOT NULL,
   `tipoSlide` text COLLATE utf8_spanish_ci NOT NULL,
