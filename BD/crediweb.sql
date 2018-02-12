@@ -28,6 +28,8 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `contacto` (
   `id` int(11) PRIMARY KEY NOT NULL  AUTO_INCREMENT,
+    `bannertitulo` text COLLATE utf8_spanish_ci NOT NULL,
+  `bannerdescripcion` text COLLATE utf8_spanish_ci NOT NULL,
   `titulo` text COLLATE utf8_spanish_ci NOT NULL,
   `descripcion` text COLLATE utf8_spanish_ci NOT NULL,
   `email` text COLLATE utf8_spanish_ci NOT NULL,
