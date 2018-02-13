@@ -23,6 +23,28 @@ SET time_zone = "+00:00";
 --
 
 --
+-- Table structure for table `tbl_productos`
+--
+
+CREATE TABLE `tbl_productos` (
+  `id` int(11) PRIMARY KEY NOT NULL  AUTO_INCREMENT,
+   `bannertitulo` text COLLATE utf8_spanish_ci NOT NULL,
+  `bannerdescripcion` text COLLATE utf8_spanish_ci  NULL,
+  `microcredito` text COLLATE utf8_spanish_ci  NULL,
+  `microturbo` text COLLATE utf8_spanish_ci  NULL,
+  `turbo` text COLLATE utf8_spanish_ci  NULL,
+  `empresa` text COLLATE utf8_spanish_ci  NULL,
+  `productivo` text COLLATE utf8_spanish_ci  NULL,
+  `imgFondo` text COLLATE utf8_spanish_ci NOT NULL,  
+  `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+-- --------------------------------------------------------
+-- --------------------------------------------------------
+
+
+
+--
 -- Table structure for table `contacto`
 --
 
