@@ -1,10 +1,19 @@
 <?php
 $servidor = Ruta::ctrlRutaServidor();
 $social = ControladorPlantilla::ctrlEstiloPlantilla();
+$dataNosotros = ControladorNosotros::ctrMostrarNosotros();
+
+if($dataNosotros['imgFondo'] != ''){
+    $fondoUrl = $servidor.$dataNosotros['imgFondo'];
+}else{
+     $fondoUrl = $servidor.'vistas/img/plantilla/default/back_default_blue.jpg';
+}
+
+
 ?>
 <div class="paginas-internas">
     <section class="bienvenidos"
-             style="background: url('<?php echo $servidor; ?>vistas/img/plantilla/paginExternaQuienesSomos.jpg');no-repeat center top;background-size: cover">
+             style="background: url('<?php echo $fondoUrl;  ?>');no-repeat center top;background-size: cover">
 
 
 
@@ -12,8 +21,8 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
         <div class="texto-encabezado text-xs-center">
 
             <div class="container">
-                <h1 class="display-4">Nosotros</h1>
-                <p class="wow bounceIn" data-wow-delay=".3s">¿Quienes somos? y ¿Que hacemos?.</p>
+                <h1 class="display-4"><?php echo $dataNosotros["bannertitulo"]; ?></h1>
+                <p class="wow bounceIn" data-wow-delay=".3s"><?php echo $dataNosotros["bannerdescripcion"]; ?></p>
 
             </div>
 
@@ -35,14 +44,8 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
         <div class="container">
             <div class="row">
                 <article class="col-md-8">
-                    <h2 class="text-muted">Trabajamos para tu éxito</h2>
-                    <p>
-                        Somos una empresa Micro-financiera dispuesta a promover el desarrollo socioeconómico en Nicaragua, facilitando créditos a los pequeños y medianos empresarios, permitiéndoles mejorar su nivel de vida y aumentar su capital.
-                    </p>
-                    <p>
-                        Brindamos servicios personalizados en la comodidad de su negocio. Otorgamos  préstamos accesibles con la mayor rapidez del mercado. 
-                        Conformamos el mejor equipo de profesionales en créditos extendidos en todo el mercado.
-                    </p>
+                    <h2 class="text-muted"><?php echo $dataNosotros["titulo"]; ?></h2>
+                                <?php echo $dataNosotros["descripcion"]; ?>
 
 
 
@@ -55,13 +58,8 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
 
                             </h4>
                             <div id="tab-mision" class="panel-collapse collapse in">
-                                <p>
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                                </p>
-                                <p>
-                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                              <?php echo $dataNosotros["mision"]; ?>
 
-                                </p>
 
                             </div>
                         </div>
@@ -74,13 +72,8 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
 
                             </h4>
                             <div id="tab-vision" class="panel-collapse collapse">
-                                <p>
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                                </p>
-                                <p>
-                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                <?php echo $dataNosotros["vision"]; ?>
 
-                                </p>
 
                             </div>
                         </div>
@@ -95,13 +88,7 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
 
                             </h4>
                             <div id="tab-valores" class="panel-collapse collapse">
-                                <p>
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                                </p>
-                                <p>
-                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-
-                                </p>
+                                <?php echo $dataNosotros["valores"]; ?>
 
                             </div>
                         </div>
