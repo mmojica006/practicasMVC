@@ -49,13 +49,14 @@ CREATE TABLE `tbl_nosotros` (
 
 CREATE TABLE `tbl_productos` (
   `id` int(11) PRIMARY KEY NOT NULL  AUTO_INCREMENT,
-   `bannertitulo` text COLLATE utf8_spanish_ci NOT NULL,
+  `bannertitulo` text COLLATE utf8_spanish_ci NOT NULL,
   `bannerdescripcion` text COLLATE utf8_spanish_ci  NULL,
-  `microcredito` text COLLATE utf8_spanish_ci  NULL,
+  `crediPyme` text COLLATE utf8_spanish_ci  NULL,
+  `crediNegocios` text COLLATE utf8_spanish_ci  NULL,
+  `productivo` text COLLATE utf8_spanish_ci  NULL,
   `microturbo` text COLLATE utf8_spanish_ci  NULL,
   `turbo` text COLLATE utf8_spanish_ci  NULL,
-  `empresa` text COLLATE utf8_spanish_ci  NULL,
-  `productivo` text COLLATE utf8_spanish_ci  NULL,
+  `megaturbo` text COLLATE utf8_spanish_ci  NULL,
   `imgFondo` text COLLATE utf8_spanish_ci NOT NULL,  
   `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
