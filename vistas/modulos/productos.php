@@ -109,9 +109,7 @@ if($dataProducto['imgFondo'] != ''){
 
                                   <?php echo $dataProducto['megaturbo']; ?>
 
-                                </div>
-
-                              
+                                </div>                              
 
                             </div>
 
