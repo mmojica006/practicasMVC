@@ -21,6 +21,21 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `crediweb`
 --
+--
+-- Table structure for table `tbl_canales`
+--
+
+CREATE TABLE `tbl_canales` (
+  `id` int(11) PRIMARY KEY NOT NULL  AUTO_INCREMENT,
+    `bannertitulo` text COLLATE utf8_spanish_ci  NULL,
+  `bannerdescripcion` text COLLATE utf8_spanish_ci  NULL,
+  `titulo` text COLLATE utf8_spanish_ci  NULL,
+  `descripcion` text COLLATE utf8_spanish_ci  NULL,
+  `imgFondo` text COLLATE utf8_spanish_ci  NULL,  
+  `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+
 
 --
 -- Table structure for table `tbl_nosotros`

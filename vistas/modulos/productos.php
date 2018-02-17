@@ -14,7 +14,7 @@ if($dataProducto['imgFondo'] != ''){
 
 <div class="paginas-internas">
 
-    <section class="bienvenidos" style="background: url('<?php echo $servidor; ?>vistas/img/plantilla/fondo-paginas-externas_servicios.png');no-repeat center top;background-size: cover">
+    <section class="bienvenidos" style="background: url('<?php echo $fondoUrl;  ?>');no-repeat center top;background-size: cover">
 
 
 
