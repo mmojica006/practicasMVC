@@ -6,7 +6,7 @@ class ModeloCanales{
      try{
      $stmt = Conexion::conectar()->prepare("select * from $tabla");
      $stmt ->execute();
-     return $stmt->fetchAll();
+     return $stmt->fetchAll(PDO::FETCH_ASSOC);
 
      $stmt = null;
      }

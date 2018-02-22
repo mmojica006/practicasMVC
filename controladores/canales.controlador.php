@@ -1,42 +1,64 @@
 <?php
+
+
 class ControladorCanales {
 
+
+
+
     public function ctrGetMarcadores(){
+
+        $obj1 = new ControladorCanales();
+
         $tabla = "markers";
+        $xmlresult='';
 
         $respuesta = ModeloCanales::mdlGetDataMarket($tabla);
-        print_r($respuesta);
+
+
+
+
+
+
+
+
 
         // Start XML file, echo parent node
-        echo '<markers>';
-        // Iterate through the rows, printing XML nodes for each
-       foreach ($respuesta as $row){
-            // Add to XML document node
-            echo '<marker ';
-            echo 'name="' . parseToXML($row['name']) . '" ';
-            echo 'address="' . parseToXML($row['address']) . '" ';
-            echo 'lat="' . $row['lat'] . '" ';
-            echo 'lng="' . $row['lng'] . '" ';
-            echo 'type="' . $row['type'] . '" ';
-            echo '/>';
-        }
-
-// End XML file
-        echo '</markers>';
+        $xmlresult = '<markers ';
 
 
 
-
-
+//       foreach ($respuesta as $row){
+//
+//            // Add to XML document node
+//           $xmlresult= $xmlresult. '<marker ';
+//           $xmlresult= $xmlresult. 'name="' . $obj1->parseToXML($row['name']) . '" ';
+//           $xmlresult= $xmlresult. 'address="' . $obj1->parseToXML($row['address']) . '" ';
+//           $xmlresult= $xmlresult. 'lat="' . $row['lat'] . '" ';
+//           $xmlresult= $xmlresult. 'lng="' . $row['lng'] . '" ';
+//           $xmlresult= $xmlresult. 'type="' . $row['type'] . '" ';
+//           $xmlresult= $xmlresult. '/>';
+//        }
+//
+//
+//        $xmlresult= $xmlresult. '</markers>';
 
 
 
 
-        //return json_encode($respuesta);
+
+
+
+
+
+
+
+
+        return true;
 
     }
 
-    function parseToXML($htmlStr)
+    public  function parseToXML($htmlStr)
     {
         $xmlStr=str_replace('<','&lt;',$htmlStr);
         $xmlStr=str_replace('>','&gt;',$xmlStr);
@@ -45,4 +67,7 @@ class ControladorCanales {
         $xmlStr=str_replace("&",'&amp;',$xmlStr);
         return $xmlStr;
     }
+
+
+
 }

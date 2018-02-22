@@ -1,7 +1,10 @@
 <?php
 $servidor = Ruta::ctrlRutaServidor();
+$urlFrontEnd = Ruta::ctrlRuta();
 $social = ControladorPlantilla::ctrlEstiloPlantilla();
 $market = ControladorCanales::ctrGetMarcadores();
+$dataMarkers = $urlFrontEnd.'controladores/markers.php';
+//print_r($market);
 ?>
 
 <style>
@@ -97,7 +100,7 @@ $market = ControladorCanales::ctrGetMarcadores();
         var infoWindow = new google.maps.InfoWindow;
 
           // Change this depending on the name of your PHP or XML file
-          downloadUrl('https://storage.googleapis.com/mapsdevsite/json/mapmarkers2.xml', function(data) {
+          downloadUrl('<?php echo $dataMarkers;?>', function(data) {
             var xml = data.responseXML;
             var markers = xml.documentElement.getElementsByTagName('marker');
             Array.prototype.forEach.call(markers, function(markerElem) {
