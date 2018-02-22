@@ -1,73 +1,59 @@
 <?php
 
 
-class ControladorCanales {
+class ControladorCanales
+{
 
 
-
-
-    public function ctrGetMarcadores(){
+    public function ctrGetMarcadores()
+    {
 
         $obj1 = new ControladorCanales();
-
         $tabla = "markers";
-        $xmlresult='';
-
+        $xmlresult = '';
         $respuesta = ModeloCanales::mdlGetDataMarket($tabla);
+        if (count($respuesta)) {
+            $result = $obj1->createXMLfile($respuesta);
+        }
 
-
-
-
-
-
-
-
-
-        // Start XML file, echo parent node
-        $xmlresult = '<markers ';
-
-
-
-//       foreach ($respuesta as $row){
-//
-//            // Add to XML document node
-//           $xmlresult= $xmlresult. '<marker ';
-//           $xmlresult= $xmlresult. 'name="' . $obj1->parseToXML($row['name']) . '" ';
-//           $xmlresult= $xmlresult. 'address="' . $obj1->parseToXML($row['address']) . '" ';
-//           $xmlresult= $xmlresult. 'lat="' . $row['lat'] . '" ';
-//           $xmlresult= $xmlresult. 'lng="' . $row['lng'] . '" ';
-//           $xmlresult= $xmlresult. 'type="' . $row['type'] . '" ';
-//           $xmlresult= $xmlresult. '/>';
-//        }
-//
-//
-//        $xmlresult= $xmlresult. '</markers>';
-
-
-
-
-
-
-
-
-
-
-
-
-        return true;
+        return $result;
 
     }
 
-    public  function parseToXML($htmlStr)
+    public function createXMLfile($markersArray)
     {
-        $xmlStr=str_replace('<','&lt;',$htmlStr);
-        $xmlStr=str_replace('>','&gt;',$xmlStr);
-        $xmlStr=str_replace('"','&quot;',$xmlStr);
-        $xmlStr=str_replace("'",'&#39;',$xmlStr);
-        $xmlStr=str_replace("&",'&amp;',$xmlStr);
-        return $xmlStr;
-    }
 
+        $filePath = 'markers.xml';
+        $dom = new DOMDocument('1.0', 'utf-8');
+        $root = $dom->createElement('markers');
+        for ($i = 0; $i < count($markersArray); $i++) {
+
+            $markerId = $markersArray[$i]['id'];
+            $markerName = $markersArray[$i]['name'];
+            $markerAddress = $markersArray[$i]['address'];
+            $markerLat = $markersArray[$i]['lat'];
+            $markerIng = $markersArray[$i]['lng'];
+            $markerType = $markersArray[$i]['type'];
+
+            $marker = $dom->createElement('marker');
+
+            $marker->setAttribute('id', $markerId);
+            $marker->setAttribute('name', $markerName);
+            $marker->setAttribute('address', $markerAddress);
+            $marker->setAttribute('lat', $markerLat);
+            $marker->setAttribute('lng', $markerIng);
+            $marker->setAttribute('type', $markerType);
+
+            $root->appendChild($marker);
+
+        }
+
+        $respuesta = $dom->appendChild($root);
+
+        return $respuesta;
+        // $dom->save($filePath);
+
+    }
 
 
 }

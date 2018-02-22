@@ -1,10 +1,25 @@
-<?php
-header('Content-Type:text/html');
-?>
 
 <?php
+
+
+
 
 require_once "../modelos/conexion.php";
+
+
+
+$stmt = Conexion::conectar()->prepare("select * from markers");
+$stmt->execute();
+$response = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+if(count($response)){
+
+    createXMLfile($response);
+
+}
+
+
+
 
 function parseToXML($htmlStr)
 {
@@ -16,30 +31,55 @@ function parseToXML($htmlStr)
     return $xmlStr;
 }
 
-$stmt = Conexion::conectar()->prepare("select * from markers");
-$stmt->execute();
-$response = $stmt->fetchAll(PDO::FETCH_ASSOC);
-//print_r($response);
+function createXMLfile($markersArray){
+
+    $filePath = 'markers.xml';
+
+    $dom     = new DOMDocument('1.0', 'utf-8');
+
+    $root      = $dom->createElement('markers');
+
+    for($i=0; $i<count($markersArray); $i++){
+
+        $markerId        =  $markersArray[$i]['id'];
+
+        $markerName      =  $markersArray[$i]['name'];
+
+        $markerAddress     =  $markersArray[$i]['address'];
+
+        $markerLat      =  $markersArray[$i]['lat'];
+
+        $markerIng  =  $markersArray[$i]['lng'];
+        $markerType  =  $markersArray[$i]['type'];
+
+
+        $marker = $dom->createElement('marker');
+
+        $marker->setAttribute('id', $markerId);
+        $marker->setAttribute('name', $markerName);
+        $marker->setAttribute('address', $markerAddress);
+        $marker->setAttribute('lat', $markerLat);
+        $marker->setAttribute('lng', $markerIng);
+        $marker->setAttribute('type', $markerType);
 
 
 
-// Start XML file, echo parent node
-echo '<markers';
+        $root->appendChild($marker);
+
+    }
+
+   $respuesta =  $dom->appendChild($root);
+
+    return $respuesta;
+   // $dom->save($filePath);
+
+}
 
 
 
-       foreach ($response as $row){
 
-            // Add to XML document node
-           echo '<marker ';
-           echo 'name="' . parseToXML($row['name']) . '" ';
-           echo 'address="' . parseToXML($row['address']) . '" ';
-           echo 'lat="' . $row['lat'] . '" ';
-           echo 'lng="' . $row['lng'] . '" ';
-           echo 'type="' . $row['type'] . '" ';
-           echo '/>';
-        }
 
-// End XML file
-echo '</markers>';
+
+
+?>
 
