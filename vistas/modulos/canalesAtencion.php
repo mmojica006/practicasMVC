@@ -3,8 +3,8 @@ $servidor = Ruta::ctrlRutaServidor();
 $urlFrontEnd = Ruta::ctrlRuta();
 $social = ControladorPlantilla::ctrlEstiloPlantilla();
 $market = ControladorCanales::ctrGetMarcadores();
+$xmlDirecciones = $servidor.'vistas/files/markers.xml';
 
-print_r($market);
 $urlMarkers = $urlFrontEnd.'controladores/markers.xml';
 
 //print_r($market);
@@ -97,14 +97,14 @@ $urlMarkers = $urlFrontEnd.'controladores/markers.xml';
 
         function initMap() {
         var map = new google.maps.Map(document.getElementById('map'), {
-          center: new google.maps.LatLng(-33.863276, 151.207977),
-          zoom: 12
+          center: new google.maps.LatLng(12.10142, -86.25901),
+          zoom: 8
         });
         var infoWindow = new google.maps.InfoWindow;
 
           // Change this depending on the name of your PHP or XML file
         //  downloadUrl('https://storage.googleapis.com/mapsdevsite/json/mapmarkers2.xml', function(data) {
-            downloadUrl('<?php echo $urlMarkers; ?>', function(data) {
+            downloadUrl('<?php echo $xmlDirecciones; ?>', function(data) {
             var xml = data.responseXML;
             var markers = xml.documentElement.getElementsByTagName('marker');
             Array.prototype.forEach.call(markers, function(markerElem) {

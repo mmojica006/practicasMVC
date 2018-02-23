@@ -61,6 +61,9 @@
 
     <script src="<?php echo $url; ?>vistas/js/plugins/smooth-scroll.min.js"></script>
 
+    <!-- JQUERY VALIDATOR -->
+    <script src="vistas/plugins/jquery.validate.js"></script>
+
 
 </head>
 <body>
@@ -113,6 +116,7 @@ if (isset($_GET['ruta'])) {
 <script src="<?php echo $url; ?>vistas/js/slide.js"></script>
 <script src="<?php echo $url; ?>vistas/js/canalesServicio.js"></script>
 <script src="<?php echo $url; ?>vistas/js/productos.js"></script>
+<script src="<?php echo $url; ?>vistas/js/contacto.js"></script>
 
 
 </body>

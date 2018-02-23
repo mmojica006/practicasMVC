@@ -48,54 +48,54 @@ if($dataContacto['imgFondo'] != ''){
                     <h2 class="m-b-2 text-muted">Formulario de contacto</h2>
 
 
-                    <form action="#">
+                    <form action="#" id="contactForm" method="post" onsubmit="return validarMensaje()">
 
                         <div class="form-group row">
                             <label for="nombre" class="col-md-4 col-form-label">Nombre</label>
 
                             <div class="col-md-8">
-                                <input class="form-control" type="text" id="nombreS" name="nombreS" placeholder="Ingrese su nombre" data-toggle="tooltip" data-placement="top" title="Ingrese su nombre completo">
+                                <input class="form-control" type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" data-toggle="tooltip" data-placement="top" title="Ingrese su nombre completo" required>
                             </div>
                         </div>
 
                         <div class="form-group row">
-                            <label for="nombre" class="col-md-4 col-form-label">Apellidos</label>
+                            <label for="apellido" class="col-md-4 col-form-label">Apellidos</label>
 
                             <div class="col-md-8">
-                                <input class="form-control" type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" data-toggle="tooltip" data-placement="top" title="Ingrese su nombre completo">
+                                <input class="form-control" type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" data-toggle="tooltip" data-placement="top" title="Ingrese su nombre completo" required>
                             </div>
                         </div>
 
 
                         <div class="form-group row">
-                            <label for="nombre" class="col-md-4 col-form-label">No. Cédula</label>
+                            <label for="cedula" class="col-md-4 col-form-label">No. Cédula</label>
 
                             <div class="col-md-8">
-                                <input class="form-control" type="text" id="cedula" name="cedula" placeholder="Ingrese su cédula" data-toggle="tooltip" data-placement="top" title="Ingrese su cédula">
+                                <input class="form-control" type="text" id="cedula" name="cedula" placeholder="Ingrese su cédula" data-toggle="tooltip" data-placement="top" title="Ingrese su cédula" required>
                             </div>
                         </div>
 
                         <div class="form-group row">
-                            <label for="nombre" class="col-md-4 col-form-label">Número de teléfono de contacto</label>
+                            <label for="telefono" class="col-md-4 col-form-label">Número de teléfono de contacto</label>
 
                             <div class="col-md-8">
-                                <input class="form-control" type="text" id="telefono" name="telefono" placeholder="Ingrese el teléfono de contacto" data-toggle="tooltip" data-placement="top" title="Ingrese el teléfono de contacto">
+                                <input class="form-control" type="text" id="telefono" name="telefono" placeholder="Ingrese el teléfono de contacto" data-toggle="tooltip" data-placement="top" title="Ingrese el teléfono de contacto" required>
                             </div>
                         </div>
 
                         <div class="form-group row">
-                            <label for="nombre" class="col-md-4 col-form-label">Ciudad donde vive</label>
+                            <label for="ciudad" class="col-md-4 col-form-label">Ciudad donde vive</label>
 
                             <div class="col-md-8">
-                                <input class="form-control" type="text" id="ciudad" name="ciudad" placeholder="Ingrese la Ciudad" data-toggle="tooltip" data-placement="top" title="Ingrese el teléfono de contacto">
+                                <input class="form-control" type="text" id="ciudad" name="ciudad" placeholder="Ingrese la Ciudad" data-toggle="tooltip" data-placement="top" title="Ingrese la ciudad" required>
                             </div>
                         </div>
 
                         <div class="form-group row">
-                            <label for="nombre" class="col-md-4 col-form-label">Monto que necesita</label>
+                            <label for="monto" class="col-md-4 col-form-label">Monto que necesita</label>
 
                             <div class="col-md-8">
-                                <input class="form-control" type="text" id="monto" name="monto" placeholder="Ingrese el monto" data-toggle="tooltip" data-placement="top" title="Ingrese el teléfono de contacto">
+                                <input class="form-control" type="text" id="monto" name="monto" placeholder="Ingrese el monto" data-toggle="tooltip" data-placement="top" title="Ingrese el monto que necesita" required>
                             </div>
                         </div>
 
@@ -104,7 +104,7 @@ if($dataContacto['imgFondo'] != ''){
                             <label for="email" class="col-md-4 col-form-label">Email</label>
 
                             <div class="col-md-8">
-                                <input class="form-control" type="text" id="email" name="email" placeholder="Ingrese su email" data-toggle="tooltip" data-placement="top" title="Ingrese su email">
+                                <input class="form-control" type="text" id="email" name="email" placeholder="Ingrese su email" data-toggle="tooltip" data-placement="top" title="Ingrese su email" required>
                             </div>
                         </div>
 
@@ -113,7 +113,7 @@ if($dataContacto['imgFondo'] != ''){
                             <label for="mensaje" class="col-md-4 col-form-label">Mensaje</label>
 
                             <div class="col-md-8">
-                                <textarea class="form-control" rows="5" id="mensaje" name="mensaje" placeholder="Ingrese su mensaje" data-toggle="tooltip" data-placement="top" title="Ingrese un mensaje"></textarea>
+                                <textarea class="form-control" rows="5" id="mensaje" name="mensaje" placeholder="Ingrese su mensaje" data-toggle="tooltip" data-placement="top" title="Ingrese un mensaje" required></textarea>
 
                             </div>
                         </div>
