@@ -3,7 +3,6 @@ $('#contactForm').validate();
 /*VALIDAR MENSAJES*/
 function validarMensaje() {
 
-
     nombre = $('#nombre').val();
     apellido = $('#apellido').val();
     cedula = $('#cedula').val();
@@ -38,7 +37,6 @@ function validarMensaje() {
     }
 
     if (cedula != "") {
-
         var caracteres = cedula.length;
 
         if (!EsCedula(cedula)) {
@@ -50,7 +48,7 @@ function validarMensaje() {
         console.log(telefono);
 
         var caracteres = telefono.length;
-        var expresion = /^(\([0-9]{3}\)|[0-9]{3}-)[0-9]{3}-[0-9]{4}$/;
+        var expresion = /^[0-9\s]*$/;
 
 
         if (!expresion(telefono)) {
@@ -59,19 +57,29 @@ function validarMensaje() {
         }
     }
 
-    if (monto != ""){
+    if (monto != "") {
         var caracteres = monto.length;
-        var expresion =/^[0-9]+([.])?([0-9]+)?$/;
+        var expresion = /^[0-9]+([.])?([0-9]+)?$/;
 
-        if (!expresion.test(monto)){
+        if (!expresion.test(monto)) {
             $('#monto').after('<div class="alert alert-warning">No se permiten  caracteres especiales.</div>');
+            return false;
+        }
+    }
+
+    if (mensaje != "") {
+        var caracteres = mensaje.length;
+        var expresion = /^[a-zA-Z0-9\s]*$/;
+
+        if (!expresion.test(mensaje)) {
+            $("#mensaje").after('<div class="alert alert-warning">No se permiten caracteres especiales.</div>');
             return false;
         }
     }
 
 
 
-    return false;
+    return true;
 
 
 }

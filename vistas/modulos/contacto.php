@@ -79,7 +79,7 @@ if($dataContacto['imgFondo'] != ''){
                             <label for="telefono" class="col-md-4 col-form-label">Número de teléfono de contacto</label>
 
                             <div class="col-md-8">
-                                <input class="form-control" type="text" id="telefono" name="telefono" placeholder="Ingrese el teléfono de contacto" data-toggle="tooltip" data-placement="top" title="Ingrese el teléfono de contacto" required>
+                                <input class="form-control" type="number" id="telefono" name="telefono" placeholder="Ingrese el teléfono de contacto" data-toggle="tooltip" data-placement="top" title="Ingrese el teléfono de contacto" required>
                             </div>
                         </div>
 
@@ -104,7 +104,7 @@ if($dataContacto['imgFondo'] != ''){
                             <label for="email" class="col-md-4 col-form-label">Email</label>
 
                             <div class="col-md-8">
-                                <input class="form-control" type="text" id="email" name="email" placeholder="Ingrese su email" data-toggle="tooltip" data-placement="top" title="Ingrese su email" required>
+                                <input class="form-control" type="email" id="email" name="email" placeholder="Ingrese su email" data-toggle="tooltip" data-placement="top" title="Ingrese su email" required>
                             </div>
                         </div>
 
@@ -126,6 +126,12 @@ if($dataContacto['imgFondo'] != ''){
                             </div>
                         </div>
                     </form>
+
+                    <?php
+                    $mensajes = new ControladorContacto();
+                    $mensajes->ctrRegistroMensajes(); //Enviar las variables del post que estan en los atributos name
+                    ?>
+
 
                 </div>
                 <div class="col-md-4">
