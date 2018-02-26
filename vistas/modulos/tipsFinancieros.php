@@ -27,55 +27,38 @@ if($dataNosotros['imgFondo'] != ''){
         <div class="container">
             <div class="row">
                 <article class="col-md-8">
-                    <h2 class="text-muted"><?php echo $dataNosotros["titulo"]; ?></h2>
-                    <?php echo $dataNosotros["descripcion"]; ?>
+
+                    <h3>Lorem ipsum dolor sit amet, con </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aut deleniti dicta doloremque, officiis quam repellendus tempore ullam! Aperiam architecto assumenda commodi consectetur est eum excepturi libero magnam voluptatum.</p>
+                    <h3>Lorem ipsum dolor sit amet, con </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aut deleniti dicta doloremque, officiis quam repellendus tempore ullam! Aperiam architecto assumenda commodi consectetur est eum excepturi libero magnam voluptatum.</p>
+                    <h3>Lorem ipsum dolor sit amet, con </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aut deleniti dicta doloremque, officiis quam repellendus tempore ullam! Aperiam architecto assumenda commodi consectetur est eum excepturi libero magnam voluptatum.</p>
+                    <h3>Lorem ipsum dolor sit amet, con </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aut deleniti dicta doloremque, officiis quam repellendus tempore ullam! Aperiam architecto assumenda commodi consectetur est eum excepturi libero magnam voluptatum.</p>
+                    <h3>Lorem ipsum dolor sit amet, con </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aut deleniti dicta doloremque, officiis quam repellendus tempore ullam! Aperiam architecto assumenda commodi consectetur est eum excepturi libero magnam voluptatum.</p>
+                    <h3>Lorem ipsum dolor sit amet, con </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aut deleniti dicta doloremque, officiis quam repellendus tempore ullam! Aperiam architecto assumenda commodi consectetur est eum excepturi libero magnam voluptatum.</p>
+                    <h3>Lorem ipsum dolor sit amet, con </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aut deleniti dicta doloremque, officiis quam repellendus tempore ullam! Aperiam architecto assumenda commodi consectetur est eum excepturi libero magnam voluptatum.</p>
+                    <h3>Lorem ipsum dolor sit amet, con </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aut deleniti dicta doloremque, officiis quam repellendus tempore ullam! Aperiam architecto assumenda commodi consectetur est eum excepturi libero magnam voluptatum.</p>
+                    <h3>Lorem ipsum dolor sit amet, con </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aut deleniti dicta doloremque, officiis quam repellendus tempore ullam! Aperiam architecto assumenda commodi consectetur est eum excepturi libero magnam voluptatum.</p>
+                    <h3>Lorem ipsum dolor sit amet, con </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aut deleniti dicta doloremque, officiis quam repellendus tempore ullam! Aperiam architecto assumenda commodi consectetur est eum excepturi libero magnam voluptatum.</p>
+                    <h3>Lorem ipsum dolor sit amet, con </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aut deleniti dicta doloremque, officiis quam repellendus tempore ullam! Aperiam architecto assumenda commodi consectetur est eum excepturi libero magnam voluptatum.</p>
+                    <h3>Lorem ipsum dolor sit amet, con </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aut deleniti dicta doloremque, officiis quam repellendus tempore ullam! Aperiam architecto assumenda commodi consectetur est eum excepturi libero magnam voluptatum.</p>
+                    <h3>Lorem ipsum dolor sit amet, con </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aut deleniti dicta doloremque, officiis quam repellendus tempore ullam! Aperiam architecto assumenda commodi consectetur est eum excepturi libero magnam voluptatum.</p>
+                    <h3>Lorem ipsum dolor sit amet, con </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci aut deleniti dicta doloremque, officiis quam repellendus tempore ullam! Aperiam architecto assumenda commodi consectetur est eum excepturi libero magnam voluptatum.</p>
 
 
 
-                    <div id="accordion" role="tablist" aria-multiselectable="true">
-
-                        <div class="panel panel-default">
-
-                            <h4 class="panel-heading">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#tab-mision"> MISIÓN </a>
-
-                            </h4>
-                            <div id="tab-mision" class="panel-collapse collapse in">
-                                <?php echo $dataNosotros["mision"]; ?>
-
-
-                            </div>
-                        </div>
-
-
-                        <div class="panel panel-default">
-                            <h4 class="panel-heading">
-
-                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#tab-vision" >VISIÓN</a>
-
-                            </h4>
-                            <div id="tab-vision" class="panel-collapse collapse">
-                                <?php echo $dataNosotros["vision"]; ?>
-
-
-                            </div>
-                        </div>
-
-
-                        <div class="panel panel-default">
-                            <h4 class="panel-heading">
-
-                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#tab-valores" >
-                                    VALORES
-                                </a>
-
-                            </h4>
-                            <div id="tab-valores" class="panel-collapse collapse">
-                                <?php echo $dataNosotros["valores"]; ?>
-
-                            </div>
-                        </div>
-                    </div>
 
                 </article>
                 <aside class="col-md-4">
