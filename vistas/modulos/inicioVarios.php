@@ -10,7 +10,7 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
             <div class="row ">
                 <article class="col-md-4 wow bounceInLeft" data-wow-delay=".3s">
                     <img src="<?php echo $servidor; ?>/vistas/img/plantilla/TipsFinancieros.png" alt="Tip Financieros">
-                    <h3><a href="#"> Tips Financieros </a></h3>
+                    <h3><a href="tips"> Tips Financieros </a></h3>
     
 
                 </article>

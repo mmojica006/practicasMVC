@@ -97,6 +97,9 @@ if (isset($_GET['ruta'])) {
         elseif ($rutas[0]=="productos"){
         include "modulos/productos.php";
     }
+    elseif ($rutas[0]=="tips"){
+        include "modulos/tipsFinancieros.php";
+    }
  
     else{
         include "modulos/error404.php";
