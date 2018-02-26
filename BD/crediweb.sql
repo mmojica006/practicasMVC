@@ -22,6 +22,38 @@ SET time_zone = "+00:00";
 -- Base de datos: `crediweb`
 --
 --
+-- Table structure for table `tbl_suscriptores`
+--
+
+CREATE TABLE `tbl_suscriptores` (
+  `id` int(11) PRIMARY KEY NOT NULL  AUTO_INCREMENT,
+  `nombre` text COLLATE utf8_spanish_ci  NULL,
+  `email` text COLLATE utf8_spanish_ci  NULL,
+  `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+
+
+-- Table structure for table `tbl_mensajes`
+--
+
+CREATE TABLE `tbl_mensajes` (
+  `id` int(11) PRIMARY KEY NOT NULL  AUTO_INCREMENT,
+  `nombre` text COLLATE utf8_spanish_ci  NULL,
+  `apellido` text COLLATE utf8_spanish_ci  NULL,
+  `cedula` text COLLATE utf8_spanish_ci  NULL,
+  `telefono` text COLLATE utf8_spanish_ci  NULL,
+  `ciudad` text COLLATE utf8_spanish_ci  NULL,
+  `monto` text COLLATE utf8_spanish_ci  NULL,
+  `email` text COLLATE utf8_spanish_ci  NULL,
+  `mensaje` text COLLATE utf8_spanish_ci  NULL,
+  `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+
+
+
+
 -- Table structure for table `tbl_canales`
 --
 

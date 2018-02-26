@@ -26,6 +26,7 @@
 
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/css/plugins/bootstrap.css">
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/css/plugins/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo $url; ?>vistas/css/plugins/sweetalert.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed" rel="stylesheet">
@@ -60,6 +61,7 @@
     <script src="<?php echo $url; ?>vistas/js/plugins/wow.min.js"></script>
 
     <script src="<?php echo $url; ?>vistas/js/plugins/smooth-scroll.min.js"></script>
+
 
     <!-- JQUERY VALIDATOR -->
     <script src="vistas/plugins/jquery.validate.js"></script>
