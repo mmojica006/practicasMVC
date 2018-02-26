@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b8e8b28-0ac6-4ebd-992e-55a52768d199" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BD/crediweb.sql" afterPath="$PROJECT_DIR$/BD/crediweb.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vistas/modulos/tipsFinancieros.php" afterPath="$PROJECT_DIR$/vistas/modulos/tipsFinancieros.php" />
-    </list>
+    <list default="true" id="5b8e8b28-0ac6-4ebd-992e-55a52768d199" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,8 +75,8 @@
       <file leaf-file-name="crediweb.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BD/crediweb.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            <state relative-caret-position="221">
+              <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -404,12 +401,12 @@
       <workItem from="1519423650502" duration="606000" />
       <workItem from="1519429342278" duration="3639000" />
       <workItem from="1519654003781" duration="5160000" />
-      <workItem from="1519664400609" duration="1322000" />
+      <workItem from="1519664400609" duration="1352000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115419000" />
+    <option name="totallyTimeSpent" value="115449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -763,8 +760,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BD/crediweb.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        <state relative-caret-position="221">
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
           <folding />
         </state>
       </provider>
