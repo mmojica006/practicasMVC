@@ -64,7 +64,7 @@ $servidor = Ruta::ctrlRutaServidor();
                 <ul>
                     <li><a href="#">Contrato</a></li>
                     <li><a href="#">Tarifario</a></li>
-                    <li><a href="#">Preguntas Frecuentes</a></li>
+                    <li><a href="preguntas">Preguntas Frecuentes</a></li>
                 </ul>
 
 

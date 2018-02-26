@@ -22,12 +22,12 @@ $data = ControladorTipsPreguntas::ctrMostrarTipsPreguntas();
             <div class="row">
                 <article class="col-md-8">
 
-               <?php echo $data["tipsFinanc"]; ?>
+                    <?php echo $data["preguntas"]; ?>
 
 
                 </article>
                 <aside class="col-md-4">
-                    <img src="vistas/img/plantilla/tips.png" alt="Nosotros" class="img-fluid img-responsive"
+                    <img src="vistas/img/plantilla/fqa.jpg" alt="Nosotros" class="img-fluid img-responsive"
 
 
                 </aside>

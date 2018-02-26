@@ -23,7 +23,7 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
 
                 <article class="col-md-4 wow bounceInRight" data-wow-delay="1s">
                     <img src="<?php echo $servidor; ?>/vistas/img/plantilla/preguntasFrecuentes.png" alt="Requisitos para aplicar a un préstamo">
-                    <h3><a href="#">Preguntas Precuentes</a></h3>
+                    <h3><a href="preguntas">Preguntas Precuentes</a></h3>
 
                 </article>
 
