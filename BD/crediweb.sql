@@ -32,6 +32,7 @@ CREATE TABLE `tbl_adicional` (
   `tarifario` text COLLATE utf8_spanish_ci  NULL,
   `tarifarioEstado` INT COLLATE utf8_spanish_ci  NULL,
   `contratoEstado` INT COLLATE utf8_spanish_ci  NULL,
+  `contratoDesc` text COLLATE utf8_spanish_ci  NULL,
   `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 

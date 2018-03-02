@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b8e8b28-0ac6-4ebd-992e-55a52768d199" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vistas/modulos/tarifarioContrato.php" afterPath="$PROJECT_DIR$/vistas/modulos/tarifarioContrato.php" />
-    </list>
+    <list default="true" id="5b8e8b28-0ac6-4ebd-992e-55a52768d199" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +31,8 @@
       <file leaf-file-name="tarifarioContrato.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vistas/modulos/tarifarioContrato.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            <state relative-caret-position="106">
+              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -361,12 +359,12 @@
       <workItem from="1519678434640" duration="1019000" />
       <workItem from="1519680026343" duration="2915000" />
       <workItem from="1519686176741" duration="628000" />
-      <workItem from="1520025143945" duration="3653000" />
+      <workItem from="1520025143945" duration="3691000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123664000" />
+    <option name="totallyTimeSpent" value="123702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -739,8 +737,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vistas/modulos/tarifarioContrato.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        <state relative-caret-position="106">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding />
         </state>
       </provider>
