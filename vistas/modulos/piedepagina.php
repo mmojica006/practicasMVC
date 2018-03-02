@@ -65,7 +65,7 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
                 <h5>Información</h5>
                 <ul>
                 <?php  if ($dataTarifaContrato["tarifarioEstado"]== 1){ ?>
-                    <li><a href="#">Tarifario</a></li>
+                    <li><a href="tarContrato">Tarifario</a></li>
 
                     <?php } ?>
 

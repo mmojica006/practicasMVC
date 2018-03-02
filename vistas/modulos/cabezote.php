@@ -1,4 +1,5 @@
 <?php
+
 $servidor = Ruta::ctrlRutaServidor();
 $social = ControladorPlantilla::ctrlEstiloPlantilla();
 ?>
