@@ -30,8 +30,8 @@ CREATE TABLE `tbl_adicional` (
   `tipsFinanc` text COLLATE utf8_spanish_ci  NULL,
   `preguntas` text COLLATE utf8_spanish_ci  NULL,
   `tarifario` text COLLATE utf8_spanish_ci  NULL,
-  `tarifarioActivo` INT COLLATE utf8_spanish_ci  NULL,
-  `contratoActivo` INT COLLATE utf8_spanish_ci  NULL,
+  `tarifarioEstado` INT COLLATE utf8_spanish_ci  NULL,
+  `contratoEstado` INT COLLATE utf8_spanish_ci  NULL,
   `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 

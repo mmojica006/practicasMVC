@@ -1,5 +1,7 @@
 <?php
 $servidor = Ruta::ctrlRutaServidor();
+$dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
+
 
 ?>
 <footer class="piewebsite">
@@ -62,7 +64,12 @@ $servidor = Ruta::ctrlRutaServidor();
 
                 <h5>Información</h5>
                 <ul>
-                    <li><a href="#">Tarifario y Contrato</a></li>
+                <?php  if ($dataTarifaContrato["tarifarioEstado"]== 1){ ?>
+                    <li><a href="#">Tarifario</a></li>
+
+                    <?php } ?>
+
+                     <li><a href="#">Contrato</a></li>
 
                     <li><a href="preguntas">Preguntas Frecuentes</a></li>
                 </ul>
