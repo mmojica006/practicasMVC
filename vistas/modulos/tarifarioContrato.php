@@ -34,7 +34,7 @@ $data = ControladorTarifaContrato::ctrGetTarifaContrato();
 
                 </article>
                 <aside class="col-md-4">
-                    
+
                     <img src="vistas/img/plantilla/reporte.png" alt="Nosotros" class="img-fluid img-responsive"
 
 
