@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5b8e8b28-0ac6-4ebd-992e-55a52768d199" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BD/crediweb.sql" afterPath="$PROJECT_DIR$/BD/crediweb.sql" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +21,7 @@
       <file leaf-file-name="contacto.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vistas/modulos/contacto.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
+            <state relative-caret-position="2108">
               <caret line="124" column="51" lean-forward="false" selection-start-line="124" selection-start-column="51" selection-end-line="124" selection-end-column="51" />
               <folding />
             </state>
@@ -37,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="piedepagina.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="piedepagina.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vistas/modulos/piedepagina.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+            <state relative-caret-position="72">
+              <caret line="62" column="36" lean-forward="true" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
               <folding>
                 <marker date="1519682856989" expanded="true" signature="576:758" ph="..." />
                 <marker date="1519682856989" expanded="true" signature="624:753" ph="..." />
@@ -50,10 +51,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="crediweb.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BD/crediweb.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="inicioProductos.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vistas/modulos/inicioProductos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="833">
               <caret line="49" column="38" lean-forward="false" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
               <folding />
             </state>
@@ -92,16 +103,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="preguntas.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vistas/modulos/preguntas.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="54" lean-forward="false" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -115,7 +116,7 @@
       <file leaf-file-name="inicioVarios.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vistas/modulos/inicioVarios.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
+            <state relative-caret-position="374">
               <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
@@ -186,13 +187,13 @@
         <option value="$PROJECT_DIR$/modelos/contacto.modelo.php" />
         <option value="$PROJECT_DIR$/controladores/contacto.controlador.php" />
         <option value="$PROJECT_DIR$/vistas/modulos/tipsFinancieros.php" />
-        <option value="$PROJECT_DIR$/BD/crediweb.sql" />
         <option value="$PROJECT_DIR$/vistas/plantilla.php" />
         <option value="$PROJECT_DIR$/vistas/modulos/preguntas.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/vistas/modulos/contacto.php" />
         <option value="$PROJECT_DIR$/vistas/modulos/inicioVarios.php" />
         <option value="$PROJECT_DIR$/vistas/modulos/piedepagina.php" />
+        <option value="$PROJECT_DIR$/BD/crediweb.sql" />
       </list>
     </option>
   </component>
@@ -225,7 +226,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -252,8 +252,23 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practicasMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practicasMVC" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BD" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,18 +389,19 @@
       <workItem from="1519654003781" duration="5160000" />
       <workItem from="1519664400609" duration="1352000" />
       <workItem from="1519678434640" duration="1019000" />
-      <workItem from="1519680026343" duration="2879000" />
+      <workItem from="1519680026343" duration="2915000" />
+      <workItem from="1519686176741" duration="628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119347000" />
+    <option name="totallyTimeSpent" value="120011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26918977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.271855" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -610,9 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <marker date="1519430941535" expanded="true" signature="1193:1211" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -620,15 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1428">
           <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding>
-            <marker date="1519660992669" expanded="true" signature="167:181" ph="select * fro... ${$tabla}" />
-            <marker date="1519660992669" expanded="true" signature="381:395" ph="select * fro... ${$tabla}" />
-            <marker date="1519660992669" expanded="true" signature="381:409" ph="select * fro... ${$tabla}" />
-            <marker date="1519660992669" expanded="true" signature="643:809" ph="INSERT INTO ${$tabla}... " />
-            <marker date="1519660992669" expanded="true" signature="1882:1948" ph="INSERT INTO ${$tabla}... " />
-            <marker date="1519660992669" expanded="true" signature="2564:2578" ph="select * fro... ${$tabla}" />
-            <marker date="1519660992669" expanded="true" signature="2564:2603" ph="select * fro... ${$tabla}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -636,7 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="75" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -644,15 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BD/crediweb.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -668,12 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="42" column="56" lean-forward="false" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
-          <folding>
-            <marker date="1519661176761" expanded="true" signature="3106:3455" ph="..." />
-            <marker date="1519661176761" expanded="true" signature="3126:3315" ph="{&quot;title&quot;: &quot;¡OK!&quot;...}" />
-            <marker date="1519661176761" expanded="true" signature="3343:3438" ph="{...}" />
-            <marker date="1519661176761" expanded="true" signature="3369:3429" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -729,7 +717,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vistas/modulos/contacto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
+        <state relative-caret-position="2108">
           <caret line="124" column="51" lean-forward="false" selection-start-line="124" selection-start-column="51" selection-end-line="124" selection-end-column="51" />
           <folding />
         </state>
@@ -737,7 +725,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vistas/modulos/inicioProductos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="833">
           <caret line="49" column="38" lean-forward="false" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
           <folding />
         </state>
@@ -745,7 +733,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vistas/modulos/inicioVarios.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
+        <state relative-caret-position="374">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
@@ -753,12 +741,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vistas/modulos/piedepagina.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="67" column="21" lean-forward="true" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        <state relative-caret-position="72">
+          <caret line="62" column="36" lean-forward="true" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
           <folding>
             <marker date="1519682856989" expanded="true" signature="576:758" ph="..." />
             <marker date="1519682856989" expanded="true" signature="624:753" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BD/crediweb.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
