@@ -499,7 +499,10 @@ ESTILOS PAGINA NOSOTROS
 --------------------------------------------*/
 
 .paginas-internas .bienvenidos {
-  height: 50vh;
+  background-image: url("../img/plantilla/header-bg.png");
+  background-size: cover;
+  background-color: #2196F3 !important;
+  height: 25vh;
 }
 .paginas-internas .ruta {
   background: $principal;
@@ -605,15 +608,15 @@ ESTILOS PAGINA PRODUCTOS Y SERVICIOS
 QUIENES SOMOS
 --------------------------------------------*/
 
-.bienvenidos_quienes_somos {
-    background: url("../../backend/vistas/img/plantilla/fondo-encabezado.jpg") no-repeat center top;
-    color: #fff;
-    background-size: cover;
-    background-attachment: fixed !important;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-}
+//.bienvenidos_quienes_somos {
+//    background: url("../../backend/vistas/img/plantilla/fondo-encabezado.jpg") no-repeat center top;
+//    color: #fff;
+//    background-size: cover;
+//    background-attachment: fixed !important;
+//    height: 50vh;
+//    display: flex;
+//    flex-direction: column;
+//}
 
 
 /*---------------------------------

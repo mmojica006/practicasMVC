@@ -4,6 +4,10 @@ $urlFrontEnd = Ruta::ctrlRuta();
 $social = ControladorPlantilla::ctrlEstiloPlantilla();
 $market = ControladorCanales::ctrGetMarcadores();
 $xmlDirecciones = $servidor.'vistas/files/markers.xml';
+//$keyOld=AIzaSyDAMly39xKOZsO_I43smh7sWafFU7GvMMo;
+
+
+
 
 $urlMarkers = $urlFrontEnd.'controladores/markers.xml';
 
@@ -23,7 +27,7 @@ $urlMarkers = $urlFrontEnd.'controladores/markers.xml';
 
 
 <div class="paginas-internas" >
-    <section class="bienvenidos" style="background: url('<?php echo $servidor; ?>vistas/img/plantilla/paginaExternaCanales.png');no-repeat center top;background-size: cover">
+    <section class="bienvenidos" >
 
 
 
@@ -103,7 +107,7 @@ $urlMarkers = $urlFrontEnd.'controladores/markers.xml';
         var infoWindow = new google.maps.InfoWindow;
 
           // Change this depending on the name of your PHP or XML file
-        //  downloadUrl('https://storage.googleapis.com/mapsdevsite/json/mapmarkers2.xml', function(data) {
+         // downloadUrl('https://storage.googleapis.com/mapsdevsite/json/mapmarkers2.xml', function(data) {
             downloadUrl('<?php echo $xmlDirecciones; ?>', function(data) {
             var xml = data.responseXML;
             var markers = xml.documentElement.getElementsByTagName('marker');
@@ -159,5 +163,5 @@ $urlMarkers = $urlFrontEnd.'controladores/markers.xml';
       function doNothing() {}
     </script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAMly39xKOZsO_I43smh7sWafFU7GvMMo&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbP9IWuow_n2F1_Q7A20NJe29W_Qom4nw&callback=initMap">
     </script>

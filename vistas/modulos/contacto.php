@@ -1,5 +1,6 @@
 <?php
 $dataContacto  = ControladorContacto::ctrMostrarContracto();
+$servidor = Ruta::ctrlRutaServidor();
 
 if($dataContacto['imgFondo'] != ''){
     $fondoUrl = $servidor.$dataContacto['imgFondo'];
@@ -13,9 +14,7 @@ if($dataContacto['imgFondo'] != ''){
  
 <div class="paginas-internas">
 
-    <section class="bienvenidos" style="background: url('<?php echo $fondoUrl;  ?>');no-repeat center top;background-size: cover">
-
-
+    <section class="bienvenidos" >
 
 
         <div class="texto-encabezado text-xs-center">

@@ -184,7 +184,7 @@ SECCION AGENCIA
   padding-bottom: 0 !important; }
 
 /*----------------------------
-SECCION TU MEJOR ELECCIÓN
+SECCION TU MEJOR ELECCI├ôN
 ----------------------------*/
 .tu-mejor-eleccion h2 span {
   color: #009bd3; }
@@ -256,7 +256,7 @@ SECCION NOTICIAS
   color: #009bd3; }
 
 /*---------------------------------
-SECCION ÚLTIMOS PROYECTOS
+SECCION ├ÜLTIMOS PROYECTOS
 ------------------------------------*/
 .ultimos-proyectos a {
   text-decoration: none; }
@@ -444,7 +444,10 @@ SECCION REDES SOCIALES
 ESTILOS PAGINA NOSOTROS
 --------------------------------------------*/
 .paginas-internas .bienvenidos {
-  height: 50vh; }
+  background-image: url("../img/plantilla/header-bg.png");
+  background-size: cover;
+  background-color: #2196F3 !important;
+  height: 25vh; }
 
 .paginas-internas .ruta {
   background: #009bd3;
@@ -535,15 +538,6 @@ ESTILOS PAGINA PRODUCTOS Y SERVICIOS
 /*---------------------------------------------
 QUIENES SOMOS
 --------------------------------------------*/
-.bienvenidos_quienes_somos {
-  background: url("../../backend/vistas/img/plantilla/fondo-encabezado.jpg") no-repeat center top;
-  color: #fff;
-  background-size: cover;
-  background-attachment: fixed !important;
-  height: 50vh;
-  display: flex;
-  flex-direction: column; }
-
 /*---------------------------------
 SECCION CONTACTENOS
 ------------------------------------*/
