@@ -128,6 +128,7 @@ if (isset($_GET['ruta'])) {
 <script src="<?php echo $url; ?>vistas/js/canalesServicio.js"></script>
 <script src="<?php echo $url; ?>vistas/js/productos.js"></script>
 <script src="<?php echo $url; ?>vistas/js/contacto.js"></script>
+<script src="<?php echo $url; ?>vistas/js/quienesSomos.js"></script>
 
 
 </body>

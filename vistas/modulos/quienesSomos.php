@@ -3,6 +3,7 @@ $servidor = Ruta::ctrlRutaServidor();
 $social = ControladorPlantilla::ctrlEstiloPlantilla();
 $dataNosotros = ControladorNosotros::ctrMostrarNosotros();
 
+
 if($dataNosotros['imgFondo'] != ''){
     $fondoUrl = $servidor.$dataNosotros['imgFondo'];
 }else{
@@ -57,7 +58,8 @@ if($dataNosotros['imgFondo'] != ''){
 
                             </h4>
                             <div id="tab-mision" class="panel-collapse collapse in">
-                              <?php echo $dataNosotros["mision"]; ?>
+
+                             <div class="imgMision"> <?php echo $dataNosotros["mision"]; ?></div>
 
 
                             </div>
@@ -107,3 +109,5 @@ if($dataNosotros['imgFondo'] != ''){
 
 
 </div>
+
+
