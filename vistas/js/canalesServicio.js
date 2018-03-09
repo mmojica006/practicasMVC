@@ -13,3 +13,23 @@ function makeRequest(url, callback) {
     request.open("GET", url, true);
     request.send();
 }
+
+
+
+var  urlServer='';
+$.post("ajax/nosotros.ajax.php", {"action": "urlServer"}, function(result){
+
+
+    $.each($('#descriptionCanalesimg'),function() {
+        var src = $(this).attr("src"); //$('#tab-mision img').attr('src');
+        if (!result.includes("localhost")){
+            $(this).attr('src',result.slice(0,-1)+src);
+        }
+    });
+
+
+
+
+
+
+});

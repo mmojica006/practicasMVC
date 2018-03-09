@@ -1,5 +1,7 @@
 <?php
 $servidor = Ruta::ctrlRutaServidor();
+$dataCanales = ControladorCanales::ctrMostrarCanales();
+
 $urlFrontEnd = Ruta::ctrlRuta();
 $social = ControladorPlantilla::ctrlEstiloPlantilla();
 $market = ControladorCanales::ctrGetMarcadores();
@@ -35,9 +37,8 @@ $urlMarkers = $urlFrontEnd.'controladores/markers.xml';
         <div class="texto-encabezado text-xs-center">
 
             <div class="container">
-                <h1 class="display-4">Sucursales en todo el país</h1>
-                <p class="wow bounceIn" data-wow-delay=".3s">Le invitamos a visitar nuestras sucursales de forma sencilla, ubique la sucursal más cercana
-                    en nuestro mapa para que realice su trámite de forma personalizada.</p>
+                <h1 class="display-4"><?php echo $dataCanales['bannertitulo']; ?></h1>
+                <p class="wow bounceIn" data-wow-delay=".3s"><?php echo $dataCanales['bannerdescripcion']; ?></p>
 
             </div>
 
@@ -49,7 +50,7 @@ $urlMarkers = $urlFrontEnd.'controladores/markers.xml';
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-xs-right">
-                    <a href="index.php">Inicio</a> » Canales de atención
+                    <a href="inicio">Inicio</a> » Canales de atención
 
                 </div>
             </div>
@@ -59,10 +60,10 @@ $urlMarkers = $urlFrontEnd.'controladores/markers.xml';
         <div class="container">
             <div class="row">
                 <article class="col-md-12">
-                    <h2 class="text-muted">Sucursales en todo el país</h2>
-                    <p>
-                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut cumque delectus, deserunt dolorem eos eum illo in magni maiores maxime modi mollitia nesciunt non numquam odio sint unde, velit?
-                    </p>
+                    <h2 class="text-muted"><?php echo $dataCanales['titulo']; ?></h2>
+
+                     <div id="descriptionCanales">   <?php echo $dataCanales['descripcion']; ?></div>
+
 
 
 
@@ -72,7 +73,7 @@ $urlMarkers = $urlFrontEnd.'controladores/markers.xml';
                 </article>
                 <aside class="col-md-12">
 
-                    <div id="map">test</div>
+                    <div id="map"></div>
 
                 </aside>
 

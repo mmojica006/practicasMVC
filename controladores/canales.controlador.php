@@ -4,6 +4,12 @@
 class ControladorCanales
 {
 
+    public function ctrMostrarCanales()
+    {
+        $tabla = "tbl_canales";
+        $respuesta = ModeloCanales::mdlMostrarCanales($tabla);
+        return $respuesta;
+    }
 
     public function ctrGetMarcadores()
     {
