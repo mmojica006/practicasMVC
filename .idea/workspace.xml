@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b8e8b28-0ac6-4ebd-992e-55a52768d199" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax/plantilla.ajax.php" afterPath="$PROJECT_DIR$/ajax/plantilla.ajax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controladores/canales.controlador.php" afterPath="$PROJECT_DIR$/controladores/canales.controlador.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modelos/canales.modelo.php" afterPath="$PROJECT_DIR$/modelos/canales.modelo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vistas/js/canalesServicio.js" afterPath="$PROJECT_DIR$/vistas/js/canalesServicio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vistas/js/quienesSomos.js" afterPath="$PROJECT_DIR$/vistas/js/quienesSomos.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vistas/modulos/canalesAtencion.php" afterPath="$PROJECT_DIR$/vistas/modulos/canalesAtencion.php" />
-    </list>
+    <list default="true" id="5b8e8b28-0ac6-4ebd-992e-55a52768d199" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +38,8 @@
       <file leaf-file-name="canalesServicio.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vistas/js/canalesServicio.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="75" lean-forward="false" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+            <state relative-caret-position="425">
+              <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -452,12 +444,12 @@
       <workItem from="1520371200001" duration="148000" />
       <workItem from="1520377430855" duration="4179000" />
       <workItem from="1520543647585" duration="3773000" />
-      <workItem from="1520551669065" duration="1443000" />
+      <workItem from="1520551669065" duration="2191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139338000" />
+    <option name="totallyTimeSpent" value="140086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -871,8 +863,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vistas/js/canalesServicio.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="75" lean-forward="false" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+        <state relative-caret-position="425">
+          <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="55" />
           <folding />
         </state>
       </provider>
