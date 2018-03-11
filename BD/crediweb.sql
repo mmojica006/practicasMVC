@@ -949,7 +949,7 @@ INSERT INTO `productos` (`id`, `id_categoria`, `id_subcategoria`, `tipo`, `ruta`
 --
 
 CREATE TABLE `slide` (
-  `id` int(11)  PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  `id` int(11)  PRIMARY KEY NOT NULL  AUTO_INCREMENT,
   `nombre` text COLLATE utf8_spanish_ci NOT NULL,
   `imgFondo` text COLLATE utf8_spanish_ci NOT NULL,
   `tipoSlide` text COLLATE utf8_spanish_ci NOT NULL,
