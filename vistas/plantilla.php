@@ -106,6 +106,9 @@ if (isset($_GET['ruta'])) {
     elseif ($rutas[0]=="tarContrato"){
         include "modulos/tarifarioContrato.php";
     }
+    elseif ($rutas[0]=="reclamo"){
+        include "modulos/reclamo.php";
+    }
  
     else{
         include "modulos/error404.php";

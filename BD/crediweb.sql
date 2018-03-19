@@ -21,9 +21,34 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `crediweb`
 --
+-- Table structure for table `tbl_reclamo`
+CREATE TABLE `tbl_reclamo` (
+  `id` int(11) PRIMARY KEY NOT NULL  AUTO_INCREMENT,
+  `Nombre` text COLLATE utf8_spanish_ci  NULL,
+  `Cedula` text COLLATE utf8_spanish_ci  NULL,
+  `Sucursal` text COLLATE utf8_spanish_ci  NULL,
+  `Descripcion` text COLLATE utf8_spanish_ci  NULL,
+  `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+-- Table structure for table `tbl_reclamo_info`
+
+CREATE TABLE `tbl_reclamo_info` (
+  `id` int(11) PRIMARY KEY NOT NULL  AUTO_INCREMENT,
+    `bannertitulo` text COLLATE utf8_spanish_ci  NULL,
+  `bannerdescripcion` text COLLATE utf8_spanish_ci  NULL,
+  `titulo` text COLLATE utf8_spanish_ci  NULL,
+  `descripcion` text COLLATE utf8_spanish_ci  NULL,
+  `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
 
 -- Table structure for table `tbl_adicional`
 --
+
+
+
+
 
 CREATE TABLE `tbl_adicional` (
   `id` int(11) PRIMARY KEY NOT NULL  AUTO_INCREMENT,
