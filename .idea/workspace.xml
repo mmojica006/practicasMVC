@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b8e8b28-0ac6-4ebd-992e-55a52768d199" name="Default" comment="">
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controladores/reclamo.controlador.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modelos/reclamo.modelo.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vistas/modulos/reclamo.php" />
@@ -9,6 +10,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BD/crediweb.sql" afterPath="$PROJECT_DIR$/BD/crediweb.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vistas/modulos/inicioVarios.php" afterPath="$PROJECT_DIR$/vistas/modulos/inicioVarios.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vistas/plantilla.php" afterPath="$PROJECT_DIR$/vistas/plantilla.php" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BD/crediweb.sql" afterPath="$PROJECT_DIR$/BD/crediweb.sql" />
+>>>>>>> 2f1df2a66d8ac625977593688daab6feb3b71ece
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,6 +27,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <splitter split-orientation="horizontal" split-proportion="0.38157895">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -72,6 +78,80 @@
         </leaf>
       </split-second>
     </splitter>
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="plantilla.ajax.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/plantilla.ajax.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="canalesServicio.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vistas/js/canalesServicio.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="3" lean-forward="false" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crediweb.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BD/crediweb.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="952" column="49" lean-forward="true" selection-start-line="952" selection-start-column="49" selection-end-line="952" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crediweb_BKP_ONLINE.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BD/crediweb_BKP_ONLINE.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14263">
+              <caret line="839" column="0" lean-forward="false" selection-start-line="839" selection-start-column="0" selection-end-line="843" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="canalesAtencion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vistas/modulos/canalesAtencion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1292">
+              <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="canales.controlador.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controladores/canales.controlador.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacto.controlador.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controladores/contacto.controlador.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> 2f1df2a66d8ac625977593688daab6feb3b71ece
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -107,6 +187,10 @@
       <find>bienvenidos_quienes_somos</find>
       <find>internas</find>
       <find>slide</find>
+<<<<<<< HEAD
+=======
+      <find>adicional</find>
+>>>>>>> 2f1df2a66d8ac625977593688daab6feb3b71ece
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,9 +237,12 @@
         <option value="$PROJECT_DIR$/controladores/canales.controlador.php" />
         <option value="$PROJECT_DIR$/vistas/modulos/canalesAtencion.php" />
         <option value="$PROJECT_DIR$/vistas/js/canalesServicio.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/vistas/modulos/reclamo.php" />
         <option value="$PROJECT_DIR$/vistas/plantilla.php" />
         <option value="$PROJECT_DIR$/vistas/modulos/inicioVarios.php" />
+=======
+>>>>>>> 2f1df2a66d8ac625977593688daab6feb3b71ece
         <option value="$PROJECT_DIR$/BD/crediweb.sql" />
       </list>
     </option>
@@ -168,8 +255,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="1358" />
+    <option name="y" value="-112" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -188,6 +275,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -214,9 +302,42 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
         </subPane>
       </pane>
       <pane id="Scope" />
+=======
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practicasMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practicasMVC" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practicasMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practicasMVC" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BD" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+>>>>>>> 2f1df2a66d8ac625977593688daab6feb3b71ece
       <pane id="Scratches" />
     </panes>
   </component>
@@ -349,12 +470,18 @@
       <workItem from="1520377430855" duration="4179000" />
       <workItem from="1520543647585" duration="3773000" />
       <workItem from="1520551669065" duration="2191000" />
+<<<<<<< HEAD
       <workItem from="1520865184696" duration="576000" />
       <workItem from="1521488663371" duration="5506000" />
+=======
+      <workItem from="1520785802915" duration="1261000" />
+      <workItem from="1520788390491" duration="287000" />
+>>>>>>> 2f1df2a66d8ac625977593688daab6feb3b71ece
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="146168000" />
   </component>
   <component name="ToolWindowManager">
@@ -362,6 +489,15 @@
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14925373" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <option name="totallyTimeSpent" value="141634000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1358" y="-112" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.195629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 2f1df2a66d8ac625977593688daab6feb3b71ece
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -412,6 +548,24 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/backend/vistas/img/plantilla/fondo-encabezado-grandeCE.jpg" />
+    <entry file="file://$PROJECT_DIR$/controladores/slide.controlador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modelos/conexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 2f1df2a66d8ac625977593688daab6feb3b71ece
     <entry file="file://$PROJECT_DIR$/BD/slide2018-01-31 06-24-14.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -614,6 +768,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vistas/plantilla.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+>>>>>>> 2f1df2a66d8ac625977593688daab6feb3b71ece
         </state>
       </provider>
     </entry>
@@ -642,26 +807,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+<<<<<<< HEAD
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vistas/modulos/contacto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1343">
+          <caret line="23" column="110" lean-forward="false" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="110" />
+>>>>>>> 2f1df2a66d8ac625977593688daab6feb3b71ece
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controladores/contacto.controlador.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <marker date="1519661176761" expanded="true" signature="3106:3455" ph="..." />
-            <marker date="1519661176761" expanded="true" signature="3126:3315" ph="{&quot;title&quot;: &quot;¡OK!&quot;...}" />
-            <marker date="1519661176761" expanded="true" signature="3343:3438" ph="{...}" />
-            <marker date="1519661176761" expanded="true" signature="3369:3429" ph="{...}" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controladores/canales.controlador.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="37" />
+        <state relative-caret-position="323">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -676,17 +846,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vistas/modulos/canalesAtencion.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1105">
           <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+=======
+        <state relative-caret-position="544">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+>>>>>>> 2f1df2a66d8ac625977593688daab6feb3b71ece
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BD/crediweb_BKP_ONLINE.sql">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="254">
           <caret line="832" column="20" lean-forward="true" selection-start-line="832" selection-start-column="20" selection-end-line="832" selection-end-column="20" />
           <folding />
+=======
+        <state relative-caret-position="153">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="3" />
+>>>>>>> 2f1df2a66d8ac625977593688daab6feb3b71ece
         </state>
       </provider>
     </entry>
@@ -708,16 +888,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vistas/modulos/contacto.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="204">
           <caret line="34" column="53" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="150" selection-end-column="10" />
+=======
+        <state relative-caret-position="1292">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BD/crediweb_BKP_ONLINE.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14263">
+          <caret line="839" column="0" lean-forward="false" selection-start-line="839" selection-start-column="0" selection-end-line="843" selection-end-column="0" />
+>>>>>>> 2f1df2a66d8ac625977593688daab6feb3b71ece
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vistas/js/canalesServicio.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="55" />
+        <state relative-caret-position="578">
+          <caret line="34" column="3" lean-forward="false" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BD/crediweb.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="952" column="49" lean-forward="true" selection-start-line="952" selection-start-column="49" selection-end-line="952" selection-end-column="49" />
           <folding />
         </state>
       </provider>
