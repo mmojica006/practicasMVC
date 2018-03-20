@@ -1,14 +1,5 @@
 <?php
-$dataContacto  = ControladorContacto::ctrMostrarContracto();
-$servidor = Ruta::ctrlRutaServidor();
-
-if($dataContacto['imgFondo'] != ''){
-    $fondoUrl = $servidor.$dataContacto['imgFondo'];
-}else{
-    $fondoUrl = $servidor.'vistas/img/plantilla/default/back_default_blue.jpg';
-}
-
-
+$dataReclamo  = ControladorReclamo::ctrMostrarReclamo();
 ?>
 
 
@@ -20,8 +11,8 @@ if($dataContacto['imgFondo'] != ''){
         <div class="texto-encabezado text-xs-center">
 
             <div class="container">
-                <h1 class="display-4"><?php echo $dataContacto['bannertitulo']; ?></h1>
-                <p class="wow bounceIn" data-wow-delay=".3s"><?php echo $dataContacto['bannerdescripcion']; ?></p>
+                <h1 class="display-4"><?php echo $dataReclamo['bannertitulo']; ?></h1>
+                <p class="wow bounceIn" data-wow-delay=".3s"><?php echo $dataReclamo['bannerdescripcion']; ?></p>
 
             </div>
 
@@ -33,7 +24,7 @@ if($dataContacto['imgFondo'] != ''){
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-xs-right">
-                    <a href="index.html">Inicio</a> » Reclamo
+                    <a href="index.php">Inicio</a> » Reclamo
 
                 </div>
             </div>
@@ -47,7 +38,7 @@ if($dataContacto['imgFondo'] != ''){
                     <h2 class="m-b-2 text-muted">Formulario de Reclamo</h2>
 
 
-                    <form action="#" id="contactForm" method="post" onsubmit="return validarMensaje()">
+                    <form action="#" id="reclamoForm" method="post" onsubmit="return validarMensaje()">
 
                         <div class="form-group row">
                             <label for="nombre" class="col-md-4 col-form-label">Nombre</label>
@@ -67,7 +58,7 @@ if($dataContacto['imgFondo'] != ''){
                         </div>
 
                         <div class="form-group row">
-                            <label for="telefono" class="col-md-4 col-form-label">Sucursal</label>
+                            <label for="sucursal" class="col-md-4 col-form-label">Sucursal</label>
 
                             <div class="col-md-8">
                                 <input class="form-control" type="text" id="sucursal" name="sucursal" placeholder="Ingrese la sucursal" data-toggle="tooltip" data-placement="top" title="Ingrese la sucursal" required>
@@ -81,7 +72,7 @@ if($dataContacto['imgFondo'] != ''){
                             <label for="mensaje" class="col-md-4 col-form-label">Mensaje</label>
 
                             <div class="col-md-8">
-                                <textarea class="form-control" rows="5" id="descripcion" name="descripcion" placeholder="Ingrese una descripción" data-toggle="tooltip" data-placement="top" title="Ingrese una descripción" required></textarea>
+                                <textarea class="form-control" rows="5" id="mensaje" name="mensaje" placeholder="Ingrese una descripción" data-toggle="tooltip" data-placement="top" title="Ingrese una descripción" required></textarea>
 
                             </div>
                         </div>
@@ -96,15 +87,15 @@ if($dataContacto['imgFondo'] != ''){
                     </form>
 
                     <?php
-                    $mensajes = new ControladorContacto();
+                    $mensajes = new ControladorReclamo();
                     $mensajes->ctrRegistroMensajes(); //Enviar las variables del post que estan en los atributos name
                     ?>
 
 
                 </div>
                 <div class="col-md-4">
-                    <h5 class="text-muted"><?php echo $dataContacto['titulo']; ?> </h5>
-                    <?php echo $dataContacto['descripcion']; ?>
+                    <h5 class="text-muted"><?php echo $dataReclamo['titulo']; ?> </h5>
+                    <?php echo $dataReclamo['descripcion']; ?>
 
                 </div>
 

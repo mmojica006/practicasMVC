@@ -1,17 +1,12 @@
-$('#contactForm').validate();
-
-
-
-/*VALIDAR MENSAJES*/
-function validarMensaje() {
+/**
+ * Created by Administrador on 3/20/2018.
+ */
+$('#reclamoForm').validate();
+function validarMensaje(){
 
     nombre = $('#nombre').val();
-    apellido = $('#apellido').val();
     cedula = $('#cedula').val();
-    telefono = $('#telefono').val();
-    ciudad = $('#ciudad').val();
-    monto = $('#monto').val();
-    email = $('#email').val();
+    sucursal = $('#sucursal').val();
     mensaje = $('#mensaje').val();
 
 
@@ -27,16 +22,6 @@ function validarMensaje() {
 
 
     }
-    if (apellido != "") {
-        var caracteres = apellido.length;
-        var expresion = /^[a-zA-Z\s]*$/;
-        if (!expresion.test(apellido)) {
-            $('#apellido').after('<div class="alert alert-warning">No se permiten números ni caracteres especiales.</div>');
-
-            return false;
-        }
-
-    }
 
     if (cedula != "") {
         var caracteres = cedula.length;
@@ -46,27 +31,19 @@ function validarMensaje() {
             return false;
         }
     }
-    if (telefono != "") {
 
 
-        var caracteres = telefono.length;
-        var expresion = /^[0-9\s]*$/;
+    if (sucursal != "") {
+        var caracteres = nombre.length;
+        var expresion = /^[a-zA-Z\s]*$/;
 
+        if (!expresion.test(sucursal)) {
+            $('#sucursal').after('<div class="alert alert-warning">No se permiten números ni caracteres especiales.</div>');
 
-        if (!expresion(telefono)) {
-            $('#telefono').after('<div class="alert alert-warning">No se permiten  caracteres especiales.</div>');
             return false;
         }
-    }
 
-    if (monto != "") {
-        var caracteres = monto.length;
-        var expresion = /^[0-9]+([.])?([0-9]+)?$/;
 
-        if (!expresion.test(monto)) {
-            $('#monto').after('<div class="alert alert-warning">No se permiten  caracteres especiales.</div>');
-            return false;
-        }
     }
 
     if (mensaje != "") {
@@ -80,11 +57,11 @@ function validarMensaje() {
     }
 
 
-
-    return true;
-
+return true;
 
 }
+
+
 
 
 function EsCedula(elTexto) {

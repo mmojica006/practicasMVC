@@ -78,9 +78,7 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
             </article>
 
             <article class="col-md-4 wow bounceInRight" data-wow-delay="1s">
-                <a href="#" class="operadora">
-                    <img src="<?php echo $servidor; ?>vistas/img/plantilla/centroAtencion.png" alt="">
-                </a>
+
                 <h3>MAPA SUCURSALES</h3>
                 <p class="hidden-sm-down">Desarrollamos campañas publicitarias para tus APP. Hacemos conocer tu marca en
                     el momento exacto para conseguir un mayor inpacto.</p>
