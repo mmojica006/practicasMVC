@@ -1,4 +1,5 @@
 <?php
+
 $servidor = Ruta::ctrlRutaServidor();
 $dataCanales = ControladorCanales::ctrMostrarCanales();
 
@@ -109,7 +110,7 @@ $urlMarkers = $urlFrontEnd.'controladores/markers.xml';
 
           // Change this depending on the name of your PHP or XML file
          // downloadUrl('https://storage.googleapis.com/mapsdevsite/json/mapmarkers2.xml', function(data) {
-            downloadUrl('<?php echo $xmlDirecciones; ?>', function(data) {
+            downloadUrl('http://frontend.fuprocec.org/vistas/files/markers.xml', function(data) {
             var xml = data.responseXML;
             var markers = xml.documentElement.getElementsByTagName('marker');
             Array.prototype.forEach.call(markers, function(markerElem) {
