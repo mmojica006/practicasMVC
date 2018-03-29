@@ -19,7 +19,7 @@ TOP
                 8749-1800
             </button>
 
-            <button type="button" class="boton-menu hidden-md-up" data-toggle="collapse" data-target="#menu-principal"
+            <button type="button" class="boton-menu  visible-xs " data-toggle="collapse" data-target="#menu-principal"
                     aria-expanded="false">
                 <i class="fa fa-bars" aria-hidden="true"></i></button>
 

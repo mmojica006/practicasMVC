@@ -24,7 +24,7 @@
     ?>
 
 
-    <link rel="stylesheet" href="<?php echo $url; ?>vistas/css/plugins/bootstrap.css">
+    <link rel="stylesheet" href="<?php echo $url; ?>vistas/css/plugins/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/css/plugins/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo $url; ?>vistas/css/plugins/sweetalert.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
