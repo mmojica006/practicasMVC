@@ -136,15 +136,12 @@ CREATE TABLE `tbl_nosotros` (
 
 CREATE TABLE `tbl_productos` (
   `id` int(11) PRIMARY KEY NOT NULL  AUTO_INCREMENT,
-  `bannertitulo` text COLLATE utf8_spanish_ci NOT NULL,
-  `bannerdescripcion` text COLLATE utf8_spanish_ci  NULL,
-  `crediPyme` text COLLATE utf8_spanish_ci  NULL,
-  `crediNegocios` text COLLATE utf8_spanish_ci  NULL,
-  `productivo` text COLLATE utf8_spanish_ci  NULL,
-  `microturbo` text COLLATE utf8_spanish_ci  NULL,
-  `turbo` text COLLATE utf8_spanish_ci  NULL,
-  `megaturbo` text COLLATE utf8_spanish_ci  NULL,
-  `imgFondo` text COLLATE utf8_spanish_ci NOT NULL,  
+   `titulo` text COLLATE utf8_spanish_ci  NULL,
+  `descripcion` text COLLATE utf8_spanish_ci  NULL,
+  `capitalTrabajo` text COLLATE utf8_spanish_ci  NULL,
+  `activoProductivo` text COLLATE utf8_spanish_ci  NULL,
+  `mejoraNegocio` text COLLATE utf8_spanish_ci  NULL,
+  `crediActivos` text COLLATE utf8_spanish_ci  NULL,
   `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
@@ -995,11 +992,9 @@ CREATE TABLE `slide` (
 --
 
 INSERT INTO `slide` (`id`, `nombre`, `imgFondo`, `tipoSlide`, `imgProducto`, `estiloImgProducto`, `estiloTextoSlide`, `titulo1`, `titulo2`, `titulo3`, `boton`, `url`, `orden`, `fecha`) VALUES
-(1, 'ZAPATOS AMARILLOS', 'vistas/img/slide/default/back_default.jpg', 'slideOpcion2', 'vistas/img/slide/slide1/calzado.png', '{\"top\":\"5\",\"right\":\"\",\"left\":\"5\",\"width\":\"50\"}', '{\"top\":\"20\",\"right\":\"10\",\"left\":\"\",\"width\":\"40\"}', '{\"texto\":\"Lorem Ipsum\",\"color\":\"#333\"}', '{\"texto\":\"Lorem ipsum dolor sit\",\"color\":\"#777\"}', '{\"texto\":\"Lorem ipsum dolor sit\",\"color\":\"#888\"}', 'VER PRODUCTO', '#', 1, '2018-01-31 22:46:41'),
-(2, 'CURSO', 'vistas/img/slide/default/back_default.jpg', 'slideOpcion2', 'vistas/img/slide/slide2/curso.png', '{\"top\":\"10\",\"right\":\"\",\"left\":\"15\",\"width\":\"30\"}', '{\"top\":\"15\",\"right\":\"15\",\"left\":\"\",\"width\":\"40\"}', '{\"texto\":\"Lorem Ipsum\",\"color\":\"#333\"}', '{\"texto\":\"Lorem ipsum dolor sit\",\"color\":\"#777\"}', '{\"texto\":\"Lorem ipsum dolor sit\",\"color\":\"#888\"}', 'VER PRODUCTO', '#', 2, '2018-01-31 22:45:01'),
-(3, 'MÓVIL', 'vistas/img/slide/slide3/fondo2.jpg', 'slideOpcion2', 'vistas/img/slide/slide3/iphone.png', '{\"top\":\"10\",\"right\":\"\",\"left\":\"10\",\"width\":\"35\"}', '{\"top\":\"15\",\"right\":\"15\",\"left\":\"\",\"width\":\"40\"}', '{\"texto\":\"Lorem Ipsum\",\"color\":\"#eee\"}', '{\"texto\":\"Lorem ipsum dolor sit\",\"color\":\"#ccc\"}', '{\"texto\":\"Lorem ipsum dolor sit\",\"color\":\"#aaa\"}', 'VER PRODUCTO', '#', 3, '2018-01-31 22:45:22'),
-(4, 'CHICA', 'vistas/img/slide/slide4/fondo3.jpg', 'slideOpcion1', '', '{\"top\":\"\",\"right\":\"\",\"left\":\"\",\"width\":\"\"}', '{\"top\":\"20\",\"right\":\"\",\"left\":\"10\",\"width\":\"40\"}', '{\"texto\":\"Lorem Ipsum\",\"color\":\"#333\"}', '{\"texto\":\"Lorem ipsum dolor sit\",\"color\":\"#777\"}', '{\"texto\":\"Lorem ipsum dolor sit\",\"color\":\"#888\"}', '', '', 4, '2018-01-31 22:46:04');
-
+(1, 'OPORTUNIDAD', 'vistas/img/slide/slide1/fondo.jpg', 'slideOpcion2', 'vistas/img/slide/slide1/producto.png', '{"top":"5","right":"","left":"15","width":"30"}', '{"top":"20","right":"10","left":"","width":"40"}', '{"texto":"SOMOS TU OPORTUNIDAD PARA CRECER","color":"#333"}', '{"texto":"TE OFRECEMOS EL CAPITAL DE TRABAJO PARA INVERTIR EN TU NEGOCIO","color":"#777777"}', '{"texto":"","color":"#888"}', 'Solicita tu prestamo', 'contacto', 1, '2018-03-20 21:56:03'),
+(2, 'BENEFICIOS', 'vistas/img/slide/slide2/fondo.jpg', 'slideOpcion1', 'vistas/img/slide/slide2/producto.png', '{"top":"0","right":"5","left":"","width":"30"}', '{"top":"5","right":"","left":"5","width":"40"}', '{"texto":"Tenemos los mejores beneficios","color":"#333"}', '{"texto":"APROBACION Y RENOVACION INMEDIATA","color":"#777"}', '{"texto":"<br>Sin fiador <br> Seguros gratis  <br>Acumulas puntos canjeables por premios","color":"#888"}', 'Link', 'productos', 2, '2018-03-12 14:36:07'),
+(6, 'PRESENCIA', 'vistas/img/slide/slide6/fondo.jpg', 'slideOpcion1', 'vistas/img/slide/slide6/producto.png', '{"top":"15","right":"10","left":"","width":"30"}', '{"top":"20","right":"","left":"15","width":"40"}', '{"texto":"Con presencia en toda Nicaragua","color":"#333"}', '{"texto":"Llegamos hasta tu negocio en cualquier parte de Nicaragua","color":"#777777"}', '{"texto":"","color":"#888"}', '#', '#', 3, '2018-03-26 21:51:37');
 -- --------------------------------------------------------
 
 --

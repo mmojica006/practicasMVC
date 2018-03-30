@@ -33,7 +33,7 @@ a:visited, a:link, a:focus, a:hover, a:active{
 }
 
 .bienvenidos {
-  background: url("../images/fondo-encabezadoCE.jpg") no-repeat center top;
+
   color: #fff;
   background-size: cover;
   background-attachment: fixed !important; 
@@ -41,7 +41,9 @@ a:visited, a:link, a:focus, a:hover, a:active{
   flex-direction: column;
   padding: 45px;
 }
-
+.panel, .panel-group .panel-heading+.panel-collapse>.panel-body{
+  border: none;
+}
 .barraSuperior{
   background:black;
 }
@@ -650,7 +652,7 @@ EMPIEZAN LAS MEDIAS QUERIES
   }
   #menu-principal ul li a {
     padding: .8rem;
-    text-transform: capitalize;
+    //text-transform: capitalize;
     margin: 0 .3rem;
     border-top: 0px;
     border-bottom: 4px solid transparent;
@@ -661,6 +663,7 @@ EMPIEZAN LAS MEDIAS QUERIES
     color: $principal;
     border-bottom: 4px solid
   }
+
   .boton-buscar {
     margin-left: 1rem;
     margin-right: 0;

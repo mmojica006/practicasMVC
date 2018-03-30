@@ -17,7 +17,7 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
 
                 <article class="col-md-4 wow bounceInUp" data-wow-delay=".6s">
                     <img src="<?php echo $servidor; ?>/vistas/img/plantilla/atencionUsuarios.png" alt="Requisitos para aplicar a un reclamo">
-                    <h3><a href="reclamo">Reclamos</a></h3>
+                    <h3><a href="reclamo">Atención a usuarios</a></h3>
 
                 </article>
 

@@ -18,7 +18,7 @@ if($dataNosotros['imgFondo'] != ''){
 
 
 
-        <div class="texto-encabezado text-xs-center">
+        <div class="texto-encabezado text-center">
 
             <div class="container">
                 <h1 class="display-4"><?php echo $dataNosotros["bannertitulo"]; ?></h1>
@@ -33,7 +33,7 @@ if($dataNosotros['imgFondo'] != ''){
     <section class="ruta py-1">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 text-xs-right">
+                <div class="col-xs-12 text-right">
                     <a href="index.php">Inicio</a> » Nosotros
 
                 </div>

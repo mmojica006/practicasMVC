@@ -24,20 +24,20 @@ a:visited, a:link, a:focus, a:hover, a:active {
   color: #ff592a; }
 
 .bienvenidos {
-  background: url("../images/fondo-encabezadoCE.jpg") no-repeat center top;
   color: #fff;
   background-size: cover;
   background-attachment: fixed !important;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 45px; }
+
+.panel, .panel-group .panel-heading + .panel-collapse > .panel-body {
+  border: none; }
 
 .barraSuperior {
   background: black; }
@@ -51,7 +51,7 @@ a:visited, a:link, a:focus, a:hover, a:active {
   color: #fff;
   padding: .5rem 0;
   -webkit-transition: all .5s ease;
-          transition: all .5s ease; }
+  transition: all .5s ease; }
 
 .encabezado.fondo-menu {
   background: #ffffff;
@@ -59,16 +59,13 @@ a:visited, a:link, a:focus, a:hover, a:active {
 
 .encabezado .container {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap; }
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
 
 .encabezado .logo img {
   width: 280px;
@@ -95,7 +92,6 @@ a:visited, a:link, a:focus, a:hover, a:active {
 /*Estilos bloque buscar*/
 #bloque-buscar {
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 100%;
       -ms-flex: 1 1 100%;
           flex: 1 1 100%; }
 
@@ -110,7 +106,6 @@ a:visited, a:link, a:focus, a:hover, a:active {
 
 .contenedor-bloque-buscar {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   height: 3rem;
@@ -121,13 +116,11 @@ a:visited, a:link, a:focus, a:hover, a:active {
   border-radius: 5px 0 0 5px;
   padding: 1rem;
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto; }
 
 .contenedor-bloque-buscar input[type="submit"] {
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   border: 0;
@@ -135,7 +128,6 @@ a:visited, a:link, a:focus, a:hover, a:active {
   background: #009bd3;
   color: #fff;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 1 auto;
       -ms-flex: 0 1 auto;
           flex: 0 1 auto;
   padding: 0 1rem; }
@@ -146,7 +138,6 @@ a:visited, a:link, a:focus, a:hover, a:active {
 
 #menu-principal {
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 100%;
       -ms-flex: 1 1 100%;
           flex: 1 1 100%; }
 
@@ -170,15 +161,12 @@ a:visited, a:link, a:focus, a:hover, a:active {
 
 .texto-encabezado {
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center; }
 
@@ -193,7 +181,7 @@ a:visited, a:link, a:focus, a:hover, a:active {
   background-color: #009500;
   border-color: transparent;
   -webkit-transition: all .5s ease;
-          transition: all .5s ease; }
+  transition: all .5s ease; }
 
 .btn-primary:hover,
 .btn-primary:focus,
@@ -246,7 +234,7 @@ SECCION AGENCIA
   padding-bottom: 0 !important; }
 
 /*----------------------------
-SECCION TU MEJOR ELECCI├ôN
+SECCION TU MEJOR ELECCIÓN
 ----------------------------*/
 .tu-mejor-eleccion h2 span {
   color: #009bd3; }
@@ -281,18 +269,15 @@ SECCION NOTICIAS
 
 .servicios article {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   margin: 1rem 0; }
 
 .servicios img {
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 60px;
       -ms-flex: 0 0 60px;
           flex: 0 0 60px;
   overflow: hidden;
@@ -302,7 +287,6 @@ SECCION NOTICIAS
   margin: 0;
   font-size: 1.1rem;
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   font-weight: bold; }
@@ -310,15 +294,12 @@ SECCION NOTICIAS
 .servicios h3 a {
   color: #009bd3;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -webkit-box-align: center;
-  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none; }
@@ -332,7 +313,7 @@ SECCION NOTICIAS
   position: relative;
   left: 0;
   -webkit-transition: all .5s ease;
-          transition: all .5s ease; }
+  transition: all .5s ease; }
 
 .servicios h3 a:hover::after {
   left: -.5rem;
@@ -340,7 +321,7 @@ SECCION NOTICIAS
   color: #009bd3; }
 
 /*---------------------------------
-SECCION ├ÜLTIMOS PROYECTOS
+SECCION ÚLTIMOS PROYECTOS
 ------------------------------------*/
 .ultimos-proyectos a {
   text-decoration: none; }
@@ -357,11 +338,9 @@ SECCION ├ÜLTIMOS PROYECTOS
 
 .ultimos-proyectos .owl-nav {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
   margin: .3rem 0; }
@@ -372,7 +351,7 @@ SECCION ├ÜLTIMOS PROYECTOS
   margin: 0 .5rem;
   color: #009bd3;
   -webkit-transition: all .5s ease;
-          transition: all .5s ease; }
+  transition: all .5s ease; }
 
 .ultimos-proyectos .owl-prev:hover,
 .ultimos-proyectos .owl-next:hover {
@@ -420,7 +399,7 @@ SECCION PIE DE PAGINA
   color: #9fa3a9;
   padding: 10px;
   -webkit-transition: 0.2s;
-          transition: 0.2s;
+  transition: 0.2s;
   line-height: 68px; }
 
 .piewebsite img {
@@ -433,33 +412,27 @@ SECCION PIE DE PAGINA
   color: #fff;
   font-size: 14px;
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto; }
 
 .piewebsite h3 a {
   color: #55595c;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
   -webkit-box-align: center;
-  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none; }
 
 .piewebsite .redes-sociales {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
   list-style: none;
@@ -472,7 +445,7 @@ SECCION PIE DE PAGINA
   margin: 0 .5rem;
   opacity: .7;
   -webkit-transition: all .5s ease;
-          transition: all .5s ease; }
+  transition: all .5s ease; }
 
 .ir-arriba {
   position: fixed;
@@ -485,7 +458,7 @@ SECCION PIE DE PAGINA
   line-height: 0;
   display: none;
   -webkit-transition: all .5s ease;
-          transition: all .5s ease; }
+  transition: all .5s ease; }
 
 .ir-arriba:hover,
 .ir-arriba:focus {
@@ -544,7 +517,6 @@ SECCION REDES SOCIALES
 
 .instagramColor {
   color: white;
-  background: -webkit-linear-gradient(45deg, #fca925, #ee1d5f, #6350a2);
   background: linear-gradient(45deg, #fca925, #ee1d5f, #6350a2); }
 
 .instagramBlanco {
@@ -584,7 +556,7 @@ ESTILOS PAGINA NOSOTROS
   border-radius: 5px;
   text-decoration: none;
   -webkit-transition: all .5s ease;
-          transition: all .5s ease; }
+  transition: all .5s ease; }
 
 .paginas-internas .panel .panel-heading a:hover {
   background: #009500;
@@ -644,7 +616,7 @@ ESTILOS PAGINA PRODUCTOS Y SERVICIOS
   color: #009bd3;
   margin-bottom: 1rem;
   -webkit-transition: all 1s ease;
-          transition: all 1s ease; }
+  transition: all 1s ease; }
 
 .paginas-internas .lista-servicios .item-servicios:hover .fa {
   -webkit-transform: rotateY(360deg);
@@ -669,30 +641,26 @@ EMPIEZAN LAS MEDIAS QUERIES
     height: auto !important;
     display: block;
     -webkit-box-flex: 0;
-    -webkit-flex: 0 1 auto;
         -ms-flex: 0 1 auto;
             flex: 0 1 auto;
     margin-left: auto;
     -webkit-box-ordinal-group: 2;
-    -webkit-order: 1;
         -ms-flex-order: 1;
             order: 1; }
 
   #menu-principal ul {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     margin: 0 0 0 0; }
 
   #menu-principal ul li a {
     padding: .8rem;
-    text-transform: capitalize;
     margin: 0 .3rem;
     border-top: 0px;
     border-bottom: 4px solid transparent;
     -webkit-transition: all 0.5s ease;
-            transition: all 0.5s ease; }
+    transition: all 0.5s ease; }
 
   #menu-principal ul li.active a,
   #menu-principal ul li a:hover {
@@ -703,13 +671,11 @@ EMPIEZAN LAS MEDIAS QUERIES
     margin-left: 1rem;
     margin-right: 0;
     -webkit-box-ordinal-group: 3;
-    -webkit-order: 2;
         -ms-flex-order: 2;
             order: 2; }
 
   #bloque-buscar {
     -webkit-box-ordinal-group: 4;
-    -webkit-order: 3;
         -ms-flex-order: 3;
             order: 3;
     position: absolute;
@@ -717,31 +683,28 @@ EMPIEZAN LAS MEDIAS QUERIES
     right: 3rem;
     top: 2.8rem;
     -webkit-transition: all 0.5s ease;
-            transition: all 0.5s ease; }
+    transition: all 0.5s ease; }
 
   .servicios article {
     margin: 1rem 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
     -webkit-box-align: center;
-    -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
     text-align: center; }
 
   .servicios img {
     -webkit-box-flex: 0;
-    -webkit-flex: 0 0 200px;
         -ms-flex: 0 0 200px;
             flex: 0 0 200px;
     overflow: hidden;
     margin-right: 0;
     margin-bottom: 1rem;
     -webkit-transition: all 1s ease;
-            transition: all 1s ease; }
+    transition: all 1s ease; }
 
   .servicios article:hover img {
     -webkit-transform: rotateY(360deg);
@@ -756,7 +719,6 @@ EMPIEZAN LAS MEDIAS QUERIES
     margin: 0 0 .5rem 0;
     font-size: 1.5rem;
     -webkit-box-flex: 0;
-    -webkit-flex: 0 1 auto;
         -ms-flex: 0 1 auto;
             flex: 0 1 auto;
     width: 100%; }
@@ -773,18 +735,15 @@ EMPIEZAN LAS MEDIAS QUERIES
 
   .paginas-internas .lista-servicios .col-md-4 {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
 
   .paginas-internas .lista-servicios .item-servicios {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column; }
 
@@ -803,7 +762,6 @@ EMPIEZAN LAS MEDIAS QUERIES
 
   .tu-mejor-eleccion ul li {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     min-height: 7rem; }
@@ -811,12 +769,11 @@ EMPIEZAN LAS MEDIAS QUERIES
   .tu-mejor-eleccion ul li .fa {
     text-align: center;
     -webkit-box-flex: 0;
-    -webkit-flex: 0 1 auto;
         -ms-flex: 0 1 auto;
             flex: 0 1 auto;
     margin-right: 1rem;
     -webkit-transition: all 1s ease;
-            transition: all 1s ease; }
+    transition: all 1s ease; }
 
   .tu-mejor-eleccion ul li:hover .fa {
     -webkit-transform: rotateY(360deg);
@@ -827,7 +784,6 @@ EMPIEZAN LAS MEDIAS QUERIES
 
   .contenedor-eleccion {
     -webkit-box-flex: 1;
-    -webkit-flex: 1 0 0px;
         -ms-flex: 1 0 0px;
             flex: 1 0 0px; }
 
@@ -837,7 +793,6 @@ EMPIEZAN LAS MEDIAS QUERIES
 
   .tu-mejor-eleccion ul:first-child .fa {
     -webkit-box-ordinal-group: 2;
-    -webkit-order: 1;
         -ms-flex-order: 1;
             order: 1;
     margin-left: 1rem;

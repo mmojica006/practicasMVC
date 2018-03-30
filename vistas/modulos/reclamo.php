@@ -8,7 +8,7 @@ $dataReclamo  = ControladorReclamo::ctrMostrarReclamo();
     <section class="bienvenidos" >
 
 
-        <div class="texto-encabezado text-xs-center">
+        <div class="texto-encabezado text-center">
 
             <div class="container">
                 <h1 class="display-4"><?php echo $dataReclamo['bannertitulo']; ?></h1>
@@ -23,7 +23,7 @@ $dataReclamo  = ControladorReclamo::ctrMostrarReclamo();
     <section class="ruta py-1">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 text-xs-right">
+                <div class="col-xs-12 text-right">
                     <a href="index.php">Inicio</a> » Reclamo
 
                 </div>

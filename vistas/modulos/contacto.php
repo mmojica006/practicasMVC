@@ -17,7 +17,7 @@ if($dataContacto['imgFondo'] != ''){
     <section class="bienvenidos" >
 
 
-        <div class="texto-encabezado text-xs-center">
+        <div class="texto-encabezado text-center">
 
             <div class="container">
                 <h1 class="display-4"><?php echo $dataContacto['bannertitulo']; ?></h1>
@@ -32,7 +32,7 @@ if($dataContacto['imgFondo'] != ''){
     <section class="ruta py-1">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 text-xs-right">
+                <div class="col-xs-12 text-right">
                     <a href="index.html">Inicio</a> » Contacto
 
                 </div>

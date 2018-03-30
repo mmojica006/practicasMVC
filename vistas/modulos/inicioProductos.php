@@ -6,8 +6,8 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
 <section class="tu-mejor-eleccion py-1">
     <div class="container">
 
-        <h2 class="h3 text-xs-center font-weight-bold">Productos </h2>
-        <p class="text-xs-center">
+        <h2 class="h3 text-center font-weight-bold">Productos </h2>
+        <p class="text-center">
             Nuestro modelo contempla un enfoque integrado y orientado a la inclusión financiera, dirigido a
 aquellas personas que se dedican a la venta comercial u oferta de servicios.
         </p>
@@ -18,24 +18,18 @@ aquellas personas que se dedican a la venta comercial u oferta de servicios.
            <!--          <i class="fa fa-bullhorn" aria-hidden="true"></i> -->
 
                     <div class="contenedor-eleccion">
-                        <h4>CrediPyme</h4>
+                        <h4>Capital de Trabajo</h4>
                         <p class="hidden-md-down"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque   </p>
                     </div>
                 </li>
                 <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".7s">
                     <!--  <i class="fa fa-briefcase" aria-hidden="true"></i> -->
                     <div class="contenedor-eleccion">
-                        <h4>CrediNegocios</h4>
-                        <p class="hidden-md-down">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.</p>
-                    </div>
-                </li>
-                            <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".7s">
-                 <!--   <i class="fa fa-users" aria-hidden="true"></i> -->
-                    <div class="contenedor-eleccion">
                         <h4>Activo Productivo</h4>
                         <p class="hidden-md-down">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.</p>
                     </div>
                 </li>
+
 
             </ul>
 
@@ -47,24 +41,18 @@ aquellas personas que se dedican a la venta comercial u oferta de servicios.
                 <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".5s">
            <!--   <i class="fa fa-tachometer" aria-hidden="true"></i> -->
                     <div class="contenedor-eleccion">
-                        <h4>Microturbo</h4>
+                        <h4>Mejora de Negocio</h4>
                         <p class="hidden-md-down">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </p>
                     </div>
                 </li>
                 <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".9s">
                    <!--  <i class="fa fa-line-chart" aria-hidden="true"></i> -->
                     <div class="contenedor-eleccion">
-                        <h4>Turbo</h4>
+                        <h4>CrediActivos</h4>
                         <p class="hidden-md-down">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </p>
                     </div>
                 </li>
-                       <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".9s">
-                   <!--  <i class="fa fa-bar-chart" aria-hidden="true"></i> -->
-                    <div class="contenedor-eleccion">
-                        <h4>Mega turbo</h4>
-                        <p class="hidden-md-down">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque </p>
-                    </div>
-                </li>
+
 
             </ul>
         </div>
