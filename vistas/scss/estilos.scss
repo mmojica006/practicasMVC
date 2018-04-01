@@ -32,6 +32,19 @@ a:visited, a:link, a:focus, a:hover, a:active{
   color: #ff592a;
 }
 
+.block-ellipsis {
+  display: block;
+  display: -webkit-box;
+  max-width: 100%;
+  height: 40px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 1;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .bienvenidos {
 
   color: #fff;
@@ -128,8 +141,20 @@ a:visited, a:link, a:focus, a:hover, a:active{
   padding: 0 1rem;
 }
 .container .beneficios{
-  width: 360px;
-  height: auto;
+  padding: 0 10px 10px 80px;
+  width: 300px;
+}
+h4 a{
+  color: #009bd3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+h4 a:hover{
+  color: #1783c4;
+  text-decoration: underline;
+
 }
 #menu-principal {
   flex: 1 1 100%;
@@ -572,7 +597,7 @@ ESTILOS PAGINA PRODUCTOS Y SERVICIOS
 
 .paginas-internas .left-navigation li {
   position: relative;
-  padding-left: 20px;
+  padding-left: 30px;
   margin-bottom: 10px
 }
 
@@ -581,10 +606,14 @@ ESTILOS PAGINA PRODUCTOS Y SERVICIOS
   top: 0;
   left: 0;
   font-family: FontAwesome;
-  content: "\f058";
-  color: green;
+  content: "\f0a9";
+  color: deepskyblue;
+  font-size: 20px;
 }
 
+.paginas-internas .menuProducto ul li a h4 small:hover{
+  color: #1783C4;
+}
 
 
 

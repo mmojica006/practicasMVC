@@ -8,7 +8,7 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
     <div class="container">
 
         <div class="row">
-            <div class="col-sm-2">
+            <div class="col-sm-3">
 
                 <ul class="redes-sociales text-xs-center">
                     <?php
@@ -34,7 +34,7 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
                 <button type="button" class="btn btn-default">Contáctenos</button>
             </div>
 
-            <article class="col-md-2 wow bounceInLeft" data-wow-delay=".3s">
+            <article class="col-md-3 wow bounceInLeft" data-wow-delay=".3s">
                 <h5>Menu</h5>
                 <ul>
                     <li><a href="#">Inicio</a></li>
@@ -46,21 +46,21 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
             </article>
 
 
-            <article class="col-md-2 wow bounceInUp" data-wow-delay=".6s">
+            <article class="col-md-3 wow bounceInUp" data-wow-delay=".6s">
 
                 <h5>Productos</h5>
                 <ul>
-                    <li><a href="#">Microcréditos</a></li>
-                    <li><a href="#">Microturbo</a></li>
-                    <li><a href="#">Turbo</a></li>
-                    <li><a href="#">Desarrollo empresarial</a></li>
+                    <li><a href="#">Capital de trabajo</a></li>
                     <li><a href="#">Activo Productivo</a></li>
+                    <li><a href="#">Mejora de Negocio</a></li>
+                    <li><a href="#">CrediActivos</a></li>
+
                 </ul>
 
 
             </article>
 
-            <article class="col-md-2 wow bounceInUp" data-wow-delay=".6s">
+            <article class="col-md-3 wow bounceInUp" data-wow-delay=".6s">
 
                 <h5>Información</h5>
                 <ul>
@@ -69,7 +69,7 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
 
                     <?php } ?>
 
-                     <li><a href="#">Contrato</a></li>
+                     <li><a href="tarContrato">Contrato</a></li>
 
                     <li><a href="preguntas">Preguntas Frecuentes</a></li>
                 </ul>
@@ -77,13 +77,7 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
 
             </article>
 
-            <article class="col-md-4 wow bounceInRight" data-wow-delay="1s">
 
-                <h3>MAPA SUCURSALES</h3>
-                <p class="hidden-sm-down">Desarrollamos campañas publicitarias para tus APP. Hacemos conocer tu marca en
-                    el momento exacto para conseguir un mayor inpacto.</p>
-                <a href="#" class="btn btn-primary hidden-sm-down">Más información</a>
-            </article>
 
         </div>
 

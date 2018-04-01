@@ -3,11 +3,7 @@ $dataProducto  = ControladorProducto::ctrMostrarProductos();
 
 
 
-if($dataProducto['imgFondo'] != ''){
-    $fondoUrl = $servidor.$dataProducto['imgFondo'];
-}else{
-     $fondoUrl = $servidor.'vistas/img/plantilla/default/back_default_blue.jpg';
-}
+
 
 
 ?>
@@ -22,8 +18,8 @@ if($dataProducto['imgFondo'] != ''){
         <div class="texto-encabezado text-center">
 
             <div class="container">
-                <h1 class="display-4"><?php echo $dataProducto['bannertitulo']; ?></h1>
-                <p class="wow bounceIn" data-wow-delay=".3s"><?php echo $dataProducto['bannerdescripcion']; ?></p>
+                <h1 class="display-4"><?php echo $dataProducto['titulo']; ?></h1>
+                <p class="wow bounceIn" data-wow-delay=".3s"><?php echo $dataProducto['descripcion']; ?></p>
 
             </div>
 
@@ -45,19 +41,18 @@ if($dataProducto['imgFondo'] != ''){
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-2 menuProducto">
+                <div class="col-lg-3 menuProducto">
                    
                              <div class="left-navigation">
                                 <ul id="menu" class="listProductos">
 
-                                    <li > <a data-page="servicio1" href="#"><h4><small>CrediPyme</small> </h4></a> </li>
+                                    <li > <a data-page="servicio1" href="#"><h4><small>Capital de Trabajo</small> </h4></a> </li>
                                     <li>
-                                    <a data-page="servicio2" href="#"><h4 ><small>CrediNegocios</small></h4>
+                                    <a data-page="servicio2" href="#"><h4 ><small>Activo Productivo</small></h4>
                                     </a></li>
-                                    <li><a data-page="servicio3" href="#"><h4> <small>Activo Productivo</small></h4></a></li>
-                                    <li><a data-page="servicio4" href="#"><h4><small>Microturbo</small></h4></a></li>                            
-                                    <li><a data-page="servicio5" href="#"><h4><small>Turbo</small></h4></a></li>
-                                    <li><a data-page="servicio6" href="#"><h4><small>Mega turbo</small></h4></a></li>
+                                    <li><a data-page="servicio3" href="#"><h4> <small>Mejora de Negocio</small></h4></a></li>
+                                    <li><a data-page="servicio4" href="#"><h4><small>CrediActivos</small></h4></a></li>
+
 
                                 </ul>
                                 <br>
@@ -69,47 +64,37 @@ if($dataProducto['imgFondo'] != ''){
 
 
                 </div>
-                <div class="col-lg-10 productoInfo">
+                <div class="col-lg-9 productoInfo">
                 
                   
                         <div id="pages">
 
                                 <div id="servicio1" class="page" data-page="servicio1">
 
-                                <?php echo $dataProducto['crediPyme']; ?>
+                                <?php echo $dataProducto['capitalTrabajo']; ?>
 
                                 </div>
 
                                 <div id="servicio2" class="page hide" data-page="servicio2">
 
-                                <?php echo $dataProducto['crediNegocios']; ?>
+                                <?php echo $dataProducto['activoProductivo']; ?>
 
                                 </div>
 
                                 <div id="servicio3" class="page hide" data-page="servicio3">
 
-                               <?php echo $dataProducto['productivo']; ?>
+                               <?php echo $dataProducto['mejoraNegocio']; ?>
 
                                 </div>
 
                                 <div id="servicio4" class="page hide" data-page="servicio4">
         
-                                       <?php echo $dataProducto['microturbo']; ?>
+                                       <?php echo $dataProducto['crediActivos']; ?>
 
                                 </div>
 
-                                <div id="servicio5" class="page hide" data-page="servicio5">
 
 
-                                              <?php echo $dataProducto['turbo']; ?>
-                                </div>
-
-                                        <div id="servicio6" class="page hide" data-page="servicio6">
-
-
-                                  <?php echo $dataProducto['megaturbo']; ?>
-
-                                </div>                              
 
                             </div>
 
