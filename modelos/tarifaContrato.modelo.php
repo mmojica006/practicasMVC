@@ -10,5 +10,13 @@ class ModeloTarifaContrato{
 		$stmt->close();
 
 	}
+    static public function ctrGetEEFF($tabla){
+        $stmt = Conexion::conectar()->prepare("select * from $tabla");
+        $stmt->execute();
+
+        return $stmt->fetchAll();
+        $stmt->close();
+
+    }
 	
 }

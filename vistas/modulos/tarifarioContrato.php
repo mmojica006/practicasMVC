@@ -1,8 +1,13 @@
 <?php
 
 $data = ControladorTarifaContrato::ctrGetTarifaContrato();
+$fileEEFF = ControladorTarifaContrato::ctrGetEEFF();
 $servidor = Ruta::ctrlRutaServidor();
-//print_r($data);
+$adicional = ControladorAdicional::ctrMostrarAdicional();
+$folder = $servidor."vistas/files/pdfFinancieros/";
+
+
+
 ?>
 <div class="paginas-internas">
 
@@ -48,22 +53,37 @@ $servidor = Ruta::ctrlRutaServidor();
 
 
             <div class="row">
+                <?php
+
+                ?>
                 <article class="col-md-12">
+                    <?php
+                    if ($adicional["contratoEstado"]==1)
+                    {
+                    ?>
 
                     <h3>Contratos</h3>
-
                     <iframe width='250' height='375' src='<?php echo $servidor; ?>vistas/files/pdfContrato/contratoCE.pdf' frameborder='0' allowfullscreen></iframe>
 
-
+                        <?php  } ?>
                 </article>
 
                 <article class="col-md-12">
-
+                    <?php
+                    if ($adicional["eeffEstado"]==1)
+                    {
+                        ?>
                     <h3>Estados Financieros</h3>
 
-                    <iframe width='250' height='375' src='<?php echo $servidor; ?>vistas/files/pdfContrato/contratoCE.pdf' frameborder='0' allowfullscreen></iframe>
+                    <?php
+                    foreach($fileEEFF as $key =>$value) {
+                        echo " <iframe width='250' height='375'
+                                src='$folder" . $value['name'] . "' frameborder='0'
+                                allowfullscreen></iframe>";
+                    }
+                        ?>
 
-
+                    <?php  } ?>
                 </article>
             </div>
         </div>

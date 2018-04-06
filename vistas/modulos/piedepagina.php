@@ -70,8 +70,9 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
                     <?php } ?>
 
                      <li><a href="tarContrato">Contrato</a></li>
-
+                    <li><a href="tarContrato">EEFF</a></li>
                     <li><a href="preguntas">Preguntas Frecuentes</a></li>
+
                 </ul>
 
 

@@ -9,5 +9,12 @@ class ControladorTarifaContrato{
         return $respuesta;
     }
 
+    public function ctrGetEEFF()
+    {
+        $tabla = "tbl_upload";
+        $respuesta = ModeloTarifaContrato::ctrGetEEFF($tabla);
+        return $respuesta;
+    }
+
 
 }
