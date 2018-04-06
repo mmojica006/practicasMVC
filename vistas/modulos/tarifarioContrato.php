@@ -1,6 +1,7 @@
 <?php
 
 $data = ControladorTarifaContrato::ctrGetTarifaContrato();
+$servidor = Ruta::ctrlRutaServidor();
 //print_r($data);
 ?>
 <div class="paginas-internas">
@@ -41,6 +42,29 @@ $data = ControladorTarifaContrato::ctrGetTarifaContrato();
                 </aside>
 
 
+
+
+            </div>
+
+
+            <div class="row">
+                <article class="col-md-12">
+
+                    <h3>Contratos</h3>
+
+                    <iframe width='250' height='375' src='<?php echo $servidor; ?>vistas/files/pdfContrato/contratoCE.pdf' frameborder='0' allowfullscreen></iframe>
+
+
+                </article>
+
+                <article class="col-md-12">
+
+                    <h3>Estados Financieros</h3>
+
+                    <iframe width='250' height='375' src='<?php echo $servidor; ?>vistas/files/pdfContrato/contratoCE.pdf' frameborder='0' allowfullscreen></iframe>
+
+
+                </article>
             </div>
         </div>
     </main>

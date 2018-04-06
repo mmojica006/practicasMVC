@@ -18,9 +18,22 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
---
 -- Base de datos: `crediweb`
 --
+
+
+-- Table structure for table `tbl_upload`
+
+CREATE TABLE IF NOT EXISTS `tbl_upload` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(256) NOT NULL,
+  `size` int(11) NOT NULL,
+  `type` varchar(256) NOT NULL,
+  `location` varchar(256) NOT NULL,
+  PRIMARY KEY (`id`)
+)
+
+
 -- Table structure for table `tbl_reclamo`
 CREATE TABLE `tbl_reclamo` (
   `id` int(11) PRIMARY KEY NOT NULL  AUTO_INCREMENT,
@@ -60,6 +73,8 @@ CREATE TABLE `tbl_adicional` (
   `contratoDesc` text COLLATE utf8_spanish_ci  NULL,
   `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+alter table tbl_adicional add column eeffEstado int null  AFTER  contratoEstado;
 
 
 -- Table structure for table `tbl_suscriptores`
