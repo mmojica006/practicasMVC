@@ -84,12 +84,13 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
 
     </div>
 
-    <div class="footer-copyright">
-        <p>© 2018 © CREDIEXPRESS Todos los derechos reservados </p>
-    </div>
+
 
 
 </footer>
+<div class="footer-copyright text-xs-center">
+    <p>© 2018 © CREDIEXPRESS Todos los derechos reservados </p>
+</div>
 
 
 <a data-scroll class="ir-arriba" href="#encabezado"><i class="fa  fa-arrow-circle-up" aria-hidden="true"> </i> </a>

@@ -14,9 +14,10 @@ TOP
                 <img src="<?php echo $servidor . $social["logo"] ?>" alt="Logo del sitio">
             </a>
 
+
             <button type="button" class="boton-buscar" data-toggle="collapse" data-target="#bloque-buscar"
                     aria-expanded="false">
-                8749-1800
+                <i class="fa fa-phone"></i> <span>8749-1800</span>
             </button>
 
             <button type="button" class="boton-menu  visible-xs " data-toggle="collapse" data-target="#menu-principal"

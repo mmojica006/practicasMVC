@@ -18,7 +18,7 @@ $dataProducto  = ControladorProducto::ctrMostrarProductos();
         <div class="texto-encabezado text-center">
 
             <div class="container">
-                <h1 class="display-4"><?php echo $dataProducto['titulo']; ?></h1>
+                <h1><?php echo $dataProducto['titulo']; ?></h1>
                 <p class="wow bounceIn" data-wow-delay=".3s"><?php echo $dataProducto['descripcion']; ?></p>
 
             </div>

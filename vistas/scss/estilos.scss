@@ -1,15 +1,19 @@
 //-----------------------
 // PATRON DE COLORES
 //-----------------------
-$texto:#55595c;
+$texto:#4a81c0;
 $textoSecundario:#757777;
-$principal:#009bd3;
+$principal: #4a81c0;
 $secundario:#009500;
+
+$font-size: 26px;
+$line-height: 1.4;
+$lines-to-show: 3;
 html {
   font-size: 14px;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Fredoka One', cursive;
   color: $texto;
 }
 *{
@@ -33,14 +37,14 @@ a:visited, a:link, a:focus, a:hover, a:active{
 }
 
 .block-ellipsis {
-  display: block;
+  display: block; /* Fallback for non-webkit */
   display: -webkit-box;
-  max-width: 100%;
-  height: 40px;
+  max-width: 600px;
+  height: $font-size*$line-height*$lines-to-show; /* Fallback for non-webkit */
   margin: 0 auto;
-  font-size: 14px;
-  line-height: 1;
-  -webkit-line-clamp: 3;
+  font-size: $font-size;
+  line-height: $line-height;
+  -webkit-line-clamp: $lines-to-show;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -62,7 +66,7 @@ a:visited, a:link, a:focus, a:hover, a:active{
 }
 
 .backColor, .backColor a{
-  background:#47bac1;
+  background:#2196f3;
   color:white;
 }
 
@@ -112,7 +116,11 @@ a:visited, a:link, a:focus, a:hover, a:active{
   flex: 1 1 100%;
 }
 .boton-buscar{
-  color: $principal;
+  color: #ffffff;
+  background-color:#2196f3 ;
+
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
 }
 .boton-buscar .fa-search {
   color: $textoSecundario;
@@ -169,9 +177,10 @@ h4 a:hover{
   padding: .8rem 0;
   text-align: center;
   color: $texto;
-  text-transform: uppercase;
+  text-transform:capitalize;
   border-top: 1px solid #8c8888;
   text-decoration: none;
+  font-size: 16px;
 }
 #menu-principal ul a:hover,
 #menu-principal ul li.active a {
@@ -185,6 +194,8 @@ h4 a:hover{
 .texto-encabezado .display-4 {
   margin-top: 4rem;
 }
+
+
 .texto-encabezado .btn-primary {
   margin-top: 1rem;
 }
@@ -241,6 +252,16 @@ SECCION TU MEJOR ELECCIÓN
 .tu-mejor-eleccion h2 span {
   color: $principal;
 }
+.tu-mejor-eleccion h4 a {
+font-size: 24px;
+  font-family: 'Fredoka One', cursive;
+}
+
+.tu-mejor-eleccion h2  {
+font-size: 51px;
+  font-family: 'Fredoka One', cursive;
+  color: #4a81c0;
+}
 .tu-mejor-eleccion ul,
 .tu-mejor-eleccion ul li {
   list-style: none;
@@ -261,6 +282,15 @@ SECCION TU MEJOR ELECCIÓN
 }
 .tu-mejor-eleccion ul li {
   min-height: 9rem;
+}
+.tu-mejor-eleccion .iniDescripcion {
+ font-size: 18px;
+  font-family: 'Lato', sans-serif;
+}
+.tu-mejor-eleccion .contenedor-text p {
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+  color: $principal;
 }
 /*-------------------------------
 SECCION NOTICIAS
@@ -346,8 +376,8 @@ SECCION ÚLTIMOS PROYECTOS
 SECCION PIE DE PAGINA
 -----------------------------------------*/
 
-.piewebsite {
-  background: #3a3f46;;
+.piewebsite  {
+  background: #00042a;;
   color: #fff;
   text-align: center;
   font-size: .9rem;
@@ -366,6 +396,13 @@ SECCION PIE DE PAGINA
     list-style-type: none;
     padding-left: 0;
     line-height: 1.7;
+}
+.footer-copyright{
+  background-color: #010317;
+  color: white;
+  text-align: center;
+  padding: 20px;
+
 }
 
 .piewebsite h5 {

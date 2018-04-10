@@ -9,21 +9,21 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
 
             <div class="row ">
                 <article class="col-md-4 wow bounceInLeft" data-wow-delay=".3s">
-                    <img src="<?php echo $servidor; ?>/vistas/img/plantilla/TipsFinancieros.png" alt="Tip Financieros">
-                    <h3><a href="tips"> Tips Financieros </a></h3>
+                    <img src="vistas/img/plantilla/preguntas2.jpg" alt="Preguntas">
+<!--                    <h3><a href="tips"> Tips Financieros </a></h3>-->
     
 
                 </article>
 
                 <article class="col-md-4 wow bounceInUp" data-wow-delay=".6s">
-                    <img src="<?php echo $servidor; ?>/vistas/img/plantilla/atencionUsuarios.png" alt="Requisitos para aplicar a un reclamo">
-                    <h3><a href="reclamo">Atención a usuarios</a></h3>
+                    <img src="vistas/img/plantilla/tipsFinancieros.jpg" alt="Tips Financieros">
+<!--                    <h3><a href="reclamo">Atención a usuarios</a></h3>-->
 
                 </article>
 
                 <article class="col-md-4 wow bounceInRight" data-wow-delay="1s">
-                    <img src="<?php echo $servidor; ?>/vistas/img/plantilla/preguntasFrecuentes.png" alt="Requisitos para aplicar a un préstamo">
-                    <h3><a href="preguntas">Preguntas Precuentes</a></h3>
+                    <img src="vistas/img/plantilla/preguntasRespuestas.jpg" alt="Preguntas y Frecuentes">
+<!--                    <h3><a href="preguntas">Preguntas Precuentes</a></h3>-->
 
                 </article>
 
