@@ -13,7 +13,7 @@ if($dataNosotros['imgFondo'] != ''){
 
 ?>
 <div class="paginas-internas">
-    <section class="bienvenidos"  >
+    <section class="bienvenidos fondoNosotros"  >
 
 
 
@@ -41,73 +41,87 @@ if($dataNosotros['imgFondo'] != ''){
         </div>
     </section>
     <main class="py-1">
-        <div class="container">
+        <div class="container nosotros">
             <div class="row">
-                <article class="col-md-8">
-                    <h2 class="text-muted"><?php echo $dataNosotros["titulo"]; ?></h2>
+                <article class="col-md-12">
+                    <h1 class="text-muted"><?php echo $dataNosotros["titulo"]; ?></h1>
                                 <?php echo $dataNosotros["descripcion"]; ?>
 
+                    <h3>MISION</h3>
+                    <p><?php echo $dataNosotros["mision"]; ?></p>
 
+                    <h3>VISIÓN</h3>
+                    <p> <?php echo $dataNosotros["vision"]; ?></p>
 
-                    <div id="accordion" role="tablist" aria-multiselectable="true">
-
-                        <div class="panel panel-default">
-
-                            <h4 class="panel-heading">
- <a data-toggle="collapse" data-parent="#accordion" href="#tab-mision"> MISIÓN </a>
-
-                            </h4>
-                            <div id="tab-mision" class="panel-collapse collapse in">
-
-                             <div class="imgMision"> <?php echo $dataNosotros["mision"]; ?></div>
-
-
-                            </div>
-                        </div>
-
-
-                        <div class="panel panel-default">
-                            <h4 class="panel-heading">
-
-        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#tab-vision" >VISIÓN</a>
-
-                            </h4>
-                            <div id="tab-vision" class="panel-collapse collapse">
-                                <?php echo $dataNosotros["vision"]; ?>
-
-
-                            </div>
-                        </div>
-
-
-                        <div class="panel panel-default">
-                            <h4 class="panel-heading">
-
-        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#tab-valores" >
-        VALORES
-        </a>
-
-                            </h4>
-                            <div id="tab-valores" class="panel-collapse collapse">
-                                <?php echo $dataNosotros["valores"]; ?>
-
-                            </div>
-                        </div>
-                    </div>
 
                 </article>
-                <aside class="col-md-4">
-                    <img src="<?php echo $servidor; ?>vistas/img/plantilla/equipo.png" alt="Nosotros">
+
+                <article class="col-md-12">
+                    <h3>VALORES Crediexpress</h3>
+                </article>
 
 
-                </aside>
+
 
 
             </div>
         </div>
     </main>
 
+    <section class="tu-mejor-eleccion py-1">
+        <div class="container">
 
+            <div class="row">
+                <ul class="col-xs-6 col-lg-4 text-xs-center text-lg-left">
+                    <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".3s">
+<!--                        <i class="fa fa-briefcase" aria-hidden="true"></i>-->
+
+                        <div class="contenedor-eleccion">
+                            <h4 style="color: #add131">Empatía</h4>
+                            <p class="hidden-md-down"> Siempre el cliente es primero. Nos enfocamos en resolver sus necesidades </p>
+                        </div>
+                    </li>
+                    <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".7s">
+<!--                        <i class="fa fa-bullhorn" aria-hidden="true"></i>-->
+                        <div class="contenedor-eleccion">
+                            <h4 style="color: #913e98">Creatividad</h4>
+                            <p class="hidden-md-down">La innovación es la base de nuestro ADN.</p>
+                        </div>
+                    </li>
+                    <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".7s">
+<!--                        <i class="fa fa-bullhorn" aria-hidden="true"></i>-->
+                        <div class="contenedor-eleccion">
+                            <h4 style="color: #ec1559">Pasión</h4>
+                            <p class="hidden-md-down">Trabajamos con compromiso y entrega en todo lo que hacemos.</p>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <div class="hidden-md-down col-lg-4">
+                    <img class="img-responsive" src="./vistas/img/plantilla/valores.jpg" alt="Valores CrediExpress">
+                </div>
+
+                <ul class="col-xs-6 col-lg-4 text-xs-center text-lg-right">
+                    <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".5s">
+<!--                        <i class="fa  fa-calendar" aria-hidden="true"></i>-->
+                        <div class="contenedor-eleccion">
+                            <h4 style="color: #17a1be">Espíritu de Familia</h4>
+                            <p class="hidden-md-down">Nos apoyamos para salir adelante ante los retos </p>
+                        </div>
+                    </li>
+                    <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".9s">
+<!--                        <i class="fa  fa-check-square-o" aria-hidden="true"></i>-->
+                        <div class="contenedor-eleccion">
+                            <h4 style="color: #46bda1">Integridad</h4>
+                            <p class="hidden-md-down">Actuamos de manera correcta y transparente</p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
 </div>
 
 

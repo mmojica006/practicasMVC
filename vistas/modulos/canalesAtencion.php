@@ -30,7 +30,7 @@ $urlMarkers = $urlFrontEnd.'controladores/markers.xml';
 
 
 <div class="paginas-internas" >
-    <section class="bienvenidos" >
+    <section class=" fondoCanal" >
 
 
 
@@ -61,15 +61,9 @@ $urlMarkers = $urlFrontEnd.'controladores/markers.xml';
         <div class="container">
             <div class="row">
                 <article class="col-md-12">
-                    <h2 class="text-muted"><?php echo $dataCanales['titulo']; ?></h2>
+                    <h1 class="display-4 text-muted"><?php echo $dataCanales['titulo']; ?></h1>
 
                      <div id="descriptionCanales">   <?php echo $dataCanales['descripcion']; ?></div>
-
-
-
-
-
-
 
                 </article>
                 <aside class="col-md-12">

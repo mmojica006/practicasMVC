@@ -14,7 +14,7 @@ if($dataContacto['imgFondo'] != ''){
  
 <div class="paginas-internas">
 
-    <section class="bienvenidos" >
+    <section class="fondoContacto" >
 
 
         <div class="texto-encabezado text-center">
@@ -134,8 +134,9 @@ if($dataContacto['imgFondo'] != ''){
 
                 </div>
                 <div class="col-md-4">
-                    <h5 class="text-muted"><?php echo $dataContacto['titulo']; ?> </h5>
-                    <?php echo $dataContacto['descripcion']; ?>              
+                    <h1 class="display-4 text-muted"><?php echo $dataContacto['titulo']; ?> </h1>
+
+                    <?php echo $dataContacto['descripcion']; ?>
 
                 </div>
 
@@ -147,5 +148,30 @@ if($dataContacto['imgFondo'] != ''){
         </div>
     </main>
 
+    <main class="servicios py-1">
+        <div class="container">
 
+
+
+            <div class="row ">
+                <article class="col-md-4 wow bounceInLeft" data-wow-delay=".3s">
+                    <img class="img-thumbnail" src="vistas/img/plantilla/motoContacto.jpg" alt="Contacto CrediExpress">
+                    <!--                    <h3><a href="tips"> Tips Financieros </a></h3>-->
+
+
+                </article>
+
+                <article class="col-md-8 wow bounceInUp" data-wow-delay=".6s">
+               <h1 class="display-1">Bienvenido a la familia Crediexpress</h1>
+                    <p>En Crediexpress te queremos dar la bienvenida a tu nueva casa. ¡Esta es tu oportunidad para aplicar a un puesto laboral!
+
+                        Envianos tu CV al correo: <a href="#" style="color: #2196f3">reclutamiento@crediexpress.com.ni</a></p>
+
+                </article>
+
+
+
+            </div>
+        </div>
+    </main>
     </div>

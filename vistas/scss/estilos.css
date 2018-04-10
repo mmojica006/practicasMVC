@@ -308,6 +308,18 @@ SECCION NOTICIAS
   opacity: 1;
   color: #4a81c0; }
 
+/*----------------------------------------
+SECCION CANALES DE ATENCION
+-----------------------------------------*/
+.paginas-internas .fondoCanal {
+  color: #ffffff;
+  background: url("../img/plantilla/canal.jpg") no-repeat center top;
+  background-size: cover;
+  height: 75vh;
+  background-attachment: fixed !important;
+  display: flex;
+  flex-direction: column; }
+
 /*---------------------------------
 SECCION ÚLTIMOS PROYECTOS
 ------------------------------------*/
@@ -508,6 +520,24 @@ ESTILOS PAGINA NOSOTROS
   background-color: #2196F3 !important;
   height: 25vh; }
 
+.paginas-internas .fondoNosotros {
+  background: url("../img/plantilla/nosotrosBack.jpg") no-repeat center top;
+  background-size: cover;
+  height: 75vh;
+  background-attachment: fixed !important;
+  display: flex;
+  flex-direction: column; }
+
+.paginas-internas h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 24px;
+  color: #4a81c0; }
+
+.paginas-internas .nosotros h3 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 18px;
+  color: #00a9e0; }
+
 .paginas-internas .ruta {
   background: #4a81c0;
   color: #fff; }
@@ -538,6 +568,15 @@ ESTILOS PAGINA NOSOTROS
 /*-------------------------------------------
 ESTILOS PAGINA PRODUCTOS Y SERVICIOS
 --------------------------------------------*/
+.paginas-internas .fondoProducto {
+  background: url("../img/plantilla/productos.jpg") no-repeat center top;
+  background-size: cover;
+  height: 75vh;
+  background-size: cover;
+  background-attachment: fixed !important;
+  display: flex;
+  flex-direction: column; }
+
 .paginas-internas .left-navigation ul li a h4 small {
   color: #777;
   text-transform: uppercase;
@@ -601,9 +640,20 @@ ESTILOS PAGINA PRODUCTOS Y SERVICIOS
 /*---------------------------------------------
 QUIENES SOMOS
 --------------------------------------------*/
+#descriptionCanales span {
+  font-family: 'Fredoka One', cursive; }
+
 /*---------------------------------
 SECCION CONTACTENOS
 ------------------------------------*/
+.paginas-internas .fondoContacto {
+  background: url("../img/plantilla/ContactoBack.jpg") no-repeat center top;
+  background-size: cover;
+  height: 75vh;
+  background-attachment: fixed !important;
+  display: flex;
+  flex-direction: column; }
+
 /*---------------------------------------------
 EMPIEZAN LAS MEDIAS QUERIES
 --------------------------------------------*/

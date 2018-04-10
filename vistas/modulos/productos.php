@@ -10,7 +10,7 @@ $dataProducto  = ControladorProducto::ctrMostrarProductos();
 
 <div class="paginas-internas">
 
-    <section class="bienvenidos" >
+    <section class="bienvenidos fondoProducto" >
 
 
 
@@ -18,8 +18,8 @@ $dataProducto  = ControladorProducto::ctrMostrarProductos();
         <div class="texto-encabezado text-center">
 
             <div class="container">
-                <h1><?php echo $dataProducto['titulo']; ?></h1>
-                <p class="wow bounceIn" data-wow-delay=".3s"><?php echo $dataProducto['descripcion']; ?></p>
+<!--                <h1>--><?php //echo $dataProducto['titulo']; ?><!--</h1>-->
+<!--                <p class="wow bounceIn" data-wow-delay=".3s">--><?php //echo $dataProducto['descripcion']; ?><!--</p>-->
 
             </div>
 
@@ -42,7 +42,7 @@ $dataProducto  = ControladorProducto::ctrMostrarProductos();
             <div class="row">
 
                 <div class="col-lg-3 menuProducto">
-                   
+
                              <div class="left-navigation">
                                 <ul id="menu" class="listProductos">
 
@@ -59,14 +59,14 @@ $dataProducto  = ControladorProducto::ctrMostrarProductos();
                             </div>
 
 
-                
+
 
 
 
                 </div>
                 <div class="col-lg-9 productoInfo">
-                
-                  
+
+
                         <div id="pages">
 
                                 <div id="servicio1" class="page" data-page="servicio1">
@@ -88,7 +88,7 @@ $dataProducto  = ControladorProducto::ctrMostrarProductos();
                                 </div>
 
                                 <div id="servicio4" class="page hide" data-page="servicio4">
-        
+
                                        <?php echo $dataProducto['crediActivos']; ?>
 
                                 </div>
