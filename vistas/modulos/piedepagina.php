@@ -8,7 +8,7 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
     <div class="container">
 
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-lg-1">
 
                 <ul class="redes-sociales text-xs-center">
                     <?php
@@ -34,57 +34,67 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
                 <button type="button" class="btn btn-default">Contáctenos</button>
             </div>
 
-            <article class="col-md-3 wow bounceInLeft" data-wow-delay=".3s">
-                <h5>Menu</h5>
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Sucursales</a></li>
-                    <li><a href="#">Sobre Nosotros</a></li>
-                </ul>
+            <article class="col-lg-5 wow bounceInLeft" data-wow-delay=".3s">
 
+                <div class="col-md-6">
+                    <ul>
+                        <li><a href="index.php">Inicio</a></li>
+                        <li><a href="quienes-somos">Sobre Nosotros</a></li>
+                        <li><a href="canales">Canales de atención</a></li>
+                        <li><a href="productos">Productos</a></li>
+                        <li><a href="contacto">Contáctenos</a></li>
+                        <li><a href="preguntas">Preguntas Frecuentes</a></li>
 
-            </article>
+                    </ul>
+                </div>
 
+                <div class="col-md-6">
 
-            <article class="col-md-3 wow bounceInUp" data-wow-delay=".6s">
-
-                <h5>Productos</h5>
-                <ul>
                     <li><a href="#">Capital de trabajo</a></li>
                     <li><a href="#">Activo Productivo</a></li>
                     <li><a href="#">Mejora de Negocio</a></li>
                     <li><a href="#">CrediActivos</a></li>
-
-                </ul>
-
-
-            </article>
-
-            <article class="col-md-3 wow bounceInUp" data-wow-delay=".6s">
-
-                <h5>Información</h5>
-                <ul>
-                <?php  if ($dataTarifaContrato["tarifarioEstado"]== 1){ ?>
-                    <li><a href="tarContrato">Tarifario</a></li>
+                    <li><a href="tarContrato">Contrato</a></li>
+                    <li><a href="tarContrato">EEFF</a></li>
+                    <?php if ($dataTarifaContrato["tarifarioEstado"] == 1) { ?>
+                        <li><a href="tarContrato">Tarifario</a></li>
 
                     <?php } ?>
 
-                     <li><a href="tarContrato">Contrato</a></li>
-                    <li><a href="tarContrato">EEFF</a></li>
-                    <li><a href="preguntas">Preguntas Frecuentes</a></li>
-
-                </ul>
+                </div>
 
 
             </article>
 
+
+            <article class="col-lg-3 wow bounceInUp piecorreo" data-wow-delay=".6s">
+
+
+
+
+                <p>
+                    <img src="vistas/img/plantilla/Maletin.png" align="left">
+                <p><strong><span style="font-family: 'Lato', sans-serif;">Trabaja con nosotros</span></strong><br>
+                Envianos tu CV al correo:
+                 reclutamiento@crediexpress.com.ni</p>
+                </p>
+            </article>
+
+            <article class="col-lg-3 wow bounceInUp pieSucu" data-wow-delay=".6s">
+
+                <h5>   Sucursales Crediexpress           </h5>
+                <p>Horarios de atención</p>
+                   <p> Lunes a viernes de 7: 30 am - 6:00 pm</p>
+                   <p> Centro de atención al cliente 8749 - 1800  </p>
+
+                <img class="img-responsive center-block"  src="vistas/img/plantilla/MapaSucursales.png"
+                     alt="beneficios" >
+            </article>
 
 
         </div>
 
     </div>
-
-
 
 
 </footer>
