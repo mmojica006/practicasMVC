@@ -13,41 +13,32 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
         </p>
 
         <div class="row">
-            <ul class="col-xs-8 col-lg-6  text-lg-left ">
+            <ul class="col-xs-8 col-lg-6  text-lg-center ">
                 <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".3s">
 <!--                    <i class="fa fa-money" aria-hidden="true"></i>-->
                     <div class="contenedor-eleccion ">
 
-
-                        <h4>
-                            <div class="hidden-md-down col-lg-2">
-                                <img class="img-responsive "  src="vistas/img/plantilla/ico-1.png"
-                                     alt="beneficios">
+                            <div class="inicioImg">
+                            <img class="img-responsive center-block"  src="vistas/img/plantilla/ico-1.png"
+                                 alt="beneficios" >
                             </div>
-                                <a href="productos">Capital de Trabajo</a>
+                        <h4 class="text-center">
+                                <a href="productos" class="center-block">Capital de Trabajo</a>
                         </h4>
-                        <p class="hidden-md-down">
-                        <div class="block-ellipsis contenedor-text col-lg-12">
-                            <?php echo $dataProductos["capitalTrabajo"]; ?>
-                        </div>
-                        </p>
+
                     </div>
                 </li>
                 <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".7s">
 <!--                      <i class="fa fa-briefcase" aria-hidden="true"></i>-->
                     <div class="contenedor-eleccion">
-                        <h4>
-                            <div class="hidden-md-down col-lg-2">
-                                <img class="img-responsive "  src="vistas/img/plantilla/ico-3.png"
-                                     alt="beneficios">
-                            </div>
-                            <a href="productos">Activo Productivo</a>
-                        </h4>
-                        <p class="hidden-md-down">
-                        <div class="block-ellipsis contenedor-text col-lg-12">
-                            <?php echo $dataProductos["activoProductivo"]; ?>
+                        <div class="inicioImg">
+                            <img class="img-responsive center-block"  src="vistas/img/plantilla/ico-3.png"
+                                 alt="beneficios">
                         </div>
-                        </p>
+
+                        <h4 class="text-center"> <a class="center-block" href="productos">Activo Productivo</a> </h4>
+
+
 
                     </div>
                 </li>
@@ -64,32 +55,30 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
                 <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".5s">
 <!--                       <i class="fa fa-money" aria-hidden="true"></i>-->
                     <div class="contenedor-eleccion">
-                        <h4>
-                            <div class="hidden-md-down col-lg-2">
-                                <img class="img-responsive "  src="vistas/img/plantilla/ico-2.png"
-                                     alt="beneficios">
-                            </div>
-                            <a href="productos">Mejora de Negocio</a>
-                        </h4>
-                        <p class="hidden-md-down">
-                            <div class="block-ellipsis contenedor-text col-lg-12">
-                            <?php echo $dataProductos["mejoraNegocio"]; ?>
+                        <div class="inicioImg">
+                            <img class="img-responsive center-block "  src="vistas/img/plantilla/ico-2.png"
+                                 alt="beneficios">
                         </div>
-                        </p>
+                        <h4 CLASS="text-center">
+
+                            <a href="productos" CLASS="center-block">Mejora de Negocio</a>
+                        </h4>
+                     
                     </div>
                 </li>
                 <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".9s">
 <!--                      <i class="fa fa-line-chart" aria-hidden="true"></i>-->
                     <div class="contenedor-eleccion">
-                        <h4>
-                            <div class="hidden-md-down col-lg-2">
-                                <img class="img-responsive "  src="vistas/img/plantilla/ico-4.png"
-                                     alt="beneficios">
-                            </div>
-                            <a href="productos">CrediActivos</a></h4>
+                        <div class="inicioImg">
+                            <img class="img-responsive center-block"  src="vistas/img/plantilla/ico-4.png"
+                                 alt="beneficios">
+                        </div>
+                        <h4 class="text-center">
+
+                            <a href="productos" class="center-block">CrediActivos</a></h4>
                         <p class="hidden-md-down">
                         <div class="block-ellipsis contenedor-text col-lg-12">
-                            <?php echo $dataProductos["crediActivos"]; ?>
+<!--                            --><?php //echo $dataProductos["crediActivos"]; ?>
                         </div>
                         </p>
                     </div>

@@ -15,7 +15,7 @@ TOP
             </a>
 
 
-            <button type="button" class="boton-buscar" data-toggle="collapse" data-target="#bloque-buscar"
+            <button type="button" class="boton-buscar" data-toggle="collapse"
                     aria-expanded="false">
                 <i class="fa fa-phone"></i> <span>8749-1800</span>
             </button>

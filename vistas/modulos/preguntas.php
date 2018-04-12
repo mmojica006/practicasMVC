@@ -6,6 +6,13 @@ $data = ControladorTipsPreguntas::ctrMostrarTipsPreguntas();
 
 ?>
 <div class="paginas-internas">
+    <section class="fondoPreguntas" >
+
+        <div class="texto-encabezado text-center">
+
+        </div>
+
+    </section>
 
     <section class="ruta py-1">
         <div class="container">
@@ -20,17 +27,14 @@ $data = ControladorTipsPreguntas::ctrMostrarTipsPreguntas();
     <main class="py-1">
         <div class="container">
             <div class="row">
-                <article class="col-md-8">
+                <article class="col-md-12">
+                    <h1 class="m-b-2 text-muted">Preguntas Frecuentes</h1>
 
                     <?php echo $data["preguntas"]; ?>
 
 
                 </article>
-                <aside class="col-md-4">
-                    <img src="vistas/img/plantilla/fqa.jpg" alt="Nosotros" class="img-fluid img-responsive"
 
-
-                </aside>
 
 
             </div>

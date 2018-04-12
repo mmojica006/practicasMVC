@@ -8,21 +8,21 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
 
 
             <div class="row ">
-                <article class="col-md-4 wow bounceInLeft" data-wow-delay=".3s">
-                    <img src="vistas/img/plantilla/preguntas2.jpg" alt="Preguntas">
+                <article class="col-md-4 col-xs-12 wow bounceInLeft" data-wow-delay=".3s">
+                    <a href="reclamo"><img src="vistas/img/plantilla/preguntas2.jpg" alt="Preguntas"></a>
 <!--                    <h3><a href="tips"> Tips Financieros </a></h3>-->
     
 
                 </article>
 
-                <article class="col-md-4 wow bounceInUp" data-wow-delay=".6s">
-                    <img src="vistas/img/plantilla/tipsFinancieros.jpg" alt="Tips Financieros">
+                <article class="col-md-4 col-xs-12 wow bounceInUp" data-wow-delay=".6s">
+                    <a href="tips"><img src="vistas/img/plantilla/tipsFinancieros.jpg" alt="Tips Financieros"></a>
 <!--                    <h3><a href="reclamo">Atención a usuarios</a></h3>-->
 
                 </article>
 
-                <article class="col-md-4 wow bounceInRight" data-wow-delay="1s">
-                    <img src="vistas/img/plantilla/preguntasRespuestas.jpg" alt="Preguntas y Frecuentes">
+                <article class="col-md-4 col-xs-12 wow bounceInRight" data-wow-delay="1s">
+                    <a href="preguntas"><img src="vistas/img/plantilla/preguntasRespuestas.jpg" alt="Preguntas y Frecuentes"></a>
 <!--                    <h3><a href="preguntas">Preguntas Precuentes</a></h3>-->
 
                 </article>

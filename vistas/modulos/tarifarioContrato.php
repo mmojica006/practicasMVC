@@ -24,27 +24,20 @@ $folder = $servidor."vistas/files/pdfFinancieros/";
     <main class="py-1">
         <div class="container">
             <div class="row">
-                <article class="col-md-8">
+                <article class="col-md-12">
 
 
                     <?php
                     if ($data["tarifarioEstado"]==1){
                         echo $data["tarifario"];
 
-                    }else{
-                        echo '<h1 class="btn btn-danger text-lg-center">ACCESO NO AUTORIZADO</h1> ';
                     }
 
                     ?>
 
 
                 </article>
-                <aside class="col-md-4">
 
-                    <img src="vistas/img/plantilla/reporte.png" alt="Nosotros" class="img-fluid img-responsive"
-
-
-                </aside>
 
 
 
@@ -63,7 +56,7 @@ $folder = $servidor."vistas/files/pdfFinancieros/";
                     ?>
 
                     <h3>Contratos</h3>
-                    <iframe width='250' height='375' src='<?php echo $servidor; ?>vistas/files/pdfContrato/contratoCE.pdf' frameborder='0' allowfullscreen></iframe>
+                    <iframe width='150' height='200' src='<?php echo $servidor; ?>vistas/files/pdfContrato/contratoCE.pdf' frameborder='0' allowfullscreen></iframe>
 
                         <?php  } ?>
                 </article>
@@ -77,7 +70,7 @@ $folder = $servidor."vistas/files/pdfFinancieros/";
 
                     <?php
                     foreach($fileEEFF as $key =>$value) {
-                        echo " <iframe width='250' height='375'
+                        echo " <iframe width='150' height='200'
                                 src='$folder" . $value['name'] . "' frameborder='0'
                                 allowfullscreen></iframe>";
                     }
@@ -85,6 +78,7 @@ $folder = $servidor."vistas/files/pdfFinancieros/";
 
                     <?php  } ?>
                 </article>
+
             </div>
         </div>
     </main>

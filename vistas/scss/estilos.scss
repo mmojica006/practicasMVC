@@ -201,7 +201,7 @@ h4 a:hover{
 }
 .btn-primary {
   color: #fff;
-  background-color: $secundario;
+  background-color: $principal;
   border-color: transparent;
   transition: all .5s ease;
 }
@@ -253,8 +253,13 @@ SECCION TU MEJOR ELECCIÓN
   color: $principal;
 }
 .tu-mejor-eleccion h4 a {
-font-size: 24px;
+font-size: 22px;
   font-family: 'Fredoka One', cursive;
+}
+
+.tu-mejor-eleccion button{
+  border-radius: 55px;
+  background-color: #2196f3;
 }
 
 .tu-mejor-eleccion h2  {
@@ -283,6 +288,10 @@ font-size: 51px;
 .tu-mejor-eleccion ul li {
   min-height: 9rem;
 }
+.contenedor-eleccion .inicioImg{
+  padding: 10px 0 15px;
+
+}
 .tu-mejor-eleccion .iniDescripcion {
  font-size: 18px;
   font-family: 'Lato', sans-serif;
@@ -307,7 +316,7 @@ SECCION NOTICIAS
   margin: 1rem 0;
 }
 .servicios img {
-  flex: 0 0 60px;
+  flex: 0 0 100%;
   overflow: hidden;
   margin-right: 1rem;
 }
@@ -347,6 +356,21 @@ SECCION CANALES DE ATENCION
 .paginas-internas .fondoCanal{
   color: #ffffff;
   background: url('../img/plantilla/canal.jpg') no-repeat center top;
+  background-size: cover;
+  height: 75vh;
+  background-attachment: fixed !important;
+  display: flex;
+  flex-direction: column;
+
+}
+
+/*----------------------------------------
+SECCION CANALES DE TIPS FINANCIEROS
+-----------------------------------------*/
+
+.paginas-internas .fondoTips{
+  color: #ffffff;
+  background: url('../img/plantilla/fondoTips.jpg') no-repeat center top;
   background-size: cover;
   height: 75vh;
   background-attachment: fixed !important;
@@ -579,6 +603,28 @@ SECCION REDES SOCIALES
 .instagramNegro{
   color:black;
 }
+
+/*-------------------------------------------
+ESTILOS PAGINA PREGUNTAS
+--------------------------------------------*/
+.paginas-internas .fondoPreguntas {
+  background-image: url("../img/plantilla/fondoPreguntas.jpg");
+
+  background-size: cover;
+  background-color: #2196F3 !important;
+  height: 75vh;
+}
+
+/*-------------------------------------------
+ESTILOS PAGINA NOSOTROS
+--------------------------------------------*/
+.paginas-internas .fondoReclamo {
+  background-image: url("../img/plantilla/fondoReclamo.jpg");
+  background-size: cover;
+  background-color: #2196F3 !important;
+  height: 75vh;
+}
+
 /*-------------------------------------------
 ESTILOS PAGINA NOSOTROS
 --------------------------------------------*/
@@ -588,7 +634,7 @@ ESTILOS PAGINA NOSOTROS
 
   background-size: cover;
   background-color: #2196F3 !important;
-  height: 25vh;
+  height: 75vh;
 }
 
 .paginas-internas .fondoNosotros{
@@ -911,7 +957,7 @@ EMPIEZAN LAS MEDIAS QUERIES
   }
 
 .servicios img{
-  width: 50px;
+  width: 60px;
 }
 
 .bienvenidos {
