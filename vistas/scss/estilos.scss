@@ -852,7 +852,7 @@ EMPIEZAN LAS MEDIAS QUERIES
   .boton-buscar {
     margin-left: 1rem;
     margin-right: 0;
-    order: 2
+    //order: 2
   }
   #bloque-buscar {
     order: 3;
@@ -953,6 +953,12 @@ EMPIEZAN LAS MEDIAS QUERIES
     font-size: .85rem;
     width: 100%
   }
+
+  .boton-buscar {
+    margin-left: 1rem;
+    margin-right: 0;
+    order: 2
+  }
  
 
 }
@@ -964,7 +970,7 @@ EMPIEZAN LAS MEDIAS QUERIES
   }
 
 .servicios img{
-  width: 60px;
+  //width: 60px;
 }
 
 .bienvenidos {

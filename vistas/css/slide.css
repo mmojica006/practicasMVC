@@ -64,7 +64,7 @@ SLIDE
 
 #slide .slideOpciones h1{	
 	text-transform: uppercase;
-	font-family: 'Ubuntu Condensed', sans-serif;
+	font-family: 'Lato', sans-serif;
 	opacity:1;
 	top:-10%;
 	/*color:#333;*/
@@ -72,7 +72,7 @@ SLIDE
 
 #slide .slideOpciones h2{
 	text-transform: uppercase;
-	font-family: 'Ubuntu Condensed', sans-serif;
+	font-family: 'Lato', sans-serif;
 	opacity:1;
 	top:-10%;
 	/*color:#777;*/
@@ -80,7 +80,7 @@ SLIDE
 
 #slide .slideOpciones h3{
 	text-transform: uppercase;
-	font-family: 'Ubuntu Condensed', sans-serif;
+	font-family: 'Lato', sans-serif;
 	opacity:1;
 	top:-10%;
 	/*color:#888;*/
@@ -193,16 +193,16 @@ ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
 	}
 
 	#slide .slideOpciones h1{			
-		font-size:50px;	
+		font-size:35px;
 		margin-top:5px;
 	}
 
 	#slide .slideOpciones h2{			
-		font-size:35px;	
+		font-size:25px;
 	}
 
 	#slide .slideOpciones h3{	
-		font-size:30px;	
+		font-size:20px;
 	}
 
 	#slide .slideOpciones button{

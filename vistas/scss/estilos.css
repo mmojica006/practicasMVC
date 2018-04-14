@@ -727,8 +727,7 @@ EMPIEZAN LAS MEDIAS QUERIES
 
   .boton-buscar {
     margin-left: 1rem;
-    margin-right: 0;
-    order: 2; }
+    margin-right: 0; }
 
   #bloque-buscar {
     order: 3;
@@ -823,13 +822,15 @@ EMPIEZAN LAS MEDIAS QUERIES
 
   .tu-mejor-eleccion ul li p {
     font-size: .85rem;
-    width: 100%; } }
+    width: 100%; }
+
+  .boton-buscar {
+    margin-left: 1rem;
+    margin-right: 0;
+    order: 2; } }
 @media (max-width: 767px) {
   .col-xs-0 {
     display: none; }
-
-  .servicios img {
-    width: 60px; }
 
   .bienvenidos {
     padding: 0; }

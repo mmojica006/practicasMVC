@@ -23,7 +23,7 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
                                  alt="beneficios" >
                             </div>
                         <h4 class="text-center">
-                                <a href="productos" class="center-block">Capital de Trabajo</a>
+                                <a href="servicio1#productosList" class="center-block">Capital de Trabajo</a>
                         </h4>
 
                     </div>
@@ -36,7 +36,7 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
                                  alt="beneficios">
                         </div>
 
-                        <h4 class="text-center"> <a class="center-block" href="productos">Activo Productivo</a> </h4>
+                        <h4 class="text-center"> <a class="center-block" href="servicio2#productosList">Activo Productivo</a> </h4>
 
 
 
@@ -61,7 +61,7 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
                         </div>
                         <h4 CLASS="text-center">
 
-                            <a href="productos" CLASS="center-block">Mejora de Negocio</a>
+                            <a href="servicio3#productosList" CLASS="center-block">Mejora de Negocio</a>
                         </h4>
                      
                     </div>
@@ -75,7 +75,7 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
                         </div>
                         <h4 class="text-center">
 
-                            <a href="productos" class="center-block">CrediActivos</a></h4>
+                            <a href="servicio4#productosList" class="center-block">CrediActivos</a></h4>
                         <p class="hidden-md-down">
                         <div class="block-ellipsis contenedor-text col-lg-12">
 <!--                            --><?php //echo $dataProductos["crediActivos"]; ?>

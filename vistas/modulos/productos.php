@@ -1,11 +1,6 @@
 <?php
 $dataProducto  = ControladorProducto::ctrMostrarProductos();
 
-
-
-
-
-
 ?>
 
 <div class="paginas-internas">
@@ -15,7 +10,7 @@ $dataProducto  = ControladorProducto::ctrMostrarProductos();
 
 
 
-        <div class="texto-encabezado text-center">
+        <div  id="productosList" class="texto-encabezado text-center">
 
             <div class="container">
                 <!--                <h1>--><?php //echo $dataProducto['titulo']; ?><!--</h1>-->
@@ -26,8 +21,8 @@ $dataProducto  = ControladorProducto::ctrMostrarProductos();
         </div>
 
     </section>
-    <section class="ruta py-1">
-        <div class="container">
+    <section  class="ruta py-1">
+        <div  class="container">
             <div class="row">
                 <div class="col-xs-12 text-right">
                     <a href="index.php">Inicio</a> » Productos
@@ -37,7 +32,7 @@ $dataProducto  = ControladorProducto::ctrMostrarProductos();
         </div>
     </section>
 
-    <main class="py-1">
+    <main  class="py-1">
         <div class="container">
             <div class="row">
 
@@ -57,10 +52,6 @@ $dataProducto  = ControladorProducto::ctrMostrarProductos();
                         </ul>
                         <br>
                     </div>
-
-
-
-
 
 
                 </div>
