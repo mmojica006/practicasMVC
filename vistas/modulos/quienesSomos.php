@@ -57,7 +57,7 @@ if($dataNosotros['imgFondo'] != ''){
                 </article>
 
                 <article class="col-md-12">
-                    <h3>VALORES Crediexpress</h3>
+                    <h3>VALORES</h3>
                 </article>
 
 
