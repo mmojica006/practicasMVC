@@ -8,7 +8,7 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
     <div class="container">
 
         <div class="row">
-            <div class="col-lg-1">
+            <div class="col-lg-2">
 
                 <ul class="redes-sociales text-xs-center">
                     <?php
@@ -34,9 +34,9 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
                 <button type="button" class="btn btn-default">Contáctenos</button>
             </div>
 
-            <article class="col-lg-5 wow bounceInLeft" data-wow-delay=".3s">
+            <article class="col-lg-4 wow bounceInLeft" data-wow-delay=".3s">
 
-                <div class="col-md-6">
+                <div class="col-md-6 text-left">
                     <ul>
                         <li><a href="index.php">Inicio</a></li>
                         <li><a href="quienes-somos">Sobre Nosotros</a></li>
@@ -48,7 +48,7 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
                     </ul>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-6 text-left">
 
                     <li><a href="productos">Capital de trabajo</a></li>
                     <li><a href="productos">Activo Productivo</a></li>
@@ -67,20 +67,17 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
             </article>
 
 
-            <article class="col-lg-3 wow bounceInUp piecorreo" data-wow-delay=".6s">
-
-
-
-
+            <article class="col-lg-3 wow bounceInUp piecorreo text-left" data-wow-delay=".6s">
                 <p>
                     <img src="vistas/img/plantilla/Maletin.png" align="left">
+
                 <p><strong><span style="font-family: 'Lato', sans-serif;">Trabaja con nosotros</span></strong><br>
                 Envianos tu CV al correo:
                  reclutamiento@crediexpress.com.ni</p>
                 </p>
             </article>
 
-            <article class="col-lg-3 wow bounceInUp pieSucu" data-wow-delay=".6s">
+            <article class="col-lg-3 wow bounceInUp pieSucu text-left" data-wow-delay=".6s">
 
                 <h5>   Sucursales Crediexpress           </h5>
                 <p>Horarios de atención</p>

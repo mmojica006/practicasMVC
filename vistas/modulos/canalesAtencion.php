@@ -38,7 +38,7 @@ $urlMarkers = $urlFrontEnd.'controladores/markers.xml';
         <div class="texto-encabezado text-center">
 
             <div class="container">
-                <h1 class="display-4"><?php echo $dataCanales['bannertitulo']; ?></h1>
+                <h1 class=""><?php echo $dataCanales['bannertitulo']; ?></h1>
                 <p class="wow bounceIn" data-wow-delay=".3s"><?php echo $dataCanales['bannerdescripcion']; ?></p>
 
             </div>

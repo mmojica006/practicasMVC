@@ -10,7 +10,7 @@ TOP
 <section class="bienvenidos ">
     <header class="encabezado navbar-fixed-top " role="banner" id="encabezado">
         <div class="container">
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
                 <img src="<?php echo $servidor . $social["logo"] ?>" alt="Logo del sitio">
             </a>
 
@@ -35,7 +35,7 @@ TOP
                 <ul>
                     <li class="active"><a href="index.php">Inicio</a></li>
                     <li><a href="quienes-somos">Sobre nosotros</a></li>
-                    <li><a href="canales" >Canales de Atención </a></li>
+                    <li><a href="canales" >Canales <span style="text-transform: lowercase">de</span> Atención </a></li>
                     <li><a href="productos">Productos</a></li>
                     <li><a href="contacto">Contáctenos</a></li>
                 </ul>

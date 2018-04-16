@@ -109,6 +109,9 @@ a:visited, a:link, a:focus, a:hover, a:active {
 .boton-menu .fa-bars {
   color: #757777; }
 
+.boton-buscar span {
+  font-family: 'Fredoka One', cursive; }
+
 .contenedor-bloque-buscar {
   display: flex;
   height: 3rem;
@@ -169,13 +172,21 @@ h4 a:hover {
 .texto-encabezado {
   flex: 1 1 auto;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  font-family: 'Lato', sans-serif !important; }
 
 .texto-encabezado .display-4 {
   margin-top: 4rem; }
 
 .texto-encabezado .btn-primary {
-  margin-top: 1rem; }
+  margin-top: .5rem; }
+
+.texto-encabezado h1 {
+  font-size: 32px !important; }
+
+.texto-encabezado p {
+  font-size: 18px !important;
+  color: #4a81c0; }
 
 .btn-primary {
   color: #fff;

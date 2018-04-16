@@ -1,7 +1,7 @@
 var pathname = window.location.pathname.split('/'); // Returns path only
 
 
-if (pathname[2] == 'productos') {
+
 
 
     $("#menu li a").on('click', function (e) {
@@ -13,8 +13,9 @@ if (pathname[2] == 'productos') {
             $('#pages .page[data-page="' + page + '"]').fadeIn('slow').removeClass('hide');
         });
     });
-} else {
 
+
+if (pathname[2] != 'productos') {
     $("#pages .page:not('.hide')").stop().fadeOut('fast', function () {
         $(this).addClass('hide');
         $('#pages .page[data-page="' + pathname[2] + '"]').fadeIn('slow').removeClass('hide');
