@@ -4,37 +4,49 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
 
 
 ?>
+
+
+
+
 <footer class="piewebsite">
     <div class="container">
 
         <div class="row">
-            <div class="col-lg-2">
+        <article class="col-md-1">
+            <ul class="redes-sociales text-xs-center">
+                <?php
 
-                <ul class="redes-sociales text-xs-center">
-                    <?php
-
-                    $social = ControladorPlantilla::ctrlEstiloPlantilla();
-                    $jsonRedesSociales = json_decode($social["redesSociales"], true);
+                $social = ControladorPlantilla::ctrlEstiloPlantilla();
+                $jsonRedesSociales = json_decode($social["redesSociales"], true);
 
 
-                    foreach ($jsonRedesSociales as $key => $value) {
-                        if ($value["activo"] != 0) {
-                            echo ' <li><a href="' . $value["url"] . '" target="_blank">
-                            <i class="fa ' . $value["red"] . ' ' . $value["estilo"] . ' redSocial" aria-hidden="true"> </i> </a></li>';
-                        }
-
+                foreach ($jsonRedesSociales as $key => $value) {
+                    if ($value["activo"] != 0) {
+                        echo ' <li><a href="' . $value["url"] . '" target="_blank">
+                                            <i class="fa ' . $value["red"] . ' ' . $value["estilo"] . ' redSocial" aria-hidden="true"> </i> </a></li>';
                     }
-                    ?>
 
-                    <!--                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"> </i> </a></li>-->
-                    <!--                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>-->
-                    <!--                    <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i> </a></li>-->
+                }
+                ?>
 
-                </ul>
-                <button type="button" class="btn btn-default">Contáctenos</button>
-            </div>
+                <!--                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"> </i> </a></li>-->
+                <!--                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>-->
+                <!--                    <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i> </a></li>-->
 
-            <article class="col-lg-4 wow bounceInLeft" data-wow-delay=".3s">
+            </ul>
+            <?php
+            echo '<a href="https://es-la.facebook.com/crediexpressnicaragua/" target="_blank">
+            <button class="btn btn-primary">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                Síguenos
+            </button>
+            </a>';
+            ?>
+
+
+        </article>
+
+            <article class="col-md-4 wow bounceInLeft" data-wow-delay=".3s">
 
                 <div class="col-md-6 text-left">
                     <ul>
@@ -67,29 +79,32 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
             </article>
 
 
-            <article class="col-lg-3 wow bounceInUp piecorreo text-left" data-wow-delay=".6s">
-                <p>
-                    <img src="vistas/img/plantilla/Maletin.png" align="left">
+            <article class="col-md-3 wow bounceInUp piecorreo text-left" data-wow-delay=".6s">
 
-                <p><strong><span style="font-family: 'Lato', sans-serif;">Trabaja con nosotros</span></strong><br>
-                Envianos tu CV al correo:
-                 reclutamiento@crediexpress.com.ni</p>
+                    <img src="vistas/img/plantilla/Maletin.png" style="float: left;padding: 0 10px;">
+
+                <strong><span style="font-family: 'Lato', sans-serif; !important;">Trabaja con nosotros</span></strong><br>
+                <p>Envianos tu CV al correo:
+                 reclutamiento@crediexpress.com.ni
                 </p>
+
             </article>
 
-            <article class="col-lg-3 wow bounceInUp pieSucu text-left" data-wow-delay=".6s">
+            <article class="col-md-4 wow bounceInUp pieSucu text-left" data-wow-delay=".6s">
+                <img src="vistas/img/plantilla/MapaSucursales.png" width="120px" style="float: left;padding: 0 10px;">
+
 
                 <h5>   Sucursales Crediexpress           </h5>
                 <p>Horarios de atención</p>
                    <p> Lunes a viernes de 7: 30 am - 6:00 pm</p>
                    <p> Centro de atención al cliente 8749 - 1800  </p>
 
-                <img class="img-responsive center-block"  src="vistas/img/plantilla/MapaSucursales.png"
-                     alt="beneficios" >
+
             </article>
 
 
         </div>
+
 
     </div>
 
