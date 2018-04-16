@@ -14,7 +14,7 @@ $folder = $servidor."vistas/files/pdfFinancieros/";
     <section class="ruta py-1">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 text-xs-right">
+                <div class="col-xs-12 text-right">
                     <a href="index.php">Inicio</a> » Tarifario
 
                 </div>

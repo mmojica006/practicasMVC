@@ -68,7 +68,7 @@ if($dataNosotros['imgFondo'] != ''){
         </div>
     </main>
 
-    <section class="tu-mejor-eleccion py-1">
+    <section class="tu-mejor-eleccion">
         <div class="container">
 
             <div class="row">

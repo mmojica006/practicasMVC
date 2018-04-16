@@ -57,7 +57,7 @@ $urlMarkers = $urlFrontEnd.'controladores/markers.xml';
             </div>
         </div>
     </section>
-    <main class="py-1">
+    <main class="py-2">
         <div class="container">
             <div class="row">
                 <article class="col-md-12">
