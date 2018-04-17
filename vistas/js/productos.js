@@ -2,7 +2,7 @@ var pathname = window.location.pathname.split('/'); // Returns path only
 
 
 
-
+console.log(pathname);
 
     $("#menu li a").on('click', function (e) {
         e.preventDefault()
@@ -15,10 +15,10 @@ var pathname = window.location.pathname.split('/'); // Returns path only
     });
 
 
-if (pathname[2] != 'productos') {
+if (pathname[1] != 'productos') {
     $("#pages .page:not('.hide')").stop().fadeOut('fast', function () {
         $(this).addClass('hide');
-        $('#pages .page[data-page="' + pathname[2] + '"]').fadeIn('slow').removeClass('hide');
+        $('#pages .page[data-page="' + pathname[1] + '"]').fadeIn('slow').removeClass('hide');
     });
 }
 

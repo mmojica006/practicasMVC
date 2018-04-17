@@ -91,7 +91,7 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
             </article>
 
             <article class="col-md-4 wow bounceInUp pieSucu text-left" data-wow-delay=".6s">
-                <img src="vistas/img/plantilla/MapaSucursales.png" width="120px" style="float: left;padding: 0 10px;">
+                <img src="vistas/img/plantilla/mapa2.png" width="120px" style="float: left;padding: 0 10px;">
 
 
                 <h5>   Sucursales Crediexpress           </h5>
