@@ -564,6 +564,9 @@ ESTILOS PAGINA PREGUNTAS
 /*-------------------------------------------
 ESTILOS PAGINA NOSOTROS
 --------------------------------------------*/
+.py-5 {
+  padding-top: 280px !important; }
+
 .paginas-internas .fondoReclamo {
   background-image: url("../img/plantilla/fondoReclamo.jpg");
   background-size: cover;
@@ -849,6 +852,12 @@ EMPIEZAN LAS MEDIAS QUERIES
 @media (max-width: 767px) {
   .col-xs-0 {
     display: none; }
+
+  .py-5 {
+    padding-top: 115px !important; }
+
+  .py-5 h1 {
+    font-size: 18px !important; }
 
   .bienvenidos {
     padding: 0; }

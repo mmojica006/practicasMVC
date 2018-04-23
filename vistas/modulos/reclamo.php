@@ -8,9 +8,9 @@ $dataReclamo  = ControladorReclamo::ctrMostrarReclamo();
     <section class="fondoReclamo" >
 
 
-        <div class="texto-encabezado text-center">
+        <div class="texto-encabezado text-left">
 
-            <div class="container">
+            <div class="container py-5">
                 <h1 class="display-4"><?php echo $dataReclamo['bannertitulo']; ?></h1>
                 <p class="wow bounceIn" data-wow-delay=".3s"><?php echo $dataReclamo['bannerdescripcion']; ?></p>
 
