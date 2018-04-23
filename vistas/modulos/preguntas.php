@@ -18,7 +18,7 @@ $data = ControladorTipsPreguntas::ctrMostrarTipsPreguntas();
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-right">
-                    <a href="index.php">Inicio</a> » Tips financieros
+                    <a href="index.php">Inicio</a> » Preguntas
 
                 </div>
             </div>

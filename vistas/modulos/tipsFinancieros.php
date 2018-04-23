@@ -16,8 +16,8 @@ $data = ControladorTipsPreguntas::ctrMostrarTipsPreguntas();
     <section class="ruta py-1">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 text-xs-right">
-                    <a href="index.php">Inicio</a> » Tips financieros
+                <div class="col-xs-12 text-right">
+                    <a href="index.php">Inicio</a> » Educación financiera
 
                 </div>
             </div>
