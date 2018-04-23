@@ -45,7 +45,7 @@ $dataProducto  = ControladorProducto::ctrMostrarProductos();
                             <li>
                                 <a data-page="servicio2" href="#"><h4 ><small>Activo Productivo</small></h4>
                                 </a></li>
-                            <li><a data-page="servicio3" href="#"><h4> <small>Mejora de Negocio</small></h4></a></li>
+                            <li><a data-page="servicio3" href="#"><h4> <small>CrediNegocio</small></h4></a></li>
                             <li><a data-page="servicio4" href="#"><h4><small>CrediActivos</small></h4></a></li>
 
 

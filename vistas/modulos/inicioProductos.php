@@ -61,7 +61,7 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
                         </div>
                         <h4 CLASS="text-center">
 
-                            <a href="servicio3#productosList" CLASS="center-block">Mejora de Negocio</a>
+                            <a href="servicio3#productosList" class="center-block">CrediNegocio</a>
                         </h4>
                      
                     </div>
