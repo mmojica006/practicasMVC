@@ -96,7 +96,7 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
 
                 <h5>   Sucursales Crediexpress           </h5>
                 <p>Horarios de atención</p>
-                   <p> Lunes a viernes de 7: 30 am - 6:00 pm</p>
+                   <p> Lunes a viernes de 7:30 am - 6:00 pm</p>
                    <p> Centro de atención al cliente 8749 - 1800  </p>
 
 

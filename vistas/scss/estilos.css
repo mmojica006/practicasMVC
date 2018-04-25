@@ -863,6 +863,34 @@ EMPIEZAN LAS MEDIAS QUERIES
     padding: 0; }
 
   .agencia img {
-    width: 220px; } }
+    width: 220px; }
+
+  .paginas-internas .fondoCanal {
+    background-size: 700px 300px;
+    height: 45vh; }
+
+  .paginas-internas .fondoContacto {
+    background-size: 500px 300px;
+    height: 45vh; }
+
+  .paginas-internas .fondoProducto {
+    background-size: 500px 300px;
+    height: 45vh; }
+
+  .paginas-internas .fondoNosotros {
+    background-size: 500px 300px;
+    height: 45vh; }
+
+  .paginas-internas .fondoReclamo {
+    background-size: 500px 300px;
+    height: 45vh; }
+
+  .paginas-internas .fondoTips {
+    background-size: 500px 300px;
+    height: 45vh; }
+
+  .paginas-internas .fondoPreguntas {
+    background-size: 500px 300px;
+    height: 45vh; } }
 
 /*# sourceMappingURL=estilos.css.map */
