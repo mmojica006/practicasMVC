@@ -378,7 +378,7 @@ SECCION CANALES DE ATENCION
   color: #ffffff;
   background: url('../img/plantilla/canal.jpg') no-repeat center top;
   background-size: cover;
-  height: 75vh;
+  height: 55vh;
   background-attachment: fixed !important;
   display: flex;
   flex-direction: column;
@@ -393,7 +393,7 @@ SECCION CANALES DE TIPS FINANCIEROS
   color: #ffffff;
   background: url('../img/plantilla/educacionFinanciera.jpg') no-repeat center top;
   background-size: cover;
-  height: 75vh;
+  height: 55vh;
   background-attachment: fixed !important;
   display: flex;
   flex-direction: column;
@@ -640,7 +640,7 @@ ESTILOS PAGINA PREGUNTAS
 
   background-size: cover;
   background-color: #2196F3 !important;
-  height: 75vh;
+  height: 55vh;
 }
 
 /*-------------------------------------------
@@ -648,14 +648,14 @@ ESTILOS PAGINA NOSOTROS
 --------------------------------------------*/
 
 .py-5{
-  padding-top: 280px !important;
+  padding-top: 170px !important;
 
 }
 .paginas-internas .fondoReclamo {
   background-image: url("../img/plantilla/fondoReclamo.jpg");
   background-size: cover;
   background-color: #2196F3 !important;
-  height: 75vh;
+  height: 55vh;
 }
 
 /*-------------------------------------------
@@ -673,7 +673,7 @@ ESTILOS PAGINA NOSOTROS
 .paginas-internas .fondoNosotros{
   background: url('../img/plantilla/nosotrosBack.jpg') no-repeat center top;
   background-size: cover;
-  height: 75vh;
+  height: 55vh;
   background-attachment: fixed !important;
   display: flex;
   flex-direction: column;
@@ -725,7 +725,7 @@ ESTILOS PAGINA PRODUCTOS Y SERVICIOS
 .paginas-internas .fondoProducto{
   background: url('../img/plantilla/productos_2.jpg') no-repeat center top;
   background-size: cover;
-  height: 75vh;
+  height: 55vh;
   background-size: cover;
   background-attachment: fixed !important;
   display: flex;
@@ -833,7 +833,7 @@ SECCION CONTACTENOS
 .paginas-internas .fondoContacto{
   background: url('../img/plantilla/ContactoBack.jpg') no-repeat center top;
   background-size: cover;
-  height: 75vh;
+  height: 55vh;
   background-attachment: fixed !important;
   display: flex;
   flex-direction: column;
@@ -995,7 +995,7 @@ EMPIEZAN LAS MEDIAS QUERIES
     display: none;
   }
   .py-5{
-    padding-top: 115px !important;
+    padding-top: 75px !important;
 
   }
   .py-5 h1{
