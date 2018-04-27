@@ -50,28 +50,38 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
 
                 <div class="col-md-6 text-left">
                     <ul>
-                        <li><a href="index.php">Inicio</a></li>
+                       
+                       <!-- <li><a href="index.php">Inicio</a></li>-->
+                       
                         <li><a href="quienes-somos">Sobre Nosotros</a></li>
+                     <!--
                         <li><a href="canales">Canales de atención</a></li>
+                    -->
+
                         <li><a href="productos">Productos</a></li>
                         <li><a href="contacto">Contáctenos</a></li>
+                         <!--
                         <li><a href="preguntas">Preguntas Frecuentes</a></li>
+                    -->
 
                     </ul>
                 </div>
 
                 <div class="col-md-6 text-left">
+                    <!--
 
                     <li><a href="productos">Capital de trabajo</a></li>
                     <li><a href="productos">Activo Productivo</a></li>
                     <li><a href="productos">Mejora de Negocio</a></li>
                     <li><a href="productos">CrediActivos</a></li>
-                    <li><a href="tarContrato">Contrato</a></li>
-                    <li><a href="tarContrato">EEFF</a></li>
-                    <?php if ($dataTarifaContrato["tarifarioEstado"] == 1) { ?>
+                -->
+            <?php if ($dataTarifaContrato["tarifarioEstado"] == 1) { ?>
                         <li><a href="tarContrato">Tarifario</a></li>
 
                     <?php } ?>
+                    <li><a href="tarContrato">Contrato</a></li>
+                    <li><a href="tarContrato">EEFF</a></li>
+        
 
                 </div>
 
