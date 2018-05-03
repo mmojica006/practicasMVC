@@ -12,7 +12,7 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
     <div class="container">
 
         <div class="row">
-        <article class="col-md-1">
+        <article class="col-md-2">
             <ul class="redes-sociales text-xs-center">
                 <?php
 
@@ -46,9 +46,9 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
 
         </article>
 
-            <article class="col-md-4 wow bounceInLeft" data-wow-delay=".3s">
+            <article class="col-md-2 wow bounceInLeft" data-wow-delay=".3s">
 
-                <div class="col-md-6 text-left">
+                <div class="col-md-12 text-left">
                     <ul>
                        
                        <!-- <li><a href="index.php">Inicio</a></li>-->
@@ -67,29 +67,13 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
                     </ul>
                 </div>
 
-                <div class="col-md-6 text-left">
-                    <!--
 
-                    <li><a href="productos">Capital de trabajo</a></li>
-                    <li><a href="productos">Activo Productivo</a></li>
-                    <li><a href="productos">Mejora de Negocio</a></li>
-                    <li><a href="productos">CrediActivos</a></li>
-                -->
-            <?php if ($dataTarifaContrato["tarifarioEstado"] == 1) { ?>
-                        <li><a href="tarContrato">Tarifario</a></li>
-
-                    <?php } ?>
-                    <li><a href="tarContrato">Contrato</a></li>
-                    <li><a href="tarContrato">EEFF</a></li>
-        
-
-                </div>
 
 
             </article>
 
 
-            <article class="col-md-3 wow bounceInUp piecorreo text-left" data-wow-delay=".6s">
+            <article class="col-md-4 wow bounceInUp piecorreo text-left" data-wow-delay=".6s">
 
                     <img src="vistas/img/plantilla/Maletin.png" style="float: left;padding: 0 10px;">
 
