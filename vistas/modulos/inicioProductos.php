@@ -19,7 +19,7 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
                     <div class="contenedor-eleccion ">
 
                             <div class="inicioImg">
-                            <img class="img-responsive center-block"  src="vistas/img/plantilla/ico-1.png"
+                            <img class="img-responsive center-block"  src="vistas/img/plantilla/ico-4.png"
                                  alt="beneficios" >
                             </div>
                         <h4 class="text-center">
@@ -32,7 +32,7 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
 <!--                      <i class="fa fa-briefcase" aria-hidden="true"></i>-->
                     <div class="contenedor-eleccion">
                         <div class="inicioImg">
-                            <img class="img-responsive center-block"  src="vistas/img/plantilla/ico-3.png"
+                            <img class="img-responsive center-block"  src="vistas/img/plantilla/activo-producto.png"
                                  alt="beneficios">
                         </div>
 
@@ -70,7 +70,7 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
 <!--                      <i class="fa fa-line-chart" aria-hidden="true"></i>-->
                     <div class="contenedor-eleccion">
                         <div class="inicioImg">
-                            <img class="img-responsive center-block"  src="vistas/img/plantilla/ico-4.png"
+                            <img class="img-responsive center-block"  src="vistas/img/plantilla/credi-activo.png"
                                  alt="beneficios">
                         </div>
                         <h4 class="text-center">
