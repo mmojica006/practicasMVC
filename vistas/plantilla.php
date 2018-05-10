@@ -102,7 +102,8 @@ if (isset($_GET['ruta'])) {
             ($rutas[0]=="servicio1") ||
             ($rutas[0]=="servicio2")||
             ($rutas[0]=="servicio3")||
-            ($rutas[0]=="servicio4")
+            ($rutas[0]=="servicio4")||
+            ($rutas[0]=="servicio5")
 
         ){
         include "modulos/productos.php";

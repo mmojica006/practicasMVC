@@ -160,6 +160,8 @@ CREATE TABLE `tbl_productos` (
   `fecha` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
+
+alter table tbl_productos add column AgroNegocio text after crediActivos
 -- --------------------------------------------------------
 -- --------------------------------------------------------
 

@@ -13,20 +13,22 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
         </p>
 
         <div class="row">
-            <ul class="col-xs-8 col-lg-6  text-lg-center ">
+            <ul class="col-xs-6 col-lg-4 text-xs-center text-lg-left">
                 <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".3s">
 <!--                    <i class="fa fa-money" aria-hidden="true"></i>-->
-                    <div class="contenedor-eleccion ">
 
-                            <div class="inicioImg">
-                            <img class="img-responsive center-block"  src="vistas/img/plantilla/ico-4.png"
-                                 alt="beneficios" >
-                            </div>
+                    <div class="contenedor-eleccion">
+                        <div class="inicioImg">
+                            <img class="img-responsive center-block "  src="vistas/img/plantilla/icono-agronegocios.png"
+                                 alt="agronegocio">
+                        </div>
                         <h4 class="text-center">
-                                <a href="servicio1#productosList" class="center-block">Capital de Trabajo</a>
+
+                            <a href="servicio5#productosList" class="center-block">AgroNegocio</a>
                         </h4>
 
                     </div>
+
                 </li>
                 <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".7s">
 <!--                      <i class="fa fa-briefcase" aria-hidden="true"></i>-->
@@ -46,12 +48,28 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
 
             </ul>
 
-<!--            <div class="hidden-md-down col-lg-4">-->
-<!--                <img class="img-responsive beneficios"  src="--><?php //echo $servidor; ?><!--vistas/img/plantilla/Beneficios2.png"-->
-<!--                     alt="beneficios">-->
-<!--            </div>-->
+            <div class="hidden-md-down col-lg-4">
 
-            <ul class="col-xs-8 col-lg-6 text-lg-right">
+
+
+
+
+                <div class="contenedor-eleccion ">
+
+                    <div class="inicioImg">
+                        <img class="img-responsive center-block"  src="vistas/img/plantilla/ico-4.png"
+                             alt="beneficios" >
+                    </div>
+                    <h4 class="text-center">
+                        <a href="servicio1#productosList" class="center-block">Capital de Trabajo</a>
+                    </h4>
+
+                </div>
+
+
+            </div>
+
+            <ul class="col-xs-6 col-lg-4 text-xs-center text-lg-right">
                 <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".5s">
 <!--                       <i class="fa fa-money" aria-hidden="true"></i>-->
                     <div class="contenedor-eleccion">

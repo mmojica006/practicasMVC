@@ -9,7 +9,7 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
 
             <div class="row ">
                 <article class="col-md-4 col-xs-12 wow bounceInLeft" data-wow-delay=".3s">
-                    <a href="reclamo"><img src="vistas/img/plantilla/preguntas2.jpg" alt="Preguntas"></a>
+                    <a href="reclamo"><img src="vistas/img/plantilla/preguntas.jpg" alt="Preguntas"></a>
 <!--                    <h3><a href="tips"> Tips Financieros </a></h3>-->
     
 

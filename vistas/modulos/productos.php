@@ -47,6 +47,7 @@ $dataProducto  = ControladorProducto::ctrMostrarProductos();
                                 </a></li>
                             <li><a data-page="servicio3" href="#"><h4> <small>CrediNegocio</small></h4></a></li>
                             <li><a data-page="servicio4" href="#"><h4><small>CrediActivos</small></h4></a></li>
+                            <li><a data-page="servicio5" href="#"><h4><small>AgroNegocio</small></h4></a></li>
 
 
                         </ul>
@@ -81,6 +82,12 @@ $dataProducto  = ControladorProducto::ctrMostrarProductos();
                         <div id="servicio4" class="page hide" data-page="servicio4">
 
                             <?php echo $dataProducto['crediActivos']; ?>
+
+                        </div>
+
+                        <div id="servicio5" class="page hide" data-page="servicio5">
+
+                            <?php echo $dataProducto['AgroNegocio']; ?>
 
                         </div>
 
