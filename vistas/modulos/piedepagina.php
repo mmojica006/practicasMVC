@@ -107,6 +107,7 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
 <div class="footer-copyright text-xs-center">
     <p>© 2018 © CREDIEXPRESS Todos los derechos reservados </p>
 </div>
+<a data-scroll class="ir-arriba" href="#encabezado"><i class="fa  fa-arrow-circle-up" aria-hidden="true"> </i> </a>
 <div id="chat-icon"> <div id="chat-button">
         <div id="cixyzt" style="z-index:100;position:fixed">
 
@@ -116,6 +117,6 @@ $dataTarifaContrato = ControladorTarifaContrato::ctrGetTarifaContrato();
             </a></div> <div id="sdxyzt" style="display:none">
 
 
-<a data-scroll class="ir-arriba" href="#encabezado"><i class="fa  fa-arrow-circle-up" aria-hidden="true"> </i> </a>
+
 
 
