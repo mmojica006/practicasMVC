@@ -573,7 +573,7 @@ SECCION PIE DE PAGINA
 .ir-arriba {
   position: fixed;
   bottom: 1rem;
-  right: 1rem;
+  left: 1rem;
   font-size: 3rem;
   color: #12afaf;
   text-decoration: none;
@@ -588,6 +588,17 @@ SECCION PIE DE PAGINA
   outline: 0;
   text-decoration: none;
   color: #fff; }
+
+#chat-icon {
+  width: 60px;
+  height: 60px;
+  bottom: 80px;
+  right: 20px; }
+
+#chat-icon, .call-box {
+  position: fixed;
+  z-index: 7100;
+  -webkit-backface-visibility: hidden; }
 
 /*----------------------------------------
 SECCION REDES SOCIALES

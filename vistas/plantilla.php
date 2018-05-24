@@ -98,6 +98,9 @@ if (isset($_GET['ruta'])) {
     elseif ($rutas[0]=="contacto"){
         include "modulos/contacto.php";
     }
+    elseif ($rutas[0]=="chat"){
+        include "modulos/chatCE.php";
+    }
         elseif (($rutas[0]=="productos") ||
             ($rutas[0]=="servicio1") ||
             ($rutas[0]=="servicio2")||
