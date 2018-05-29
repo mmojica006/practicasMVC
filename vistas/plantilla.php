@@ -11,7 +11,7 @@
 
     <meta name="description"
           content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam accusantium enim esse eos officiis sit officia">
-    <title>Website</title>
+    <title>Crediexpress</title>
     <?php
     $servidor = Ruta::ctrlRutaServidor();
 
