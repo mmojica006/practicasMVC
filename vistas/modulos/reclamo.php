@@ -36,7 +36,7 @@ $dataReclamo  = ControladorReclamo::ctrMostrarReclamo();
 
                 <div class="col-md-8">
                     <h1 class="m-b-2 text-muted">Formulario de Reclamo</h1>
-                    <p>Por favor registrar su reclamo en nuestro formulario online y nosotros le contactaremos.
+                    <p>Por favor registrar su reclamo en nuestro formulario online y nosotros le contactaremos. Le indicaremos su número de reclamo y nuestro procedimiento de atención.
                         Es importante llenar todos los campos para brindarles una mejor atención. *Todos los campos son requeridos</p>
 
 

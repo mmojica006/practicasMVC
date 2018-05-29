@@ -47,7 +47,7 @@ if($dataNosotros['imgFondo'] != ''){
                     <h1 class="text-muted"><?php echo $dataNosotros["titulo"]; ?></h1>
                                 <?php echo $dataNosotros["descripcion"]; ?>
 
-                    <h3>MISION</h3>
+                    <h3>MISIÓN</h3>
                     <p><?php echo $dataNosotros["mision"]; ?></p>
 
                     <h3>VISIÓN</h3>
