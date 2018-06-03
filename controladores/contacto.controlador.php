@@ -31,7 +31,7 @@ class ControladorContacto
                 #mail(Correo destino, asunto del mensaje, mensaje, cabecera del correo);
 
                 $correoDestino = $emailDetino["email"];
-                $asunto = "Mensaje de la web";
+                $asunto = "Mensaje desde la web";
                 $mensaje = "Nombre: " . $_POST["nombre"] . "\n" . "\n" .
                     "Apellido: " . $_POST["apellido"] . "\n" . "\n" .
                     "Cédula: " . $_POST["cedula"] . "\n" . "\n" .
