@@ -103,8 +103,8 @@ $urlMarkers = $urlFrontEnd.'controladores/markers.xml';
         var infoWindow = new google.maps.InfoWindow;
 
           // Change this depending on the name of your PHP or XML file
-         // downloadUrl('https://storage.googleapis.com/mapsdevsite/json/mapmarkers2.xml', function(data) {
-            downloadUrl('http://frontend.fuprocec.org/vistas/files/markers.xml', function(data) {
+         //downloadUrl('https://storage.googleapis.com/mapsdevsite/json/mapmarkers2.xml', function(data) {
+            downloadUrl('http://www.crediexpress.com.ni/vistas/files/markers.xml', function(data) {
             var xml = data.responseXML;
             var markers = xml.documentElement.getElementsByTagName('marker');
             Array.prototype.forEach.call(markers, function(markerElem) {
