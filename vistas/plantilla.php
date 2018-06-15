@@ -1,3 +1,24 @@
+
+
+<?php
+# Iniciando la variable de control que permitirá mostrar o no el modal
+$exibirModal = false;
+# Verificando si existe o no la cookie
+if(!isset($_COOKIE["mostrarModal"]))
+{
+    # Caso no exista la cookie entra aquí
+    # Creamos la cookie con la duración que queramos
+
+     $expirar = 3600; // muestra cada 1 hora
+    //$expirar = 10800; // muestra cada 3 horas
+    //$expirar = 21600; //muestra cada 6 horas
+    //$expirar = 43200; //muestra cada 12 horas
+    //$expirar = 86400;  // muestra cada 24 horas
+    setcookie('mostrarModal', 'SI', (time() + $expirar)); // mostrará cada 12 horas.
+    # Ahora nuestra variable de control pasará a tener el valor TRUE (Verdadero)
+    $exibirModal = true;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -149,6 +170,66 @@ if (isset($_GET['ruta'])) {
 <script src="<?php echo $url; ?>vistas/js/contacto.js"></script>
 <script src="<?php echo $url; ?>vistas/js/quienesSomos.js"></script>
 <script src="<?php echo $url; ?>vistas/js/reclamo.js"></script>
+
+
+<!-- Modal -->
+<div class="modal fade" id="modalInicio" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">REMESAS</h4>
+            </div>
+            <div class="modal-body">
+
+                <img src="<?php echo $url; ?>vistas/img/plantilla/pop-up-remesas-01-1.png" alt="" class="img-responsive">
+            </div>
+            <div class="modal-footer">
+                <button id="btnPopUpRemesa" type="button" class="btn btn-success" >Ver Oferta</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalDetalleRemesa" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">REMESAS</h4>
+            </div>
+            <div class="modal-body">
+            <div class="text-center">
+                <img src="<?php echo $url; ?>vistas/img/plantilla/comercio_01.png" alt="" class="img-responsive">
+            </div>
+            </div>
+            <div class="modal-footer text-center">
+                <button  type="button" class="btn btn-default" data-dismiss="modal" >Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<?php if($exibirModal === true) : // Si nuestra variable de control "$exibirModal" es igual a TRUE activa nuestro modal y será visible a nuestro usuario. ?>
+    <script>
+        $(document).ready(function()
+        {
+            // id de nuestro modal
+            $("#modalInicio").modal("show");
+
+            $("#btnPopUpRemesa").click(function(){
+                $("#modalInicio").modal("hide");
+                $("#modalDetalleRemesa").modal('show');
+
+            });
+
+
+        });
+    </script>
+<?php endif; ?>
 
 
 </body>
