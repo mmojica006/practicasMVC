@@ -32,9 +32,9 @@ The Chat Schedeule code flow requires moment timezone library, if the library is
     var currDate = currentDateInServerTimeZone.format("YYYY-MM-DD");
     var currWorkTimeMins = (currentDateInServerTimeZone.hours() * 60) + currentDateInServerTimeZone.minutes();
 //Below variables hold the Chat Schedule Configuration details as provided in the AppAdmin Schedule Configuration Page
-    var holidays = ["2018-01-01","2018-03-29","2018-03-30","2018-05-01","2018-07-19","2018-09-14","2018-09-15","2018-12-08","2018-12-25"];
+    var holidays = [];
     var specialDays = [];
-    var routineDays = [{"day" :"1", "workTime" : {"startTime" : 450, "endTime" : 1080 }},{"day" :"2", "workTime" : {"startTime" : 450, "endTime" : 1080 }},{"day" :"3", "workTime" : {"startTime" : 450, "endTime" : 1080 }},{"day" :"4", "workTime" : {"startTime" : 450, "endTime" : 1080 }},{"day" :"5", "workTime" : {"startTime" : 450, "endTime" : 1080 }},{"day" :"6", "workTime" : {"startTime" : 480, "endTime" : 720 }}];
+    var routineDays = [{"day" :"1", "workTime" : {"startTime" : 480, "endTime" : 1020 }},{"day" :"2", "workTime" : {"startTime" : 480, "endTime" : 1020 }},{"day" :"3", "workTime" : {"startTime" : 480, "endTime" : 1020 }},{"day" :"4", "workTime" : {"startTime" : 480, "endTime" : 1020 }},{"day" :"5", "workTime" : {"startTime" : 480, "endTime" : 1020 }},{"day" :"6", "workTime" : {"startTime" : 480, "endTime" : 720 }}];
     function isOnHoliday() {
     for (var i=0; i < holidays.length; i++) {
     if(holidays[i] == currDate){
@@ -86,17 +86,17 @@ The Chat Schedeule code flow requires moment timezone library, if the library is
 </head>
 <body onload="onLoadInit()">
 <div id="chatForm" style="display:none">
-<form action="https://cdesocialminer.crediexpress.local/ccp/chat/form/100000" method="post" onsubmit="return updateAuthor(this)">
+<form action="https://cdesocialminer.crediexpress.com.ni/ccp/chat/form/100000" method="post" onsubmit="return updateAuthor(this)">
 <style type="text/css">span { display: inline-block; width: 120px; }</style>
     <span>Name:</span><input type="text" name="extensionField_Name" /><br/>
-    <span>PhoneNumber:</span><input type="text" name="extensionField_PhoneNumber" /><br/>
-    <span>Title:</span><input type="text" name="extensionField_Title" /><br/>
-    <span>Details:</span><input type="text" name="extensionField_Details" /><br/>
+    <span>Telefono:</span><input type="text" name="extensionField_Telefono" /><br/>
     <span>Problem:</span>
     <select name="extensionField_ccxqueuetag"><br/>
-        <option value="Chat_Csq4">Solicitud de Información</option>
-        <option value="Chat_Csq4">Canje de Puntos</option>
-        <option value="Chat_Csq4">Reporte de Problema</option>
+        <option value="Chat_Csq5">Solicitud de Credito</option>
+        <option value="Chat_Csq5">Informacion de Credito vigente</option>
+        <option value="Chat_Csq5">Canje de Puntos</option>
+        <option value="Chat_Csq5">Reclamo, Consultas o Sugerencias</option>
+        <option value="Chat_Csq5">Remesas</option>
     </select><br/>
 <input type="submit" value="Submit"/><input type="hidden" name="author" value="Customer"/><br/>
 <input type="hidden" name="title" value="ccx chat"/><br/>
@@ -105,13 +105,13 @@ The Chat Schedeule code flow requires moment timezone library, if the library is
 Unlike other extension fields, these are not added to the social contact, and therefore do not display in the Agent Chat user interface.-->
 <input type="hidden" name="extensionField_contextServiceCustomFieldSets" value="">
 <input type="hidden" name="extensionField_chatLogo" value=""><br/>
-<input type="hidden" name="extensionField_chatWaiting" value="Gracias por Contactarnos, por favor espere mientras asignamos un Agente para que le atienda.">
-<input type="hidden" name="extensionField_chatAgentJoinTimeOut" value="Todos nuestros Agentes de Atención al Cliente estan ocupados. Por favor espere o intente nuevamente más tarde.">
-<input type="hidden" name="extensionField_chatError" value="Actualmente el Servicio de Chat no esta disponible, disculpe el inconveniente. Por favor intente más tarde.">
+<input type="hidden" name="extensionField_chatWaiting" value="Bienvenido.Por favor espere mientras le contactamos con un Agente de Atención al Cliente">
+<input type="hidden" name="extensionField_chatAgentJoinTimeOut" value="Por el momento todos nuestros Agentes se encuentran ocupados. Por favor espere o intente más tarde.">
+<input type="hidden" name="extensionField_chatError" value="El Servicio de Chat se encuentra fuera de Servicio. Lamentamos los inconvenientes. Por favor intente más tarde.">
 </form>
 </div>
 <div id="closedMessage" style="display:none">
-<h2> En estos momentos estamos Cerrados </h2>
+<h2> En estos momentos nuestro Servicio de Chat no esta disponible. Por favor intente mas tarde. </h2>
 </div>
 </body>
 </html>
