@@ -2,7 +2,8 @@
 
 <?php
 # Iniciando la variable de control que permitirá mostrar o no el modal
-$exibirModal = false;
+# Cambiar a False en caso de querer controlar el tiempo en que sera mostrado el popup
+$exibirModal = true; 
 # Verificando si existe o no la cookie
 if(!isset($_COOKIE["mostrarModal"]))
 {
@@ -14,7 +15,7 @@ if(!isset($_COOKIE["mostrarModal"]))
     //$expirar = 21600; //muestra cada 6 horas
     //$expirar = 43200; //muestra cada 12 horas
     //$expirar = 86400;  // muestra cada 24 horas
-    setcookie('mostrarModal', 'SI', (time() + $expirar)); // mostrará cada 12 horas.
+  //  setcookie('mostrarModal', 'SI', (time() + $expirar)); // mostrará cada 12 horas.
     # Ahora nuestra variable de control pasará a tener el valor TRUE (Verdadero)
     $exibirModal = true;
 }
@@ -110,6 +111,9 @@ if (isset($_GET['ruta'])) {
     if ($rutas[0]=="canales"){
         include "modulos/canalesAtencion.php";
     }
+        if ($rutas[0]=="remesas"){
+        include "modulos/remesas.php";
+    }
     elseif ($rutas[0]=="inicio"){
         include "modulos/inicio.php";
     }
@@ -177,12 +181,17 @@ if (isset($_GET['ruta'])) {
     <div class="modal-dialog">
         <!-- Modal content-->
         <div class="modal-content">
-       
-            <div class="modal-body">
+         <div class="modal-header">
+     
+        <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+            <div class="modal-body text-center">
 
                 <img src="<?php echo $url; ?>vistas/img/plantilla/pop.jpg" alt="" class="img-responsive">
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer text-center"  style="text-align: center;">
                 <button id="btnPopUpRemesa" type="button" class="btn btn-success" >Ver Oferta</button>
             </div>
         </div>
@@ -199,8 +208,8 @@ if (isset($_GET['ruta'])) {
                 <img src="<?php echo $url; ?>vistas/img/plantilla/landing.jpg" alt="" class="img-responsive" >
             </div>
             </div>
-            <div class="modal-footer text-center">
-                <button  type="button" class="btn btn-default" data-dismiss="modal" >Cerrar</button>
+            <div class="modal-footer text-center" >
+              <button   type="button" class="btn btn-default" data-dismiss="modal" >Cerrar</button>
             </div>
         </div>
     </div>
@@ -212,13 +221,23 @@ if (isset($_GET['ruta'])) {
         $(document).ready(function()
         {
             // id de nuestro modal
-            $("#modalInicio").modal("show");
+
+             var pathname = window.location.pathname.split('/'); // Returns path only
+            console.log(pathname[1]);
+
+            
+            if ((pathname[1]=='contacto') || (pathname[1]=='') || (pathname[1]=="index.php")){            
+             $("#modalInicio").modal("show");
+             }
 
             $("#btnPopUpRemesa").click(function(){
+
                 $("#modalInicio").modal("hide");
-                $("#modalDetalleRemesa").modal('show');
+                window.location.href = 'remesas';
+              //  $("#modalDetalleRemesa").modal('show');
 
             });
+            
 
 
         });

@@ -2,7 +2,7 @@ var pathname = window.location.pathname.split('/'); // Returns path only
 
 
 
-console.log(pathname);
+//console.log(pathname);
 
     $("#menu li a").on('click', function (e) {
         e.preventDefault()

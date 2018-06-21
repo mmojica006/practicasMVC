@@ -40,8 +40,6 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
 
                         <h4 class="text-center"> <a class="center-block" href="servicio2#productosList">Activo Productivo</a> </h4>
 
-
-
                     </div>
                 </li>
 
