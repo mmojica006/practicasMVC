@@ -177,13 +177,10 @@ if (isset($_GET['ruta'])) {
     <div class="modal-dialog">
         <!-- Modal content-->
         <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">REMESAS</h4>
-            </div>
+       
             <div class="modal-body">
 
-                <img src="<?php echo $url; ?>vistas/img/plantilla/pop-up-remesas-01-1.png" alt="" class="img-responsive">
+                <img src="<?php echo $url; ?>vistas/img/plantilla/pop.jpg" alt="" class="img-responsive">
             </div>
             <div class="modal-footer">
                 <button id="btnPopUpRemesa" type="button" class="btn btn-success" >Ver Oferta</button>
@@ -193,16 +190,13 @@ if (isset($_GET['ruta'])) {
 </div>
 
 <div class="modal fade" id="modalDetalleRemesa" role="dialog">
-    <div class="modal-dialog modal-sm">
+    <div class="modal-dialog modal-md">
         <!-- Modal content-->
         <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">REMESAS</h4>
-            </div>
+        
             <div class="modal-body">
             <div class="text-center">
-                <img src="<?php echo $url; ?>vistas/img/plantilla/comercio_01.png" alt="" class="img-responsive">
+                <img src="<?php echo $url; ?>vistas/img/plantilla/landing.jpg" alt="" class="img-responsive" >
             </div>
             </div>
             <div class="modal-footer text-center">

@@ -25,6 +25,9 @@ a:visited, a:link, a:focus, a:hover, a:active{
 	text-decoration: none;
 }
 
+   /* Important part */
+
+
 .barraSuperior{
 	background:black;
 }
@@ -32,6 +35,9 @@ a:visited, a:link, a:focus, a:hover, a:active{
 .barraSuperior a{
 	color:white;
 }
+
+ max-height: 800px;
+ max-width: 500px;
 
 .backColor, .backColor a{
 	background:#47bac1;

@@ -1,3 +1,13 @@
 .hide {
     display: none;
 }
+
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+     max-height: calc(125vh - 230px);
+    overflow-y: auto;
+
+
+}
