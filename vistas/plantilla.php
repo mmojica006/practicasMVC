@@ -3,7 +3,7 @@
 <?php
 # Iniciando la variable de control que permitirá mostrar o no el modal
 # Cambiar a False en caso de querer controlar el tiempo en que sera mostrado el popup
-$exibirModal = true; 
+$exibirModal = true;
 # Verificando si existe o no la cookie
 if(!isset($_COOKIE["mostrarModal"]))
 {
@@ -54,7 +54,7 @@ if(!isset($_COOKIE["mostrarModal"]))
     <link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    
+
 
 
 
@@ -98,7 +98,7 @@ if(!isset($_COOKIE["mostrarModal"]))
 
 <?php
 /*=============================================
-            CABEZOTE           
+            CABEZOTE
 =============================================*/
 include "modulos/cabezote.php";
 
@@ -150,17 +150,18 @@ if (isset($_GET['ruta'])) {
     elseif ($rutas[0]=="reclamo"){
         include "modulos/reclamo.php";
     }
- 
-    else{
-        include "modulos/error404.php";
-    }
+
+    // else{
+    //     include "modulos/error404.php";
+    // }
+
 
 }else{
     include "modulos/slide.php";
 
     include "modulos/inicioProductos.php";
     include "modulos/inicioVarios.php";
-   
+
 }
  include "modulos/piedepagina.php";
 
@@ -182,7 +183,7 @@ if (isset($_GET['ruta'])) {
         <!-- Modal content-->
         <div class="modal-content">
          <div class="modal-header">
-     
+
         <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -202,7 +203,7 @@ if (isset($_GET['ruta'])) {
     <div class="modal-dialog modal-md">
         <!-- Modal content-->
         <div class="modal-content">
-        
+
             <div class="modal-body">
             <div class="text-center">
                 <img src="<?php echo $url; ?>vistas/img/plantilla/landing.jpg" alt="" class="img-responsive" >
@@ -225,8 +226,8 @@ if (isset($_GET['ruta'])) {
              var pathname = window.location.pathname.split('/'); // Returns path only
             console.log(pathname[1]);
 
-            
-            if ((pathname[1]=='contacto') || (pathname[1]=='') || (pathname[1]=="index.php")){            
+
+            if ((pathname[1]=='contacto') || (pathname[1]=='') || (pathname[1]=="index.php")){
              $("#modalInicio").modal("show");
              }
 
@@ -237,7 +238,7 @@ if (isset($_GET['ruta'])) {
               //  $("#modalDetalleRemesa").modal('show');
 
             });
-            
+
 
 
         });
