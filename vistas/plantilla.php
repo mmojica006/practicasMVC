@@ -1,9 +1,13 @@
 
 
 <?php
+header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
+
+
+
 # Iniciando la variable de control que permitirá mostrar o no el modal
 # Cambiar a False en caso de querer controlar el tiempo en que sera mostrado el popup
-$exibirModal = true; 
+$exibirModal = true;
 # Verificando si existe o no la cookie
 if(!isset($_COOKIE["mostrarModal"]))
 {
@@ -26,13 +30,13 @@ if(!isset($_COOKIE["mostrarModal"]))
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="title" content="CrediExpress">
-    <meta name="description" content="Lorem ipsum dol Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,	quis nostrud exercitation t non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.">
+    <meta name="title" content="www.CrediExpress.com.ni">
+    <meta name="description" content="Promovemos el desarrollo social, económico e inclusivo, ofreciendo productos financieros diseñados para satisfacer necesidades de inversión,
+     de aquellas personas que se dedican al comercio u oferta de servicios.">
 
     <meta name="description"
-          content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam accusantium enim esse eos officiis sit officia">
+          content="Somos una institución de servicios financieros que cumple con las necesidades de requerimientos de capital de trabajo para microempresarios.
+Nuestro objetivo es hacer posible que nuestros clientes aumenten su capital de trabajo, promuevan el crecimiento de su negocio y por ende, mejoren su calidad de vida.">
     <title>Crediexpress</title>
     <?php
     $servidor = Ruta::ctrlRutaServidor();
@@ -54,7 +58,7 @@ if(!isset($_COOKIE["mostrarModal"]))
     <link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    
+
 
 
 
@@ -98,7 +102,7 @@ if(!isset($_COOKIE["mostrarModal"]))
 
 <?php
 /*=============================================
-            CABEZOTE           
+            CABEZOTE
 =============================================*/
 include "modulos/cabezote.php";
 
@@ -150,17 +154,18 @@ if (isset($_GET['ruta'])) {
     elseif ($rutas[0]=="reclamo"){
         include "modulos/reclamo.php";
     }
- 
-    else{
-        include "modulos/error404.php";
-    }
+
+    // else{
+    //     include "modulos/error404.php";
+    // }
+
 
 }else{
     include "modulos/slide.php";
 
     include "modulos/inicioProductos.php";
     include "modulos/inicioVarios.php";
-   
+
 }
  include "modulos/piedepagina.php";
 
@@ -182,7 +187,7 @@ if (isset($_GET['ruta'])) {
         <!-- Modal content-->
         <div class="modal-content">
          <div class="modal-header">
-     
+
         <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -202,7 +207,7 @@ if (isset($_GET['ruta'])) {
     <div class="modal-dialog modal-md">
         <!-- Modal content-->
         <div class="modal-content">
-        
+
             <div class="modal-body">
             <div class="text-center">
                 <img src="<?php echo $url; ?>vistas/img/plantilla/landing.jpg" alt="" class="img-responsive" >
@@ -225,8 +230,8 @@ if (isset($_GET['ruta'])) {
              var pathname = window.location.pathname.split('/'); // Returns path only
             console.log(pathname[1]);
 
-            
-            if ((pathname[1]=='contacto') || (pathname[1]=='') || (pathname[1]=="index.php")){            
+
+            if ((pathname[1]=='contacto') || (pathname[1]=='') || (pathname[1]=="index.php")){
              $("#modalInicio").modal("show");
              }
 
@@ -237,7 +242,7 @@ if (isset($_GET['ruta'])) {
               //  $("#modalDetalleRemesa").modal('show');
 
             });
-            
+
 
 
         });
