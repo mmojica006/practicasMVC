@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="c3e8058e-a8a7-4d40-aa82-a438131839f1" name="CrediExpressFTP" url="http://192.186.233.228">
-        <fileTransfer host="192.186.233.228" port="21" rootFolder="/public_html">
+        <fileTransfer host="192.186.233.228" port="21" rootFolder="/public_html" username="ficoinsa">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
