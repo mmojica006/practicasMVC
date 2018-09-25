@@ -13,18 +13,18 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
         </p>
 
         <div class="row">
-            <ul class="col-xs-6 col-lg-4 text-xs-center text-lg-left">
+            <ul class="col-xs-6 col-lg-6 text-xs-center text-lg-left">
                 <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".3s">
 <!--                    <i class="fa fa-money" aria-hidden="true"></i>-->
 
-                    <div class="contenedor-eleccion">
-                        <div class="inicioImg">
-                            <img class="img-responsive center-block "  src="vistas/img/plantilla/icono-agronegocios.png"
-                                 alt="agronegocio">
-                        </div>
-                        <h4 class="text-center">
+                <div class="contenedor-eleccion ">
 
-                            <a href="servicio5#productosList" class="center-block">AgroNegocio</a>
+                    <div class="inicioImg">
+                        <img class="img-responsive center-block"  src="vistas/img/plantilla/ico-4.png"
+                            alt="beneficios" >
+                    </div>
+                        <h4 class="text-center">
+                            <a href="servicio1#productosList" class="center-block">Capital de Trabajo</a>
                         </h4>
 
                     </div>
@@ -46,28 +46,9 @@ $social = ControladorPlantilla::ctrlEstiloPlantilla();
 
             </ul>
 
-            <div class="hidden-md-down col-lg-4">
+           
 
-
-
-
-
-                <div class="contenedor-eleccion ">
-
-                    <div class="inicioImg">
-                        <img class="img-responsive center-block"  src="vistas/img/plantilla/ico-4.png"
-                             alt="beneficios" >
-                    </div>
-                    <h4 class="text-center">
-                        <a href="servicio1#productosList" class="center-block">Capital de Trabajo</a>
-                    </h4>
-
-                </div>
-
-
-            </div>
-
-            <ul class="col-xs-6 col-lg-4 text-xs-center text-lg-right">
+            <ul class="col-xs-6 col-lg-6 text-xs-center text-lg-right">
                 <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".5s">
 <!--                       <i class="fa fa-money" aria-hidden="true"></i>-->
                     <div class="contenedor-eleccion">
