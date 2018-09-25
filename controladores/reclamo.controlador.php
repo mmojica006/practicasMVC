@@ -13,6 +13,7 @@ class ControladorReclamo{
     {
 
         if (isset($_POST["nombre"])) {
+          $url = 'http://localhost:56797/api/Reclamo';
 
             $emailDetino = ModeloContacto::mdlGetEmalDestino("contacto");
 
@@ -24,6 +25,36 @@ class ControladorReclamo{
                 #ENVIAR EL CORREO ELECTRÓNICO
                 #------------------------------------------------------
                 #mail(Correo destino, asunto del mensaje, mensaje, cabecera del correo);
+
+                # Get the URL
+                //next example will insert new conversation
+                $data = array(
+                  'TipoEvento' => 'R',
+                  'PaisDoc' =>  'NI',
+                  'TipoDoc'=>'C',
+                  'NroDoc'=> $_POST["cedula"],
+                  'Credito'=>'0',
+                  'MedioComunic'=>'5',
+                  'Categoria'=>'10',
+                  'Subcategoria'=>'1',
+                  'Comentario'=>$_POST["mensaje"]
+
+                );
+    $data_string = json_encode($data);
+
+    $ch = curl_init('http://localhost:56797/api/Reclamo');
+    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $data_string);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+        'Content-Type: application/json',
+        'Content-Length: ' . strlen($data_string))
+    );
+
+    $result = curl_exec($ch);
+    echo $result;
+
+
 
                 $correoDestino =$emailDetino["email"];
                 $asunto = "Mensaje de Reclamo!";
@@ -50,8 +81,8 @@ class ControladorReclamo{
                                         </tr>
                                           <tr>
                                             <th>Sucursal:</th><td>'.$_POST["sucursal"].'</td>
-                                        </tr>                                
-                                     
+                                        </tr>
+
                                          <tr>
                                             <th>Mensaje:</th><td>'.$_POST["mensaje"].'</td>
                                         </tr>
@@ -73,7 +104,7 @@ class ControladorReclamo{
 
 
 
-                $envio = mail($correoDestino, $asunto, $htmlContent, $headers);
+                $envio = true;// mail($correoDestino, $asunto, $htmlContent, $headers);
 
                 if ($envio){
 
@@ -87,20 +118,22 @@ class ControladorReclamo{
 
 
                 if ($envio == true && $respuesta["num"] == 0) {
+
+
                     echo '<script>
-						
+
 						swal({
 							  title: "¡OK!",
-							  text: "¡Reclamo Registrado satisfactoriamente!",
+							  text:   '.$result.',
 							  type: "success",
 							  confirmButtonText: "Cerrar",
 							  closeOnConfirm: false
 						},
 
 						function(isConfirm){
-								 if (isConfirm) {	   
+								 if (isConfirm) {
 								    window.location = "index.php";
-								  } 
+								  }
 						});
 
 					</script>';
@@ -108,7 +141,7 @@ class ControladorReclamo{
                 }
                 }else{
                     echo '<script>
-						
+
 						swal({
 							  title: "Error",
 							  text: "¡Ocurrio un error al momento de enviar el mensaje!",
